@@ -1,0 +1,10 @@
+1. What is the definition of wisdom according to the author?
+According to the author wisdom is study of things in their deepest and most general aspects.
+2. A philosopher is described as a "lover of wisdom'. In the text, the author made a distinction between "a wise man" and a lover of wisdom. What is the difference between the two terms. 
+According to the text a wise man is someone who has attained perfect wisdom but many Greek Philosophers(Pythagoras and Socrates) believe this is impossible because the goal of perfect wisdom is beyond the attainment of moral man while a lover of wisdom is someone who searches after wisdom.
+3. What is the difference between science and philosophy and philosophy and religion.
+Science concerns itself at a single feature of reality while philosophy concerns itself with viewing the whole of reality in a single comprehensive glance,, to organize all aspects of reality into a unified world view.
+4. On the purpose of philosophy, the author states that "men philosophize not for purely practical ends but simply because it brings them pleasure". Explain the meaning of this statement. (e.g. what does 'practical' mean? What does pleasure mean)
+Men philosophize not for purely practical ends but simply because it brings them pleasure means they do they philosophize because it is enjoyable and not for the sake of anything else and also because the pursuit of knowledge brings pleasure and it is this joy in knowledge that justifys them to philosophize.
+5. In the section, all men philosophize, the author makes a distinction between doing philosophy and having a philosophy and having a philosophy. Explain the differences between these two activities.
+Doing a philosophy is being unconscious being to something you hold or what others hold about you while having a philosophy is freeing our minds by becoming critically conscious of what we hold unconsciously or uncritically.

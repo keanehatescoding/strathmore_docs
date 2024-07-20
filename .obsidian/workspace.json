@@ -11,11 +11,52 @@
             "id": "b2d94f51eb9f9769",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Philosophical Anthropology/What is Philosophy Sullivan.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "41ba594af03fb614",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Rough P.A notes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "99328654ac307bf4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "What is Philosophy Guide Questions.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0866a9958d76e22a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lecture 1.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -65,7 +106,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "fb303bd69c4e9cd6",
@@ -81,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Space Invaders.md",
+                "file": "What is Philosophy Guide Questions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Space Invaders.md",
+                "file": "What is Philosophy Guide Questions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Space Invaders.md"
+                "file": "What is Philosophy Guide Questions.md"
               }
             }
           }
@@ -142,8 +184,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f2527704794b19da",
+  "active": "99328654ac307bf4",
   "lastOpenFiles": [
+    "Rough P.A notes.md",
+    "Philosophical Anthropology/What is Philosophy Sullivan.md",
+    "Lecture 1.md",
+    "What is Philosophy Guide Questions.md",
+    "Philosophical Anthropology/Conjugal love.md",
     "Conjugal love.md",
     "Space Invaders.md",
     "Equality and Freedom in America.md",

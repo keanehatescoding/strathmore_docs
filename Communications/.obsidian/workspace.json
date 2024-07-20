@@ -1,44 +1,21 @@
 {
   "main": {
-    "id": "af63ac38dc2eea50",
+    "id": "842b2efe653d1cc2",
     "type": "split",
     "children": [
       {
-        "id": "415e1932c3817f19",
+        "id": "f609f8155ee27583",
         "type": "tabs",
         "children": [
           {
-            "id": "c21090b11f4b2837",
+            "id": "328f409c60375011",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduction to Programming.md",
+                "file": "Introduction to Communications.md",
                 "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1d74daca7ad551c6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Example of process of producing a structured program.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3c17ce60b8ed1f6b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "BASIC STRUCTURE OF C- PROGRAM.md",
-                "mode": "source",
+                "backlinks": false,
                 "source": false
               }
             }
@@ -49,15 +26,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "bb87ef27d43f2d99",
+    "id": "2678481b165667e5",
     "type": "split",
     "children": [
       {
-        "id": "bb55f7c438b8091e",
+        "id": "a6a068ca2fde4b22",
         "type": "tabs",
         "children": [
           {
-            "id": "68f78ec5ff5373cd",
+            "id": "8b8ab042cf256263",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -67,7 +44,7 @@
             }
           },
           {
-            "id": "82f3202215e79fb8",
+            "id": "377a6a7ceaec941d",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -82,7 +59,7 @@
             }
           },
           {
-            "id": "6af268d0e0008e4b",
+            "id": "5424e7a044d71869",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -96,20 +73,20 @@
     "width": 200
   },
   "right": {
-    "id": "53a4e71dfd009e78",
+    "id": "9d81fb1641de43eb",
     "type": "split",
     "children": [
       {
-        "id": "79ce525515e70730",
+        "id": "f4859432adcc82c0",
         "type": "tabs",
         "children": [
           {
-            "id": "6e43743cc6d0d5c8",
+            "id": "a893be9fabc0caa1",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Introduction to Programming.md",
+                "file": "Introduction to Communications.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,19 +98,19 @@
             }
           },
           {
-            "id": "8979dc706b97e384",
+            "id": "448ccef9e2f40f19",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Introduction to Programming.md",
+                "file": "Introduction to Communications.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "c4a0682d7a0fff37",
+            "id": "6d91ede4ae89a432",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -144,12 +121,12 @@
             }
           },
           {
-            "id": "56d08115e0983271",
+            "id": "bc69a35e86463500",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Introduction to Programming.md"
+                "file": "Introduction to Communications.md"
               }
             }
           }
@@ -170,10 +147,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c21090b11f4b2837",
+  "active": "328f409c60375011",
   "lastOpenFiles": [
-    "BASIC STRUCTURE OF C- PROGRAM.md",
-    "Example of process of producing a structured program.md",
-    "Introduction to Programming.md"
+    "Introduction to Communication.md",
+    "Introduction to Communications.md"
   ]
 }

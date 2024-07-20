@@ -49,4 +49,38 @@ Experienced logic use the procedural interpretation to write programs that are e
 ## What is structured programming
 
 Structured programming is a programming that links control flow blocks (a function, an if statement's blocks, etc) to the scopes of the variables.
-A variable declared inside such a block is invisible outside it.
+A variable declared inside such a block is invisible outside it which in turn leads to programs written with only the following code structures.
+1. Sequence of sequentially executed statements.
+2. Conditional execution of statements e.g. if statements.
+3. Looping
+4. Structured subroutines (e.g. 'gosub' and 'goto').
+5. Stepwise Refinement
+## SUMMARY OF THE STEPS OF PRODUCING STRUCTURED PROGRAMS
+### 1. Analyze the Problem
+Identify the program's output, input, variables, constants and general steps(tasks) to transform the inputs into the outputs.
+
+## 2. Design the Program using a Design Tool
+A program's design is a step-by-step description of how the above steps should be carried out so as to solve the problem. The design is also known as the algorithm.
+
+### Qualities of a Good Algorithm
+1. Should be clear, precise and easy to follow to avoid errors and make it modifiable by future programmers.
+2. A program's design should also show the exact logic of the program i.e show the appropriate sequence of formulae.
+3. It should be general and not specific so that in can be converted into a program using any programming language.
+Two most used tools for designing a program are pseudo codes and flowcharts.
+(a) Pseudo Codes - English-like statements that look similar to many procedural programming languages.
+e.g. 
+		Input x
+		area = length * width
+(b) Flowchart Symbols - are symbols used to diagrammatic represent the program logic.
+
+## 3. Code the Program
+
+The algorithm produced in step (2.) above is then converted into actual program (code) using an appropriate programming language.
+The actual statements of the program are also known as the code of the program.
+
+## 4. Compile (or convert it into a machine language program), Test and run
+
+## 5.  Maintain the program
+
+This involves making changes to improve the functionality of the program(improve it), remove possible previously undetected errors(bugs.), to cater for newly discovered user needs, or to cater for changed technology.
+

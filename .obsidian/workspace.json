@@ -11,8 +11,12 @@
             "id": "14fd51357ede449a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -65,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 330.5
   },
   "right": {
     "id": "fb303bd69c4e9cd6",
@@ -82,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "README.md"
+              }
             }
           },
           {
@@ -148,14 +155,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "14fd51357ede449a",
+  "active": "f2527704794b19da",
   "lastOpenFiles": [
+    "Philosophical Anthropology/Lecture 3.md",
+    "README.md",
+    "Philosophical Anthropology/What is Philosophy Guide Questions.md",
+    "Philosophical Anthropology/Rough P.A notes.md",
     "Philosophical Anthropology/What is Philosophy Sullivan.md",
-    "Lecture 3.md",
-    "Rough P.A notes.md",
-    "What is Philosophy Guide Questions.md",
-    "Lecture 1.md",
     "Philosophical Anthropology/Conjugal love.md",
+    "Introduction to Programming/BASIC STRUCTURE OF C- PROGRAM.md",
+    "Introduction to Programming/Introduction to Programming.md",
+    "Introduction to Programming/Example of process of producing a structured program.md",
+    "Differential calculas/Rules of differentiation.md",
+    "Differential calculas",
+    "Philosophical Anthropology/Lecture 1.md",
+    "Untitled.md",
     "Conjugal love.md",
     "Space Invaders.md",
     "Equality and Freedom in America.md",

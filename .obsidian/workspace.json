@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Philosophical Anthropology/The Nature of Man.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Philosophical Anthropology/The Nature of Man.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Philosophical Anthropology/The Nature of Man.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Philosophical Anthropology/The Nature of Man.md"
               }
             }
           },
@@ -155,21 +155,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f2527704794b19da",
+  "active": "14fd51357ede449a",
   "lastOpenFiles": [
-    "Philosophical Anthropology/Lecture 3.md",
-    "README.md",
-    "Philosophical Anthropology/What is Philosophy Guide Questions.md",
-    "Philosophical Anthropology/Rough P.A notes.md",
-    "Philosophical Anthropology/What is Philosophy Sullivan.md",
     "Philosophical Anthropology/Conjugal love.md",
+    "Philosophical Anthropology/The Nature of Man.md",
+    "Untitled.md",
+    "Philosophical Anthropology/Lecture 3.md",
+    "Philosophical Anthropology/Lecture 1.md",
+    "Philosophical Anthropology/Rough P.A notes.md",
+    "Philosophical Anthropology/What is Philosophy Guide Questions.md",
+    "Philosophical Anthropology/What is Philosophy Sullivan.md",
+    "README.md",
     "Introduction to Programming/BASIC STRUCTURE OF C- PROGRAM.md",
     "Introduction to Programming/Introduction to Programming.md",
     "Introduction to Programming/Example of process of producing a structured program.md",
     "Differential calculas/Rules of differentiation.md",
     "Differential calculas",
-    "Philosophical Anthropology/Lecture 1.md",
-    "Untitled.md",
     "Conjugal love.md",
     "Space Invaders.md",
     "Equality and Freedom in America.md",

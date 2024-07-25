@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "789cb724496d2b8f",
+        "id": "5972ad78215001f1",
         "type": "tabs",
         "children": [
           {
-            "id": "14fd51357ede449a",
+            "id": "b2d94f51eb9f9769",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 330.5
+    "width": 200
   },
   "right": {
     "id": "fb303bd69c4e9cd6",
@@ -130,7 +130,7 @@
             }
           },
           {
-            "id": "61e66f0cd6f1af91",
+            "id": "0a646b86d54f6e78",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -155,22 +155,31 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "14fd51357ede449a",
+  "active": "b2d94f51eb9f9769",
   "lastOpenFiles": [
-    "Philosophical Anthropology/Conjugal love.md",
-    "Philosophical Anthropology/The Nature of Man.md",
-    "Untitled.md",
-    "Philosophical Anthropology/Lecture 3.md",
-    "Philosophical Anthropology/Lecture 1.md",
-    "Philosophical Anthropology/Rough P.A notes.md",
-    "Philosophical Anthropology/What is Philosophy Guide Questions.md",
-    "Philosophical Anthropology/What is Philosophy Sullivan.md",
-    "README.md",
-    "Introduction to Programming/BASIC STRUCTURE OF C- PROGRAM.md",
-    "Introduction to Programming/Introduction to Programming.md",
-    "Introduction to Programming/Example of process of producing a structured program.md",
+    "Discrete Mathematics/Types of Numbers.md",
     "Differential calculas/Rules of differentiation.md",
+    "Discrete Mathematics/Discrete Math Take Away Assignment.pdf",
+    "Communications/Equality and Freedom in America.md",
+    "Philosophical Anthropology/What is a person.md",
+    "Philosophical Anthropology/The Nature of Man.md",
+    "Philosophical Anthropology/The Nature of The Human Person.md",
+    "Untitled.md",
+    "Philosophical Anthropology/What is Philosophy Guide Questions.md",
+    "Introduction to Programming/Introduction to Programming.md",
+    "Philosophical Anthropology/Lecture 3.md",
+    "Philosophical Anthropology/Rough P.A notes.md",
+    "Introduction to Programming/Example of process of producing a structured program.md",
+    "Introduction to Programming/BASIC STRUCTURE OF C- PROGRAM.md",
+    "Philosophical Anthropology/Conjugal love.md",
+    "Philosophical Anthropology/Lecture 1.md",
+    "Untitled.canvas",
+    "Philosophical Anthropology/What is Philosophy Sullivan.md",
+    "What is Philosophy Guide Questions.md",
     "Differential calculas",
+    "global.pu",
+    "Rough P.A notes.md",
+    "Lecture 1.md",
     "Conjugal love.md",
     "Space Invaders.md",
     "Equality and Freedom in America.md",

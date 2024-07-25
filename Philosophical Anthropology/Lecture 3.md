@@ -11,11 +11,17 @@ Unity - living beings have complex structures but all live in orderly harmony fo
 Immanence - Latin in-manere(to remain in) living beings have the capacity to be interiorly transformed by their own actions e.g. eat, sleep, weep i.e when we learn something it remains in us and enriches our world through memory and imagination. When we learn something the knowledge/ideas/concepts we acquire remain within us and we become more educated.
 This actions are auto-referential meaning if they are good they make us better people otherwise they make us worse.
 Transendence - capacity to overcome the limits of physical existence through action.
->The openness and breadth as opposed to closure and limited naturef non-living beings - Lombo and Russo
-> The action of the living transcends the action of nature which operates in inanimate things. - Thomas Aquinas.
+> The openness and breadth as opposed to closure and limited nature non-living beings.
+ 
+ \- Lombo and Russo
+
+> The action of the living transcends the action of nature which operates in inanimate things. 
+
+\- Thomas Aquinas
+
 Self fulfilment - they have the capacity to grow (size) and undergo development (maturity). A child grows to be an adult but his formation never really ends.
 Rhythm - living beings are characterized by a regular pattern of events e.g. birth, growth, decay.
-Though some machine i.e robots can move their movement is does not originate of their own own intrinsic nature, rather it is extrinsic (it orinigates from their inventor(s))
+Though some machine i.e robots can move their movement is does not originate of their own own intrinsic nature, rather it is extrinsic (it originates from their inventor(s))
 ## Degrees of life and their characteristics
 1. Vegetative life
 2. Sensitive life

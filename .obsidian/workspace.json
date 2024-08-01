@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "5972ad78215001f1",
+        "id": "6046829024410506",
         "type": "tabs",
         "children": [
           {
-            "id": "b2d94f51eb9f9769",
+            "id": "f746feca810e486e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Philosophical Anthropology/The Nature of Man.md",
+                "file": "Economics/Elasticity and Its Application.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Philosophical Anthropology/The Nature of Man.md",
+                "file": "Economics/Elasticity and Its Application.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Philosophical Anthropology/The Nature of Man.md",
+                "file": "Economics/Elasticity and Its Application.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Philosophical Anthropology/The Nature of Man.md"
+                "file": "Economics/Elasticity and Its Application.md"
               }
             }
           },
@@ -155,23 +155,28 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b2d94f51eb9f9769",
+  "active": "f746feca810e486e",
   "lastOpenFiles": [
-    "Discrete Mathematics/Types of Numbers.md",
-    "Differential calculas/Rules of differentiation.md",
-    "Discrete Mathematics/Discrete Math Take Away Assignment.pdf",
-    "Communications/Equality and Freedom in America.md",
-    "Philosophical Anthropology/What is a person.md",
-    "Philosophical Anthropology/The Nature of Man.md",
-    "Philosophical Anthropology/The Nature of The Human Person.md",
+    "Introduction to Programming/BASIC STRUCTURE OF C- PROGRAM.md",
+    "Economics/Elasticity and Its Application.md",
+    "Economics/Supply and Demand.md",
     "Untitled.md",
+    "Economics/Rough notes.md",
+    "Philosophical Anthropology/Conjugal love.md",
+    "Economics/Intro to Econ.md",
+    "Philosophical Anthropology/What is a person.md",
+    "Discrete Mathematics/Types of Numbers.md",
+    "Economics",
+    "Discrete Mathematics/Discrete Math Take Away Assignment.pdf",
+    "Philosophical Anthropology/The Nature of Man.md",
+    "Differential calculas/Rules of differentiation.md",
+    "Communications/Equality and Freedom in America.md",
+    "Philosophical Anthropology/The Nature of The Human Person.md",
     "Philosophical Anthropology/What is Philosophy Guide Questions.md",
     "Introduction to Programming/Introduction to Programming.md",
     "Philosophical Anthropology/Lecture 3.md",
     "Philosophical Anthropology/Rough P.A notes.md",
     "Introduction to Programming/Example of process of producing a structured program.md",
-    "Introduction to Programming/BASIC STRUCTURE OF C- PROGRAM.md",
-    "Philosophical Anthropology/Conjugal love.md",
     "Philosophical Anthropology/Lecture 1.md",
     "Untitled.canvas",
     "Philosophical Anthropology/What is Philosophy Sullivan.md",
@@ -182,8 +187,6 @@
     "Lecture 1.md",
     "Conjugal love.md",
     "Space Invaders.md",
-    "Equality and Freedom in America.md",
-    "Public Speaking.md",
-    "JFK Kennedy Speech.md"
+    "Equality and Freedom in America.md"
   ]
 }

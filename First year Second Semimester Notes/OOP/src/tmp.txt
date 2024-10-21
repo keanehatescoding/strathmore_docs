@@ -1,0 +1,13 @@
+grade.class
+grade.java
+hundred.class
+Odd.class
+Odd.java
+Operations.class
+Operations.java
+Q1.class
+Q1.java
+test.sh
+tmp.txt
+Whoami.class
+Whoami.java

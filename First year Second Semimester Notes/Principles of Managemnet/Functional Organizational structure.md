@@ -1,5 +1,5 @@
-A functional structure is defined as a system where employees are grouped in different departments based on expertise, each having a functional head. Unlike a hierarchical chart, employees are organized by function rather than by authority.
-Examples 
+A functional structure is defined as a system where employees are grouped in different departments based on expertise, each having a functional head. Unlike a directional chart, employees are organized by function rather than by authority.
+## Examples 
 A large company that operates with a structure that has functional elements is Unilever, the owner of brands such as Knorr, Dove, and Ben & Jerry’s. In late 2022, Unilever announced changes to its organizational structure to make it “simpler, more category-focused”.
 
 It moved away from its matrix structure and organized into five departments focused on Beauty & Well-Being, Personal Care, Nutrition, Home Care, and Ice Cream. Each department, or Business Group as Unilever calls it, is responsible for its own operations.

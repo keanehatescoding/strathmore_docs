@@ -1,4 +1,4 @@
-“Hybrid” means combining two different things. A hybrid organizational structure combines elements of both traditional hierarchical and modern flat structures, integrating functional, divisional, and matrix models.
+“Hybrid” means combining two different things. Hybrid structure and and matrix structure and more or less the same.
 
 Examples 
 Starbucks is an example of a business with a hybrid organizational structure, combining functional, geographic, and product-based structures.

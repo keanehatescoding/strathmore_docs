@@ -5,5 +5,7 @@
   "quick-latex",
   "obsidian-completr",
   "obsidian-vimrc-support",
-  "obsidian-git"
+  "obsidian-git",
+  "obsidian-relative-line-numbers",
+  "obsidian-icon-folder"
 ]

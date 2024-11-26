@@ -1,4 +1,5 @@
 {
   "theme": "obsidian",
-  "monospaceFontFamily": "JetBrainsMono Nerd Font"
+  "monospaceFontFamily": "JetBrainsMono Nerd Font",
+  "interfaceFontFamily": "Hack Nerd Font"
 }

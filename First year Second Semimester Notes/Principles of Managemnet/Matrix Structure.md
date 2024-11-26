@@ -1,6 +1,6 @@
 ## Brief Explanation
 This is a company structure where each multiple teams report to different leaders.
-In a matrix organization team members report to their project members as well as their department head.
+In a matrix organization team members report to their project members as well as t A matrix organizational structure combines elements of both the divisional structure and the functional structure.heir department head.
 
 Examples
 An IT company that has various departments like research, development, security and finance branch.

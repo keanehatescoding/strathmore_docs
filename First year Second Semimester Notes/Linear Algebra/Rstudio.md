@@ -1,0 +1,57 @@
+## Defining a matrix
+To define a matrix in Rstudio type the following
+```R
+A <- matrix(c(3,2,-1,
+			  0,4,6,
+			  8,5,6), nrow = 3 , byrow = TRUE)
+B <- matrix(c(2,0,1,
+			  0,3,1,
+			  0,0,2), nrow = 3, byrow = TRUE)
+```
+nrow means the number of rows i.e. 3 in this case
+When byrow is set to TRUE R arranges the column into a n$^{th}$ row matrix where n is the value of nrow in the previous argument.
+## Finding the product of two matrices
+```R
+A%*%B
+```
+Result 
+
+| i<sup>th</sup> row | j<sup>th</sup> row | k<sup>th</sup> row |
+| ------------------ | ------------------ | ------------------ |
+| 6                  | 6                  | 3                  |
+| 0                  | 12                 | 16                 |
+| 16                 | 15                 | 25                 |
+## To find the inverse of two matrices
+```R
+solve(B)
+```
+
+## Find the determinant of a matrix
+```R 
+det(A)
+det(B)
+```
+
+110
+12
+
+## To find the transpose of two matrices
+```R
+t(A)
+t(B)
+```
+Transpose of A
+
+| i<sup>th</sup> row | j<sup>th</sup> row | k<sup>th</sup> row |
+| ------------------ | ------------------ | ------------------ |
+| 3                  | 0                  | 8                  |
+| 2                  | 4                  | 5                  |
+| -1                 | 6                  | 6                  |
+
+transpose of B
+
+| i<sup>th</sup> row | j<sup>th</sup> row | k<sup>th</sup> row |
+| ------------------ | ------------------ | ------------------ |
+| 2                  | 0                  | 0                  |
+| 0                  | 3                  | 0                  |
+| 1                  | 1                  | 2                  |

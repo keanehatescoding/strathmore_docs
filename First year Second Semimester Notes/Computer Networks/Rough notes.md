@@ -1,8 +1,9 @@
 VLSM -Variable length subnet mask 
-ipv6 this is a 128 bit addresss.
 A mac address is a 48 bit address.
 A ipv4 is s 32 bit address.
-It uses hexadecimal characters instead of base 10 characters i.e. ipv4
+ipv6 this is a 128 bit addresss.
+Mac addresses and ipv6 addresses usually use hexadecimal characters to represent them as opposed to ipv4 addreses which use base 10 number system.
+## IPv6
 It does not use subnetting instead it uses cidr notation to give us the number of bits making up the network portion of the ip address.
 When a hextet or continuous hextet of zero appears once we can replace this hextet(s) with two colons but this rule can is used only one one continous zero hextet or zero continuous hextet.
 Any leading zero(s) any octect can be omitted to further compress the address.
@@ -23,3 +24,4 @@ Ethernet is defined in 802.3 while Wifi is defined in 802.11
 TTL - this is the maximum number of router hops a packet can hop before the packet expires.
 SMTP is for sending mail while POP3 and IMAP are for retrieving mail from a mail server. The difference between IMAP and POP3 is IMAP stores mail in a mail server and syncs them with multiple devices while POP3 deletes a mail after retrieving it from the mail server hence it cannot be used to sync across multiple devices.
 To run ssh in a ssh in a unix based os use the -X flag which enables xorg server.
+Computers use conjuction(or) to see if a node they want to send a packet to is on the same network as it.

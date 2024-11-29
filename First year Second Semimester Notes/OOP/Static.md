@@ -1,0 +1,1 @@
+The static keyword in a method means it is a member of the class itself as opposed to an instance of the class. This just means we don't have to create an object and call this method from the our object.

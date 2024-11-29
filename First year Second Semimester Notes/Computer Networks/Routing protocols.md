@@ -1,5 +1,6 @@
 ## Ospf
 Open shortest path first is a routing protocol that allows routers to share information about the network topology and calculate the most efficient paths for data transmission. It does this by having routers exchange updates about the state of their connected links and networks. This way, each router has a complete map of the network and can determine the best routes to reach any destination.
+OSPF also uses multicast tranmission. Routers which have enabled ospf communicate with each other using their reserved OSPF multicast 224.0.0.5. Devices which have enabled OSPF will process the packets with 224.0.0.5 as the destination ip address. All other devices ignore these packets.
 ## EIGRP
 Enhanced Interior Gateway Routing protocol is a Cisco proprietary routing protocol that combines aspects of different routing algorithms. It allows routers to share information about the networks they can reach and the cost (like bandwidth or delay) associated with those routes. Routers then use this information to choose the most efficient paths for data transmission.
 #  Bgp

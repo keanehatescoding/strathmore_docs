@@ -6,15 +6,15 @@ public class Person{
 	
 	// get a private attribute
 	public getSnn(){
-	return Snn;
+		return Snn;
 	}
 	// set a private attribute
 	public setSSN(integer newSSN){
-	this.ssn = newSSN
+		ssn = newSSN
 	}
 	public static void main (String args[]{
-		Person kelvin = new Person;
-		kelvin.getSnn;
+		Person kelvin = new Person();
+		kelvin.getSnn();
 		kelvin.setSnn(03467903)
 	}
 }

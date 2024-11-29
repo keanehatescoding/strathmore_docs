@@ -4,75 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "e10a3b570180444c",
-        "type": "split",
+        "id": "86840017425cbc5a",
+        "type": "tabs",
         "children": [
           {
-            "id": "5408ef23ebdbdbb2",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "1af2e07ba30afde1",
-                "type": "leaf",
-                "state": {
-                  "type": "empty",
-                  "state": {},
-                  "icon": "lucide-file",
-                  "title": "New tab"
-                }
-              }
-            ]
-          },
-          {
-            "id": "25f7a6882121bf92",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "9b92745c33db3b5e",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "terminal:terminal",
-                  "state": {
-                    "terminal:terminal": {
-                      "cwd": "/home/keane/Strathmore",
-                      "focus": false,
-                      "profile": {
-                        "args": [],
-                        "executable": "/bin/sh",
-                        "name": "",
-                        "platforms": {
-                          "linux": true
-                        },
-                        "pythonExecutable": "python3",
-                        "restoreHistory": true,
-                        "successExitCodes": [
-                          "0",
-                          "SIGINT",
-                          "SIGTERM"
-                        ],
-                        "terminalOptions": {
-                          "documentOverride": null
-                        },
-                        "type": "integrated",
-                        "useWin32Conhost": true
-                      },
-                      "serial": {
-                        "columns": 69,
-                        "data": "sh-5.2$ pwd\r\n/home/keane/Strathmore\r\nsh-5.2$ ",
-                        "rows": 13
-                      }
-                    }
-                  },
-                  "pinned": true,
-                  "icon": "terminal",
-                  "title": "Terminal: sh"
-                }
-              }
-            ]
+            "id": "1f8f63dbb1b56eef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "First year Second Semimester Notes/Computer Networks/Rough notes.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Rough notes"
+            }
           }
-        ],
-        "direction": "horizontal"
+        ]
       }
     ],
     "direction": "vertical"
@@ -189,9 +138,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "First year Second Semimester Notes/Computer Networks/Rough notes.md"
+              },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Rough notes"
             }
           },
           {
@@ -209,58 +160,59 @@
       }
     ],
     "direction": "horizontal",
-    "width": 489.5,
+    "width": 261.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "terminal:Open terminal": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "terminal:Open terminal": false
     }
   },
-  "active": "9b92745c33db3b5e",
+  "active": "1f8f63dbb1b56eef",
   "lastOpenFiles": [
-    "First year Second Semimester Notes/Communications II/Pathos.md",
-    "First year Second Semimester Notes/Principles of Managemnet/Staffing Function.md",
-    "First year Second Semimester Notes/Principles of Managemnet/Leadership Styles.md",
-    "First year Second Semimester Notes/DBMS/Normalization.md",
+    "First year Second Semimester Notes/Computer Networks/DHCP DORA.md",
+    "First year Second Semimester Notes/Computer Networks/Networking Equipment.md",
+    "First year Second Semimester Notes/Computer Networks/IPv6 Explanation.md",
+    "First year Second Semimester Notes/Principles of Managemnet/Untitled.md",
     "First year Second Semimester Notes/Computer Networks/Ipv6.md",
-    "First year Second Semimester Notes/Principles of Managemnet/Controlling funtion.md",
-    "First year Second Semimester Notes/Principles of Managemnet/Functional Organizational structure.md",
-    "First year Second Semimester Notes/Principles of Managemnet/Homework.md",
-    "First year Second Semimester Notes/Principles of Managemnet/Hybrid.md",
-    "First year Second Semimester Notes/Principles of Managemnet/Matrix Structure.md",
-    "First year Second Semimester Notes/Principles of Managemnet/Network.md",
-    "First year Second Semimester Notes/Principles of Managemnet/Operations Management.md",
-    "First year Second Semimester Notes/Principles of Managemnet/Planning.md",
-    "First year Second Semimester Notes/Principles of Managemnet/Rough notes.md",
-    "2024-11-13.md",
-    "First year Second Semimester Notes/Principles of Managemnet/Decentralization.md",
-    "First year Second Semimester Notes/Principles of Managemnet/Divisional Organizational structure.md",
-    "First year Second Semimester Notes/Computer Networks/Untitled.md",
-    "First year Second Semimester Notes/Computer Networks/Untitled 1.md",
-    "First year Second Semimester Notes/Computer Networks/ARP.md",
-    "First year Second Semimester Notes/Computer Networks/DHCP.md",
-    "First year Second Semimester Notes/Communications II/CAT 1 Guidelines Answer.md",
-    "First year Second Semimester Notes/Communications II/CAT 1 Guideline.md",
-    "First year Second Semimester Notes/Linear Algebra/Linear Algebra 2.pdf",
-    "First year Second Semimester Notes/Computer Networks/Ports.md",
-    "First year Second Semimester Notes/Linear Algebra/Takeaway CAT 2.pdf",
-    "First year Second Semimester Notes/Linear Algebra/Rstudio.md",
+    "First year Second Semimester Notes/Computer Networks/Network.md",
+    "First year Second Semimester Notes/Computer Networks/Types of Networks.md",
+    "First year Second Semimester Notes/Computer Networks/RIR.png",
+    "First year Second Semimester Notes/Computer Networks/IANA.md",
+    "().md",
+    "First year Second Semimester Notes/Computer Networks/Data Link Layer.md",
+    "First year Second Semimester Notes/Computer Networks/Standards.md",
+    "First year Second Semimester Notes/Computer Networks/Internet.md",
+    "First year Second Semimester Notes/Computer Networks/Rough notes.md",
     "First year Second Semimester Notes/Computer Networks/Routing protocols.md",
-    "1y2s/Communications II/CAT 1 Revision guide 2024.doc",
-    "1y2s/Communications II/lu250205r8v2.tmp",
-    "1y2s/Communications II/Critical Reading Slides 2.pptx",
-    "1y2s/Communications II/lu105804f38qm.tmp",
-    "1y2s/Communications II",
-    "1y2s",
+    "First year Second Semimester Notes/Computer Networks/Physical Layer.md",
+    "First year Second Semimester Notes/DBMS/1NF.md",
+    "First year Second Semimester Notes/Computer Networks/Network Media.md",
+    "First year Second Semimester Notes/Computer Networks/Internet or TCP IP model.md",
+    "First year Second Semimester Notes/Computer Networks/Transport Layer.md",
+    "First year Second Semimester Notes/Computer Networks/VPN.md",
+    "First year Second Semimester Notes/Computer Networks/Data.md",
+    "First year Second Semimester Notes/Computer Networks/OSI.md",
+    "First year Second Semimester Notes/Computer Networks/OSI model.md",
+    "First year Second Semimester Notes/Computer Networks/Terminology.md",
+    "First year Second Semimester Notes/Computer Networks/IPv4 addressing.md",
+    "First year Second Semimester Notes/OOP/Lambdas.md",
     "First year First Semimester Notes/Introduction to Programming/practice.exe",
     "First year First Semimester Notes/Introduction to Programming/practice.c",
+    "First year First Semimester Notes/Introduction to Programming/power.exe",
+    "First year First Semimester Notes/Introduction to Programming/power.c",
+    "First year First Semimester Notes/Introduction to Programming/kcpe.exe",
+    "First year First Semimester Notes/Introduction to Programming/kcpe.c",
+    "First year First Semimester Notes/Introduction to Programming/functions.c",
+    "First year First Semimester Notes/Introduction to Programming/frequency.exe",
+    "First year First Semimester Notes/Introduction to Programming/frequency.c",
+    "First year First Semimester Notes/Discrete Mathematics/Discrete Math Take Away Assignment.pdf",
     "Untitled.canvas"
   ]
 }

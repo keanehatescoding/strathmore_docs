@@ -1,0 +1,1 @@
+_SSID_ - Service Set Identifier which is the name of the wireless network.

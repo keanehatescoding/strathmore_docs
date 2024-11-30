@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "86840017425cbc5a",
+        "id": "b1fe3d25cd15a81c",
         "type": "tabs",
         "children": [
           {
-            "id": "1f8f63dbb1b56eef",
+            "id": "9b5b23c7a7bd8ade",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "First year Second Semimester Notes/Computer Networks/Rough notes.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Rough notes"
+              "title": "New tab"
             }
           }
         ]
@@ -77,7 +73,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 251.5086555480957
+    "width": 251.5086555480957,
+    "collapsed": true
   },
   "right": {
     "id": "020b9add367600f0",
@@ -138,11 +135,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "First year Second Semimester Notes/Computer Networks/Rough notes.md"
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "Outline of Rough notes"
+              "title": "Outline"
             }
           },
           {
@@ -174,8 +169,17 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "1f8f63dbb1b56eef",
+  "active": "9b5b23c7a7bd8ade",
   "lastOpenFiles": [
+    "First year Second Semimester Notes/Computer Networks/Ports.md",
+    "First year Second Semimester Notes/Computer Networks/Transport Layer.md",
+    "First year Second Semimester Notes/Computer Networks/Terminology.md",
+    "First year Second Semimester Notes/Computer Networks/Data Link Layer.md",
+    "First year Second Semimester Notes/Computer Networks/Standards.md",
+    "First year Second Semimester Notes/Computer Networks/Routing protocols.md",
+    "First year Second Semimester Notes/Computer Networks/ARP and ICMPv6 ND.md",
+    "First year Second Semimester Notes/Computer Networks/Bluetooth.md",
+    "First year Second Semimester Notes/Computer Networks/Rough notes.md",
     "First year Second Semimester Notes/Computer Networks/DHCP DORA.md",
     "First year Second Semimester Notes/Computer Networks/Networking Equipment.md",
     "First year Second Semimester Notes/Computer Networks/IPv6 Explanation.md",
@@ -186,23 +190,14 @@
     "First year Second Semimester Notes/Computer Networks/RIR.png",
     "First year Second Semimester Notes/Computer Networks/IANA.md",
     "().md",
-    "First year Second Semimester Notes/Computer Networks/Data Link Layer.md",
-    "First year Second Semimester Notes/Computer Networks/Standards.md",
     "First year Second Semimester Notes/Computer Networks/Internet.md",
-    "First year Second Semimester Notes/Computer Networks/Rough notes.md",
-    "First year Second Semimester Notes/Computer Networks/Routing protocols.md",
     "First year Second Semimester Notes/Computer Networks/Physical Layer.md",
     "First year Second Semimester Notes/DBMS/1NF.md",
     "First year Second Semimester Notes/Computer Networks/Network Media.md",
     "First year Second Semimester Notes/Computer Networks/Internet or TCP IP model.md",
-    "First year Second Semimester Notes/Computer Networks/Transport Layer.md",
     "First year Second Semimester Notes/Computer Networks/VPN.md",
     "First year Second Semimester Notes/Computer Networks/Data.md",
     "First year Second Semimester Notes/Computer Networks/OSI.md",
-    "First year Second Semimester Notes/Computer Networks/OSI model.md",
-    "First year Second Semimester Notes/Computer Networks/Terminology.md",
-    "First year Second Semimester Notes/Computer Networks/IPv4 addressing.md",
-    "First year Second Semimester Notes/OOP/Lambdas.md",
     "First year First Semimester Notes/Introduction to Programming/practice.exe",
     "First year First Semimester Notes/Introduction to Programming/practice.c",
     "First year First Semimester Notes/Introduction to Programming/power.exe",

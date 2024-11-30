@@ -14,3 +14,9 @@ Routing Information Protocol is a simple routing protocol often used often used 
 ## IS-IS
 
 ## IGRP
+
+
+__Default Route__ this is a an special address and interface that a router uses to forward any packets that it does not know how to get to a certain network.
+
+## Types
+C - means directly connected

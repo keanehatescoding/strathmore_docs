@@ -96,6 +96,8 @@ Dh
 DWF
 DbR
 DJ
+Devices
+Description
 between
 beliefs
 by
@@ -445,6 +447,11 @@ cj
 cover
 clielllnt
 configure
+conjuction
+combination
+categorized
+caching
+connectionless
 and
 as
 an
@@ -621,6 +628,7 @@ abcV
 aka
 addreses
 addressing
+applications
 non
 notes
 needs
@@ -828,6 +836,7 @@ relk
 rNs
 receives
 receive
+register
 Goals
 Geert
 GUI
@@ -992,6 +1001,7 @@ oAt
 oQ
 obtain
 overcome
+ospf
 SQ
 Slide
 Stereotypes
@@ -1104,6 +1114,9 @@ Su
 SV
 SDi
 Special
+Socket
+Server
+SNMP
 technique
 the
 to
@@ -1261,6 +1274,7 @@ tIIW
 tGv
 tj
 tables
+tranmission
 Clearly
 Contextualizing
 Comparing
@@ -1384,6 +1398,7 @@ Cgj
 Cd
 Classful
 Classless
+Computers
 discuss
 dialogue
 different
@@ -1531,6 +1546,9 @@ duplex
 dumb
 developed
 depletion
+describes
+describe
+downloading
 strategies
 summarizing
 slides
@@ -1727,6 +1745,8 @@ simplex
 still
 software
 shown
+segmen
+secure
 Previewing
 PERSUASIVE
 Persuasive
@@ -1828,6 +1848,7 @@ Pg
 Pvd
 PR
 PVV
+Payload
 questioning
 questions
 queries
@@ -2152,6 +2173,7 @@ OEJ
 On
 OQ
 Ol
+OSPF
 evaluating
 expound
 examples
@@ -2296,6 +2318,8 @@ eN
 ey
 event
 experimental
+enabled
+ether
 its
 importance
 in
@@ -2440,6 +2464,8 @@ iI
 iNc
 iQv
 ixH
+ignore
+inside
 heart
 hierarchy
 how
@@ -2857,6 +2883,7 @@ wA
 wdR
 wY
 wf
+websites
 keeping
 know
 key
@@ -3193,6 +3220,9 @@ TAPD
 TP
 TaRb
 TM
+Transfer
+TFTP
+Trivial
 Explain
 Extension
 Ethos
@@ -3283,6 +3313,7 @@ Ed
 EpL
 Eo
 Ep
+Ether
 Reading
 Robert
 Read
@@ -3376,6 +3407,8 @@ Rq
 RCu
 Rir
 RFC
+Registered
+Remote
 Author
 Are
 Avoidance
@@ -3486,6 +3519,7 @@ AoR
 Automatic
 APIPA
 Addresses
+All
 purpose
 point
 persuasive
@@ -3659,6 +3693,8 @@ pr
 pW
 png
 ports
+payload
+payloads
 following
 four
 from
@@ -4635,6 +4671,7 @@ KMU
 Ku
 KLT
 Ki
+Known
 Join
 Javas
 JavaFX

@@ -2,5 +2,7 @@
   "theme": "obsidian",
   "monospaceFontFamily": "JetBrainsMono Nerd Font",
   "interfaceFontFamily": "Hack Nerd Font",
-  "textFontFamily": "JetBrainsMono Nerd Font"
+  "textFontFamily": "JetBrainsMono Nerd Font",
+  "accentColor": "#390ba2",
+  "cssTheme": "Tokyo Night"
 }

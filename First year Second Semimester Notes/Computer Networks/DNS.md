@@ -1,8 +1,8 @@
-Domain name system is a application layer protocol that is used to resolve ip address from domain names.
+Domain name system is a application layer protocol that is used to find the ip addresses of specific host names i.e resolve ip address from domain names.
+DNS (Server->Client simplex) operates on port 53 and is UDP by default but can change to TCP for fallback.
 The various DNS record types are:
 ## 1. A Record
-It maps a hostname to one or more ipv4 addresses. For example archwiki.org to 
-217.64.195.201
+It maps a hostname to one or more ipv4 addresses. For example archwiki.org to 217.64.195.201
 
 ## 2. AAAA Record
 It is similar to the A record, but it is for IPv6. E.g. for aur.archlinux.org is 2a01:4f9:c010:50::1 
@@ -13,4 +13,4 @@ The CName(Canonical Name) record maps a domain name to another domain name e.g. 
 ## 4. MX Record
 A mail exchange record specifies the mail server responsible for handling emails for a domain. E.g. for aur.archlinux.org it is mail.archlinux.org
 
-There are many other dns record type e.g. NS, DS, PTR, TXT but these are the main types.
+There are many other dns record type e.g. NS, DS, PTR, TXT but  the above mentioned are the main types.

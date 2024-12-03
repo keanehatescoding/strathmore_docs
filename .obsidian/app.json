@@ -3,5 +3,7 @@
   "autoPairBrackets": false,
   "autoPairMarkdown": false,
   "showLineNumber": true,
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "current",
+  "attachmentFolderPath": "./"
 }

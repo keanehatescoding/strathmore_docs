@@ -1,0 +1,1 @@
+$$\frac {d}{dx}f(x)=\lim_{x \to 0}{\frac {f(x+h)-f(x)}{h}}$$

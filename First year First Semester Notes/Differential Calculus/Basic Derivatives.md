@@ -1,6 +1,5 @@
 For $n\in \mathcal R$  provided $n \ne 0$ the derivative of $x^n$ is given by:
 $$\frac {d}{dx}x^n  = nx^{n-1}$$
-
 ## 1. Derivatives of Trig Functions
 $$\frac {d}{dx}sin(x)= cos(x)$$
 $$\frac {d}{dx}\cos(x) = -\sin(x)$$

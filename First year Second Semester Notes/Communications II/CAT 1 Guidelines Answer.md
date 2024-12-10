@@ -1,10 +1,10 @@
 1. Differences between critical and non critical reading
-A critical reader is someone who does not just take text at face value while reading but delves into a deeper examination of the text by putting forward supporting points and counterarguments for and against the text. A non critical leader is someone who just peruses a text just like pages without any meaning and examination.
+A critical reader is someone who does not just take text at face value but delves into a deeper examination of the text by putting forward supporting points and counterarguments for and against the text. A non critical leader is someone who just peruses a text just like pages without any meaning and examination and is fully compelled with the reasoning of the author without any justification.
 
 2. __Goals of critical reading__
 (i) Understand the links between ideas in texts since critical reading involves more than skimming through pages.
-(ii) Identify inconsistency and errors in texts and ideas in text i.e. logical flaws and misconceptions.
-(iii) Reflect on their own justification of their own assumptions, beliefs and values.
+(ii) Identify inconsistency and errors in texts and ideas in text i.e. logical flaws and misconceptions, biases.
+(iii) Reflect on their justification of their own assumptions, beliefs and values.
 (iv) Improving your grades because it makes us have a deeper understanding of the text.
 (v) It makes you a more informed person which could aid in future decision making.
 
@@ -17,7 +17,7 @@ It involves creating questions from the material that you have just surveyed and
 Read
 This involves reading the material and answering questions we made in the previous step and at the end of the chapter and keeping in mind italicized, underlined or bold words.
 Taking meaningful brief notes.
-Recite
+Recite/Recall
 This part involves asking yourself what you just read then writing these information into a summary. 
 Review
 This part involves making questions flashcards and mnemonics of your notes and questioning your recall of this material in order to enforce your memory and understanding.
@@ -56,7 +56,7 @@ iv. It forces one to think since they have to think what to right about the stor
 7. Link critical reading and critical thinking
 They both involve questioning assumptions.
 Persuasive communication is 
-Dominant culture - a culture that is most widely use and practised culture within a given society.
+Dominant culture - a culture that is most widely use and practised culture within a gķven society.
 High context culture
 Individualistic culture.
 Feminine culture

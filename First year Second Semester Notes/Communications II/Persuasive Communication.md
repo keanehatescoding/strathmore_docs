@@ -27,3 +27,18 @@ These make a statement of what should be done and how it should be done.
 1. Changing attitude and behaviour.
 2. Reinforce behaviour or attitudes
 
+## Principles of Persuasion
+### 1. Reciprocity
+If you do something good to another person they tend to also want to do something good in return.
+### 2. Scarcity
+
+### 3. Authority
+People are more likely to be influenced by those they perceive as experts or figures of authority.
+### 4. Social Proof
+People tend to follow the actions of others. If they see many people buying a thing they are more likely to buy it.
+
+### 5. Liking
+People are likely to be influenced by people that they are affectionate about. If they see someone they are fond of buy something then they are more likely to buy it.
+
+### 6. Commitment and Consistency
+People are more likely to act in ways that align with their previous commitments or stated beliefs.

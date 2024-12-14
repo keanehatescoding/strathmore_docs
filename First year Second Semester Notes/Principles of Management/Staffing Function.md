@@ -1,4 +1,4 @@
-Is the managerial function that involves manning the organizational structure through proper and effective selection, appraisal and development of the personnel to fill the roles assigned to the employers/workforce.
+Is the managerial task that involves recruiting, selecting, training and performance management of employees.
 ## Importance
 1. Facilitates control
 2. Optimum utilisation of Human Resource

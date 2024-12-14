@@ -1,3 +1,9 @@
+---
+id: Types of Numbers
+aliases: []
+tags: []
+---
+
 1. Natural numbers - counting numbers from 1. 2, 3.  $$ \mathcal 1,2,3..+\infty \in N$$
 2. Whole numbers - natural numbers including zero $$\mathcal 0,1,2.. +\infty \in W$$
 3. Integers - whole numbers including negative numbers $$ -\infty ...-2,-1,0,1,2..+\infty \in \mathcal Z$$

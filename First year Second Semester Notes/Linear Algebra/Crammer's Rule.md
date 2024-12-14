@@ -1,3 +1,9 @@
+---
+id: Crammer's Rule
+aliases: []
+tags: []
+---
+
 If $\matrix A\vec x = \vec b$ is a system of $n$ linear equations in $n$ unknowns, such that $\det{\matrix{A}}\ne 0$, then the system has the unique solution:
 $$x_{1}= \frac {\det A_1}{\det A}, x_{2}=\frac {\det A_{2}}{\det A},...,x_{n}=\frac {\det A_{n}}{\det A} $$
 where $\matrix A_i$ is the matrix obtained by replacing the $i^{th}$ column of the matrix with the column $$\vec b = \begin{bmatrix} b_{1} \\ b_2 \\ ... \\ b_n \end{bmatrix}$$

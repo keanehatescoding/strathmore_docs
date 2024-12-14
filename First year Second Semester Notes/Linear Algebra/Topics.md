@@ -1,11 +1,15 @@
-1. Row echelon form
-2. Reduced row echelon form
-3. Gaussian Elimination
-4. Gaussian Jordan Elimination
+---
+id: Topics
+aliases: []
+tags: []
+---
+1. Gaussian Elimination
+2. Gaussian Jordan Elimination
+3. Row echelon form
+4. Reduced row echelon form
 5. Kirchhoff's laws
 6. Markov chains
 7. Crammer's Rule
-__Gaussian elimination and Gauss-Jordan Elimination
 
 - The matrix deri(c) Find the eigenvalues and corresponding eigenvectors of the matrix . (6marks)
 A =
@@ -102,4 +106,3 @@ to region 1 and 10% move to region 2. This year each region has a population of
 linear equations is called the Augmented matrix of the system.
 -The matrix containing only the coefficients of the system is called the
 Coefficient matrix of the system
-

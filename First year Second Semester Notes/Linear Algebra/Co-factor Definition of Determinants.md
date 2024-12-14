@@ -1,15 +1,21 @@
+---
+id: Co-factor Definition of Determinants
+aliases: []
+tags: []
+---
+
 ## Minor of $a_{ij}$
 
-If $A$ is a square matrix, then the minor of the entry $a_{ij}$ is denoted by $M_{ij}$ and is defined to be the determinant of the sub-matrix that remains after row $i$ and column $j$ are deleted from matrix $A$. 
+If $A$ is a square matrix, then the minor of the entry $a_{ij}$ is denoted by $M_{ij}$ and is defined to be the determinant of the sub-matrix that remains after row $i$ and column $j$ are deleted from matrix $A$.
 i.e $$\matrix B=\begin{bmatrix}5 & 6  \\  4 & 8 \end{bmatrix}$$
 $M_{11}$  is $$M_{11}\matrix =\begin{vmatrix} \cancel{5} & \cancel 6 \\ \cancel 4 & 8 \end{vmatrix}=|8|$$
-The $|8|$ is 8. Hence Minor$_{11}$ of $B$ is 8.
+The $|8|$ is 8. Hence Minor$_{11}$ of matrix $B$ is 8.
 
 ## Co-factor of $a_{ij}$
 
 $(-1)^{i+j}M_{ij}$ denoted as $C_{ij}$ is the co-factor of entry $a_{ij}$.
-In the previous example the co-factor of $a_{11}$ is 
-$$(-1)^{1+1}8=(-1)^{2}8=1\times 8=8$$
+In the previous example the co-factor of $a_{11}$ is
+$$C_{11}=(-1)^{1+1}8=(-1)^{2}8=1\times 8=8$$
 
 ## Co-factor Definition of Determinant
 

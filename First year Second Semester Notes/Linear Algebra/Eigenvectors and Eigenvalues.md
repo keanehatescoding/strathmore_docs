@@ -1,3 +1,9 @@
+---
+id: Eigenvectors and Eigenvalues
+aliases: []
+tags: []
+---
+
 When multiplying a vector by a matrix, it usually can change the direction of the matrix and magnitude. However, an eigenvector has the interesting property that only it's magnitude is changing with the possibility it can flip direction i.e when the eigenvalue is negative.
 If $\matrix A$ is a $nxn$ matrix then there exists a non zero vector $\vec x \in \mathbb{R}^{n},\vec x\ne0$ such that $\matrix A$ is a scalar multiple of x that is: $\matrix A\vec x =\lambda\vec x$ for some scalar $\lambda$.
 The scalar $\lambda$ is the eigenvalue of $\matrix A$ and $\vec x$ is said to be the eigenvector of $\matrix A$ corresponding to $\lambda$.
@@ -26,4 +32,3 @@ If this happens you should make write all the variables in terms of a variable i
 Then make one variable free and the other dependant on the other i.e
 $x_{1}=t, \space x_{2}=5t , \space x_{3}=2t$
 your eigenvector will be $$\vec x = \begin{pmatrix} t  \\ 5t \\ 2t \end{pmatrix}$$ where $t\ne 0$
-

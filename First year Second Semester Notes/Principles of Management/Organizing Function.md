@@ -1,0 +1,1 @@
+It is the process of distributing work among members of a work group in order to accomplish goals.

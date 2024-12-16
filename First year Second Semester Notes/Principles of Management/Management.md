@@ -34,3 +34,10 @@ __Universal nature of management__ - management principles are universal in natu
 3. [[Staffing Function]]
 4. [[Directing Function]]
 5. [[Controlling Function]]
+
+## Management Skills
+
+There are 3 types of management skills namely:
+1. Technical skills - consists of job-specific knowledge needed to perform is a specific field.
+2. Conceptual skills - consists of the ability to think analytically and visualize the organization as a whole and understand how the parts work together.
+3. Human skills- the ability to work in cooperation with other people to get things done.

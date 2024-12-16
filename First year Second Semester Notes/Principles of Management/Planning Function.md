@@ -2,6 +2,7 @@ This is the first function of management.
 It is the process of selecting objectives, goals and missions then the strategies(actions) to achieve them.
 or 
 It is determining in advance what should be accomplished and how it should be realized.
+A __plan__ is a __predetermined course of action__ for a achieving objectives.
 ## Strategic planning model
 
 Concerned with the achievement of long term goals.

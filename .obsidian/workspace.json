@@ -13,29 +13,86 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "First year Second Semester Notes/Principles of Management/Planning Function.md",
+                "file": "First year Second Semester Notes/DBMS/Database Management System.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Planning Function"
+              "title": "Database Management System"
             }
           },
           {
-            "id": "85ee2e0a9b7d3156",
+            "id": "9054fea8c76be93e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "First year Second Semester Notes/Principles of Management/Functional Organizational structure.md",
+                "file": "First year Second Semester Notes/DBMS/Terminology.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Functional Organizational structure"
+              "title": "Terminology"
+            }
+          },
+          {
+            "id": "e9a85bb1964d1596",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "First year First Semester Notes/Discrete Mathematics/Types of Numbers.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Types of Numbers"
+            }
+          },
+          {
+            "id": "d55c6f100235d99c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "First year Second Semester Notes/DBMS/Relational Model.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Relational Model"
+            }
+          },
+          {
+            "id": "c2cdc32af7fef985",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "First year Second Semester Notes/DBMS/Keys.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Keys"
+            }
+          },
+          {
+            "id": "72aae0f3d2a43314",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "First year Second Semester Notes/DBMS/Join Operations.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Join Operations"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -153,10 +210,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "First year Second Semester Notes/Principles of Management/Planning Function.md"
+                "file": "First year Second Semester Notes/DBMS/Join Operations.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Planning Function"
+              "title": "Outline of Join Operations"
             }
           }
         ],
@@ -181,10 +238,30 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "cd379bfa25a2f995",
+  "active": "72aae0f3d2a43314",
   "lastOpenFiles": [
-    "First year Second Semester Notes/Principles of Management/ICS 1206 - Principles of management - April 2021.pdf",
+    "First year Second Semester Notes/DBMS/Cartesian Product of Relations.md",
+    "First year Second Semester Notes/DBMS/Keys.md",
+    "First year Second Semester Notes/DBMS/Relational Model.md",
+    "First year Second Semester Notes/DBMS/Terminology.md",
+    "First year Second Semester Notes/DBMS/Untitled.md",
+    "First year First Semester Notes/Discrete Mathematics/Cartesian Product.md",
+    "First year Second Semester Notes/DBMS/Data Models.md",
+    "First year First Semester Notes/Discrete Mathematics/Types of Numbers.md",
+    "First year Second Semester Notes/DBMS/Triggers.md",
+    "First year Second Semester Notes/DBMS/Users.md",
+    "First year Second Semester Notes/DBMS/Database Management System.md",
+    "First year Second Semester Notes/DBMS/Schema.md",
+    "First year Second Semester Notes/DBMS/ANSI-SPARC model.md",
+    "First year Second Semester Notes/DBMS/Creating tables.md",
+    "First year Second Semester Notes/DBMS/atomicity.md",
+    "First year Second Semester Notes/DBMS/Join Operations.md",
+    "First year Second Semester Notes/DBMS/File-Based Approach vs RDBMS.md",
     "First year Second Semester Notes/Principles of Management/Functional Organizational structure.md",
+    "First year Second Semester Notes/DBMS/Foreign Keys.md",
+    "First year Second Semester Notes/DBMS/1NF.md",
+    "First year Second Semester Notes/Principles of Management/Planning Function.md",
+    "First year Second Semester Notes/Principles of Management/ICS 1206 - Principles of management - April 2021.pdf",
     "First year Second Semester Notes/Principles of Management/ICS 1206 - Principles of management - December 2023.pdf",
     "First year Second Semester Notes/Principles of Management/Scientific Management Theory.md",
     "First year Second Semester Notes/Principles of Management/Leadership.md",
@@ -192,25 +269,6 @@
     "First year Second Semester Notes/Principles of Management/DOC-20241202-WA0080..pdf",
     "First year Second Semester Notes/Principles of Management/Elton Mayo's Human Relations School of Thought.md",
     "First year Second Semester Notes/Principles of Management/Systems Approach.md",
-    "First year Second Semester Notes/Principles of Management/Management by Objectives.md",
-    "First year Second Semester Notes/Principles of Management/Controlling Function.md",
-    "First year Second Semester Notes/Principles of Management/Management.md",
-    "First year Second Semester Notes/Principles of Management/Directing Function.md",
-    "First year Second Semester Notes/DBMS/Schema.md",
-    "First year Second Semester Notes/Principles of Management/Staffing Function.md",
-    "First year Second Semester Notes/Principles of Management/Organizing Function.md",
-    "First year Second Semester Notes/Principles of Management/Planning Function.md",
-    "First year Second Semester Notes/DBMS/Terminology.md",
-    "First year Second Semester Notes/DBMS/File-Based Approach vs RDBMS.md",
-    "First year Second Semester Notes/DBMS/ANSI-SPARC model.md",
-    "First year Second Semester Notes/DBMS/atomicity.md",
-    "First year Second Semester Notes/DBMS/Database Management System.md",
-    "First year Second Semester Notes/DBMS/Triggers.md",
-    "First year Second Semester Notes/DBMS/Users.md",
-    "First year Second Semester Notes/DBMS/Relation Algebra Operations (R.A.O).md",
-    "First year Second Semester Notes/DBMS/Foreign Keys.md",
-    "First year Second Semester Notes/DBMS/Creating tables.md",
-    "First year Second Semester Notes/DBMS/1NF.md",
     "First year Second Semester Notes/Linear Algebra/Linear Algebra 2.pdf",
     "First year Second Semester Notes/Linear Algebra/Takeaway CAT 2.pdf",
     "First year Second Semester Notes/Linear Algebra/Topics.md~",

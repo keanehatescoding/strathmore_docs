@@ -7,9 +7,7 @@ There are 3 types of users in a database management system:
 ## 1. Naive Users
 
 They are unsophisticated users who have little to no knowledge of how the actual database works but they frequently access the system through invoking/using graphical application programs.
-
-### Examples
- 
+Examples of naive users of a database management system are:
  1. Clerks
  2. Customers
 ## 2. Application programmers
@@ -25,7 +23,7 @@ They also know how to use analysis software
 
 ## 4. Specialized users
 
-They use specialized database application i.e CAD software to interact with the database
+They use specialized database application i.e CAD software to interact with the database.
 
 ## Database Administrators
 

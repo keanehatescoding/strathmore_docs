@@ -17,9 +17,6 @@ __Relational Database__ is a set of relational schema, each with a distinct name
 | Tuple     | Row         | Record      |
 | Attribute | Column      | Field       |
 
-## Cartesian Product of Relation
-
-This is a set that the first element is from the first set while the second element is second set.
 
 ## Properties of Database Relations
 

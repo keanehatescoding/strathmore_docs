@@ -8,7 +8,7 @@ tags: []
 2. Whole numbers - natural numbers including zero $$\mathcal 0,1,2.. +\infty \in W$$
 3. Integers - whole numbers including negative numbers $$ -\infty ...-2,-1,0,1,2..+\infty \in \mathcal Z$$
 4. Rational numbers - are numbers of the form a/b where a and b are integers and $b \ne 0$
-$$\frac {a}{b}\space where \space a,b \in \mathcal Q$$
+$$\frac {a}{b}\space where \space a,b \in \mathcal{Z} \space \text{and} \space b\ne 0$$
 5. Irrational numbers - when expressed as decimals they neither terminate nor recur. e.g.
 $$ \{\mathcal \pi, \mathcal e , \sqrt 2, \sqrt 5\}\in \mathbb{R} \setminus \mathbb{Q}
 $$

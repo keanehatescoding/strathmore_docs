@@ -5,3 +5,5 @@ __Metadata__ is the data describing data.
 __Instance/Snapshot__ this is the data in a database at a particular moment.
 __Data independence__ the ability/capacity to change the schema at one level of the database system without having to change the schema at a higher level.
 __Irreducible__ a relation is said to be irreducible if it has only the attributes it needs to have.
+__Base relation__ is a named relation corresponding to an entity in conceptual schema, whose tuples are physically stored in database.
+__Views__ is a virtual relation that does not necessarily actually exist in the database but is produced upon request, at time of request.

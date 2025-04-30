@@ -24,3 +24,10 @@ They are various types of payloads. The ether type is used to describe what is i
 ### Frame Check Sequence
 Before a frame is transmitted the sender calculates a number called a frame check sequence based on the type of data that is being send. It is then appended to the end of the frame. After transmission the recipient calculates this FCS based on the received frame. If it does not match the FCS then the frame is discarded.
 The size of Ethernet frames is normally limited to a maximum of 1518 bytes and a minimum of 64 bytes.
+
+To send a frame all other hosts in the broadcast domain use FF.FF.FF.FF.FF.FF as the destination mac address. This is a special mac addressed used to send broadcast frames within the broadcast domain.
+
+## Special features
+The first 3 bytes of a mac address tell us the Organization Unique Identifier defined by IEEE.
+Mac addresses can have also be multicast or unicast. This is usually identified by a the last two bits of the first octet.
+	The second last bit in the first octet identifies whether the mac address is a __global 0UI__ defined by IEEE or a __locally administered__ MAC address.

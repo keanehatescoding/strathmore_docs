@@ -1,5 +1,10 @@
-## File Based Approach
+---
+id: File-Based Approach vs RDBMS
+aliases: []
+tags: []
+---
 
+## File Based Approach
 
 ## Limitations
 
@@ -9,6 +14,7 @@
 4. When programs are written in different languages it could lead to either incompatibility or complex programs to make it compatible.
 5. Fixed queries leads to new programs needed to be written in order to satisfy the new requirements.
 6. It is much harder to enforce constraints i.e age is greater than 0 and less than 130.
-7. It is much difficult to force [[atomicity]] of data.
+7. It is much difficult to force [[ACID]] of data.
 8. It is more prone to concurrent access anomalies.
 9. It is much harder to implement security control mechanisms.
+

@@ -1,5 +1,5 @@
 ## Arp on the same LAN
-Address resolution protocol or simply ARP is used to find the mac address of the a node from it's known ipv4 address i.e. resolve ipv4 addresses to mac addresses. When the source ip is sending the frame it puts the broadcast address -> __FF.FF.FF.FF.FF.FF__ as it's destination mac address 
-When a switch sees this it broadcasts frame to all interfaces except the incoming interface. Each node process the frame but node with the destination mac address responds with his mac address. 
+ARP is used to find the mac address of the a target node by using it's known ipv4 address i.e. resolve ipv4 addresses to mac addresses. When the source node is sending the frame it sets the destination mac address as __FF.FF.FF.FF.FF.FF__. This in turn makes every switch broadcast the frame to all other ethernets except the one that delivered the frame.
+Each node process the frame but node with the destination ip address responds with his mac address. This is then forwarded to the original source mac address by the switch and then it add's it to it's arp table. This way the two nodes can communicate to each other.
 ## IPv6 NH/ Network Discovery
 Ipv6 uses ICMPv6 Network Discovery to find the destination mac address as IPv4 uses ARP to find the destination mac address of the other node.

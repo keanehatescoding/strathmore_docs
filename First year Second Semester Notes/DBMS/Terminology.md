@@ -1,3 +1,9 @@
+---
+id: Terminology
+aliases: []
+tags: []
+---
+
 __Database__ is a collection of interrelated data.
 __Database Schema__ is a description about a database.
 __Data abstraction__ this is hiding the complexity from application programmers and users.
@@ -7,3 +13,4 @@ __Data independence__ the ability/capacity to change the schema at one level of 
 __Irreducible__ a relation is said to be irreducible if it has only the attributes it needs to have.
 __Base relation__ is a named relation corresponding to an entity in conceptual schema, whose tuples are physically stored in database.
 __Views__ is a virtual relation that does not necessarily actually exist in the database but is produced upon request, at time of request.
+__Decomposition__ the splitting of a relation to two or more relations.

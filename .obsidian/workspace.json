@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "64a6071d931f41cd",
+        "id": "998e16737dd528ef",
         "type": "tabs",
         "children": [
           {
-            "id": "f2ae399a31bfd2b1",
+            "id": "03f173ece51cdffb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "First year Second Semester Notes/DBMS/Join Operations.md",
+                "file": "Second year First Semester Notes/DNDM/PM, AM and FM.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "Join Operations"
+              "title": "PM, AM and FM"
             }
           }
         ]
@@ -40,7 +40,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -77,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 251.5086555480957,
-    "collapsed": true
+    "width": 251.5086555480957
   },
   "right": {
     "id": "020b9add367600f0",
@@ -140,10 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "First year Second Semester Notes/DBMS/Join Operations.md"
+                "file": "Second year First Semester Notes/DNDM/PM, AM and FM.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Join Operations"
+              "title": "Outline of PM, AM and FM"
             }
           }
         ],
@@ -168,44 +171,44 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "f2ae399a31bfd2b1",
+  "active": "03f173ece51cdffb",
   "lastOpenFiles": [
-    "First year Second Semester Notes/DBMS/Relational Algebra/Cartesian Product.md",
-    "First year Second Semester Notes/DBMS/Join Operations.md",
-    "First year Second Semester Notes/DBMS/1NF.md",
-    "First year Second Semester Notes/DBMS/Relational Algebra/Union.md",
-    "First year Second Semester Notes/DBMS/Relational Algebra/Intersection.md",
-    "First year Second Semester Notes/DBMS/Relational Algebra/Relation Algebra Operations (R.A.O).md",
-    "First year Second Semester Notes/DBMS/Relational Algebra/Selection.md",
-    "First year Second Semester Notes/DBMS/Relational Algebra/Set Difference.md",
-    "First year Second Semester Notes/DBMS/Relational Algebra/Projection.md",
-    "First year Second Semester Notes/DBMS/DML.md",
-    "First year Second Semester Notes/DBMS/Terminology.md",
-    "First year Second Semester Notes/DBMS/Integrity Constraints.md",
-    "First year Second Semester Notes/DBMS/Keys/Foreign Key.md",
-    "First year Second Semester Notes/DBMS/Keys/Primary Key.md",
-    "First year Second Semester Notes/DBMS/Keys/Candidate Key.md",
-    "First year Second Semester Notes/DBMS/Keys/Alternate Key.md",
-    "First year Second Semester Notes/DBMS/Keys/Superkey.md",
-    "First year Second Semester Notes/DBMS/Keys/Super key.md",
-    "First year Second Semester Notes/DBMS/Keys.md",
-    "First year Second Semester Notes/DBMS/Grouping Operations.md",
-    "First year Second Semester Notes/DBMS/Aggregate Functions.md",
-    "First year Second Semester Notes/DBMS/Aggregate Functions/Sum.md",
-    "First year Second Semester Notes/DBMS/Aggregate Functions/Definition.md",
-    "First year Second Semester Notes/DBMS/Aggregate Functions",
-    "First year Second Semester Notes/DBMS/ANSI-SPARC model.md",
-    "First year Second Semester Notes/DBMS/Cartesian Product of Relations.md",
-    "First year First Semester Notes/Differential Calculus/Derivative.md",
-    "First year First Semester Notes/Discrete Mathematics/Discrete Math Take Away Assignment.pdf",
-    "First year Second Semester Notes/DBMS/Keys",
-    "First year Second Semester Notes/DBMS/Relational Algebra",
-    "First year Second Semester Notes/Principles of Management/ICS 1206 - Principles of management - April 2021.pdf",
-    "First year Second Semester Notes/Principles of Management/ICS 1206 - Principles of management - December 2023.pdf",
-    "First year Second Semester Notes/Principles of Management/DOC-20241202-WA0080..pdf",
-    "First year Second Semester Notes/Linear Algebra/Linear Algebra 2.pdf",
-    "First year Second Semester Notes/Linear Algebra/Takeaway CAT 2.pdf",
-    "First year Second Semester Notes/Linear Algebra/Topics.md~",
+    "Second year First Semester Notes/DNDM/Untitled.md",
+    "Second year First Semester Notes/DNDM/PM, AM and FM.md",
+    "First year Second Semester Notes/Computer Networks/Ipv6 Practical.md",
+    "Second year First Semester Notes/DSA/Homework.md",
+    "Second year First Semester Notes/DSA/Data Structure in Python.md",
+    "Second year First Semester Notes/DSA/CNS - DSA - Sorting & Searching Algorithms.pdf",
+    "Second year First Semester Notes/CNS 2B.pdf",
+    "First year Second Semester Notes/Computer Networks/Ports.md",
+    "Second year First Semester Notes/Intro to Cybersecurity/lab 4.md",
+    "Second year First Semester Notes/DNDM/Nyquist-Shanon Sampling Theoerem.md",
+    "Second year First Semester Notes/DNDM/PCM.md",
+    "Second year First Semester Notes/DNDM/Sampling.md",
+    "Second year First Semester Notes/DNDM/Signal Impairment.md",
+    "Second year First Semester Notes/DNDM/Signals.md",
+    "Second year First Semester Notes/DNDM/Stand.md",
+    "Second year First Semester Notes/DNDM/Glossary.md",
+    "Second year First Semester Notes/Internet Programming/Computer Science Programme SG_PRT.pdf",
+    "Second year First Semester Notes/DSA/Important Concepts.md",
+    "Second year First Semester Notes/Intro to Cybersecurity/Lab - Creating an Virtual Install of Kali Using VirtualBox.pdf",
+    "Second year First Semester Notes/Principles of Ethics/Role of Ethics in Computer Science.pdf",
+    "Second year First Semester Notes/DSA/Data Structures.md",
+    "Second year First Semester Notes/DSA/CNS - DSA - Algorithms (Sort & Search).pdf",
+    "Second year First Semester Notes/DSA/CNS - Data Structures & Algorithms - Ex 1.pdf",
+    "Second year First Semester Notes/DSA/Graphing Algorithms.md",
+    "Second year First Semester Notes/DSA/Sorting Algorithms.md",
+    "Second year First Semester Notes/DSA/Searching Algorithms.md",
+    "Second year First Semester Notes/Principles of Ethics/Ethical Approaches.md",
+    "Second year First Semester Notes/DNDM/Data Communication.md",
+    "Second year First Semester Notes/Internet Programming/exploit.c",
+    "Second year First Semester Notes/Internet Programming/37292",
+    "Second year First Semester Notes/Internet Programming/calc.html~",
+    "First year First Semester Notes/Introduction to Programming/BASIC STRUCTURE OF C- PROGRAM.md",
+    "First year First Semester Notes/Introduction to Programming/Example of process of producing a structured program.md",
+    "First year First Semester Notes/Introduction to Programming/Memory management in C.md",
+    "First year First Semester Notes/Introduction to Programming/Introduction to Programming.md",
+    "First year Second Semester Notes/Computer Networks/Ipv6 Theory.md",
     "First year Second Semester Notes/Computer Networks/RIR.png",
     "Untitled.canvas"
   ]

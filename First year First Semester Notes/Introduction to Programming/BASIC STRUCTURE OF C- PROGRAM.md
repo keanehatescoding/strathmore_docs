@@ -1,5 +1,5 @@
 A C program may include one or more sections as following:
-1. __Documentation section__: consists of comment lines in // or /* .. */  format
+1. __Documentation section__: consists of comment lines in // or /* .. \*/  format
 2. __Link section__: provide instructions  to the computer during the linking state
 3. __Definition section__: Defines all symbolic constants.
 4. __Global declaration section__: these contains variables that can be used in more than one function.
@@ -46,4 +46,3 @@ Theses combinations of characters is known as __escape sequence__. They are used
 \\r                               carrriage return
 \\t                              horizontal tab
 \\v                              vertical tab
-

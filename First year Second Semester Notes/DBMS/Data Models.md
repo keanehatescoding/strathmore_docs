@@ -1,4 +1,10 @@
-These are conceptual tools that describe the underlying structure of the database. 
+---
+id: Data Models
+aliases: []
+tags: []
+---
+
+These are conceptual tools that describe the underlying structure of the database.
 They include a set of basic operations for specifying retrievals or updates to the database.
 They also include concepts to specify the behaviour of a database application.
 
@@ -32,8 +38,10 @@ Object-Based Model = E-R model + Object Oriented features
 Object-Relational Data Model = Relational Model + Object-Based Model
 
 ## 4. Semi-structured Model
+
 It deals with specification of data.
 Individual data items may be of the same type but have different sets of attributes.
 This model contrasts with other data models.
 Supported by the xml language.
 __NB__: Xml is like html but the difference is html onlyhas predefined tags while xml you can define your owntags.
+

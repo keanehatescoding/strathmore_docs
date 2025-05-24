@@ -1,1 +1,0 @@
-This is the lowest layer of the OSI model and at this layer.

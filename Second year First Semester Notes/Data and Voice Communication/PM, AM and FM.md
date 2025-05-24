@@ -1,0 +1,1 @@
+$$y(t) = A(t)* sin(2\pi f(t + \omega(t))$$

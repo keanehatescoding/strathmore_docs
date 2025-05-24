@@ -3,7 +3,7 @@
 3. Djisktra's Algorithms
 4. A* algorithm
 
-## Deep First Algorithms
+## 1. Deep First Algorithms
 When traversing a graph using DFS we utilize stacks
 
 ```python
@@ -12,5 +12,11 @@ def dfs(arr: List[int], target: int)-> int:
 	
 ```
 
-## Breadth First Search
+## 2. Breadth First Search
+
 When traversing a graph using BFS we utilize queues
+
+## 3. Djisktra's Algorithm
+
+
+## 4. A* Algorithm

@@ -1,0 +1,1 @@
+It states in order to avoid distortion then you need to start sampling a signal using a sampling rate at least twice the frequency of the original signal.

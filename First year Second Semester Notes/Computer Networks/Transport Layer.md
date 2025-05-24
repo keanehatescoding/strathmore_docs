@@ -11,6 +11,7 @@ TCP keeps track of the number of segments that have been sent from a specific ap
 For stable connection i.e. communication in the LAN the entire message is usually sent and confirmed after transmission using the segment numbers. For unstable connection i.e intercontinental communication via satellites then we use smaller segment groups so that we resend the smaller group of segments that are missing.
 TCP also has congestion control to avoid overloading the network.
 A tcp segment consists of the following headers
+A transport layer header consists of the following headers
 1. Source Port - 2 bytes
 2. Destination Port - 2 bytes
 3. Sequence Number - 4 bytes
@@ -35,13 +36,15 @@ __PSH__ - asks to push the buffered data to the application.
 UDP is a best effort protocol. It just segments the packets and sends them over the network(s).
 UDP lacks a handshake.
 UDP segements lack a sequence number.
+9. TCP Checksum -  2 bytes
+10. Urgent Pointer - indicates urgent data if the URG Flag is set - 2 bytes
+11. Options
+12. Data
 
-## Differences between TCP and UDP 
-| TCP                                                                   | UDP                                                      |
-| --------------------------------------------------------------------- | -------------------------------------------------------- |
-| Connection must be established first                                  | No connection required                                   |
-| Slower                                                                | Faster                                                   |
-| Reliable                                                              | Unreliable                                               |
-| Has a 3-way handshake                                                 | No hanshakes                                             |
-| Excellent for mailing, file transfer, direct messaging, and websites. | Good for gaming, streaming, voIP and video conferencing. |
-| Has congestion control                                                | No congestion control                                    |
+## Flags
+__SYN__ - initiates a new connection
+__ACK__ - acknowledges a receipt of a packet
+__FIN__ - signals the normal closing of a connection or the last packer from the sender.
+__RST__ - reset the connection.
+__URG__ - indicates the urgent pointer field is significant. 
+__PSH__ - asks to push the buffered data to the application.

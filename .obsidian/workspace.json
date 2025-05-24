@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "998e16737dd528ef",
+        "id": "de6ef5a024006011",
         "type": "tabs",
         "children": [
           {
-            "id": "03f173ece51cdffb",
+            "id": "5f67c4b7e717298a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Second year First Semester Notes/DNDM/PM, AM and FM.md",
+                "file": "First year Second Semester Notes/Computer Networks/Transport Layer.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "PM, AM and FM"
+              "title": "Transport Layer"
             }
           }
         ]
@@ -44,7 +44,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "File explorer"
             }
           },
           {
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Second year First Semester Notes/DNDM/PM, AM and FM.md",
+                "file": "First year Second Semester Notes/Computer Networks/Transport Layer.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of PM, AM and FM"
+              "title": "Outline of Transport Layer"
             }
           }
         ],
@@ -159,57 +159,59 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-statusbar-pomo:Start pomodoro": false,
+      "daily-notes:Open today's note": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "audio-recorder:Start/stop recording": false,
       "workspaces:Manage workspace layouts": false,
-      "terminal:Open terminal": false
+      "terminal:Open terminal": false,
+      "obsidian-statusbar-pomo:Start pomodoro": false
     }
   },
-  "active": "03f173ece51cdffb",
+  "active": "5f67c4b7e717298a",
   "lastOpenFiles": [
-    "Second year First Semester Notes/DNDM/Untitled.md",
-    "Second year First Semester Notes/DNDM/PM, AM and FM.md",
-    "First year Second Semester Notes/Computer Networks/Ipv6 Practical.md",
-    "Second year First Semester Notes/DSA/Homework.md",
-    "Second year First Semester Notes/DSA/Data Structure in Python.md",
-    "Second year First Semester Notes/DSA/CNS - DSA - Sorting & Searching Algorithms.pdf",
-    "Second year First Semester Notes/CNS 2B.pdf",
-    "First year Second Semester Notes/Computer Networks/Ports.md",
-    "Second year First Semester Notes/Intro to Cybersecurity/lab 4.md",
-    "Second year First Semester Notes/DNDM/Nyquist-Shanon Sampling Theoerem.md",
-    "Second year First Semester Notes/DNDM/PCM.md",
-    "Second year First Semester Notes/DNDM/Sampling.md",
-    "Second year First Semester Notes/DNDM/Signal Impairment.md",
-    "Second year First Semester Notes/DNDM/Signals.md",
-    "Second year First Semester Notes/DNDM/Stand.md",
-    "Second year First Semester Notes/DNDM/Glossary.md",
-    "Second year First Semester Notes/Internet Programming/Computer Science Programme SG_PRT.pdf",
-    "Second year First Semester Notes/DSA/Important Concepts.md",
-    "Second year First Semester Notes/Intro to Cybersecurity/Lab - Creating an Virtual Install of Kali Using VirtualBox.pdf",
+    "First year Second Semester Notes/Computer Networks/OSI model.md",
+    "First year Second Semester Notes/Computer Networks/Bluetooth.md",
+    "First year Second Semester Notes/Computer Networks/ARP and ICMPv6 ND.md",
+    "First year Second Semester Notes/Computer Networks/RIR.png",
+    "First year Second Semester Notes/Computer Networks/CNS 1203 - Introduction to computer networks - December 2023.pdf",
+    "First year Second Semester Notes/Computer Networks/CNS 1203 - Introduction to computer networks - March 2024.pdf",
+    "First year Second Semester Notes/Computer Networks/Types of modes.md",
+    "First year Second Semester Notes/Computer Networks/Transport Layer.md",
+    "First year Second Semester Notes/Computer Networks/TCP.md",
+    "Second year First Semester Notes/renamed.pkt",
     "Second year First Semester Notes/Principles of Ethics/Role of Ethics in Computer Science.pdf",
-    "Second year First Semester Notes/DSA/Data Structures.md",
-    "Second year First Semester Notes/DSA/CNS - DSA - Algorithms (Sort & Search).pdf",
-    "Second year First Semester Notes/DSA/CNS - Data Structures & Algorithms - Ex 1.pdf",
-    "Second year First Semester Notes/DSA/Graphing Algorithms.md",
+    "Second year First Semester Notes/Principles of Ethics/Ethical Approaches.md",
+    "Second year First Semester Notes/Principles of Ethics",
+    "Second year First Semester Notes/Intro to Cybersecurity/lab 4.md",
+    "Second year First Semester Notes/Intro to Cybersecurity/Lab - Creating an Virtual Install of Kali Using VirtualBox.pdf",
+    "Second year First Semester Notes/Intro to Cybersecurity",
+    "Second year First Semester Notes/Internet Programming/exploit.c",
+    "Second year First Semester Notes/Internet Programming/calc.html",
+    "Second year First Semester Notes/Internet Programming/Computer Science Programme SG_PRT.pdf",
     "Second year First Semester Notes/DSA/Sorting Algorithms.md",
     "Second year First Semester Notes/DSA/Searching Algorithms.md",
-    "Second year First Semester Notes/Principles of Ethics/Ethical Approaches.md",
+    "Second year First Semester Notes/DSA/Important Concepts.md",
+    "Second year First Semester Notes/DSA/Homework.md",
+    "Second year First Semester Notes/DSA/Graphing Algorithms.md",
+    "Second year First Semester Notes/DSA/Data Structures.md",
+    "Second year First Semester Notes/DSA/Data Structure in Python.md",
+    "Second year First Semester Notes/DNDM/Untitled.md",
+    "Second year First Semester Notes/DNDM/Signals.md",
+    "Second year First Semester Notes/DNDM/Signal Impairment.md",
+    "Second year First Semester Notes/DNDM/Sampling.md",
+    "Second year First Semester Notes/DNDM/PM, AM and FM.md",
+    "Second year First Semester Notes/DNDM/PCM.md",
+    "Second year First Semester Notes/DNDM/Nyquist-Shanon Sampling Theoerem.md",
+    "Second year First Semester Notes/DNDM/Glossary.md",
+    "Second year First Semester Notes/DNDM/Digital Signal Transmission.md",
     "Second year First Semester Notes/DNDM/Data Communication.md",
-    "Second year First Semester Notes/Internet Programming/exploit.c",
-    "Second year First Semester Notes/Internet Programming/37292",
-    "Second year First Semester Notes/Internet Programming/calc.html~",
-    "First year First Semester Notes/Introduction to Programming/BASIC STRUCTURE OF C- PROGRAM.md",
-    "First year First Semester Notes/Introduction to Programming/Example of process of producing a structured program.md",
-    "First year First Semester Notes/Introduction to Programming/Memory management in C.md",
-    "First year First Semester Notes/Introduction to Programming/Introduction to Programming.md",
-    "First year Second Semester Notes/Computer Networks/Ipv6 Theory.md",
-    "First year Second Semester Notes/Computer Networks/RIR.png",
-    "Untitled.canvas"
+    "First year Second Semester Notes/DBMS/Transaction.md",
+    "First year Second Semester Notes/Computer Networks/OSI Model Canvas.canvas",
+    "Second year First Semester Notes/Data and Voice Communication/Pasted image 20250516210524.png",
+    "Second year First Semester Notes/WhatsApp Image 2025-05-07 at 11.03.30 AM.jpeg"
   ]
 }

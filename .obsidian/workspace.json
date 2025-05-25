@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "First year Second Semester Notes/Computer Networks/Transport Layer.md",
+                "file": "First year Second Semester Notes/Computer Networks/OSI model.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Transport Layer"
+              "title": "OSI model"
             }
           }
         ]
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "First year Second Semester Notes/Computer Networks/Transport Layer.md",
+                "file": "First year Second Semester Notes/Computer Networks/OSI model.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Transport Layer"
+              "title": "Outline of OSI model"
             }
           }
         ],
@@ -173,8 +173,21 @@
   },
   "active": "5f67c4b7e717298a",
   "lastOpenFiles": [
-    "First year Second Semester Notes/Computer Networks/Trasnport Layer.md",
+    "First year Second Semester Notes/Computer Networks/Glossary.md",
+    "Second year First Semester Notes/Data and Voice Communication/Glossary.md",
+    "First year Second Semester Notes/Computer Networks/TCP IP model.md",
+    "First year Second Semester Notes/Computer Networks/OSI model.md",
+    "First year Second Semester Notes/Computer Networks/Glossaru.md",
+    "First year Second Semester Notes/Computer Networks/VPN.md",
+    "First year Second Semester Notes/Computer Networks/Flow Control.md",
+    "First year Second Semester Notes/Computer Networks/Firewalls.md",
+    "First year Second Semester Notes/Computer Networks/VLAN.md",
+    "First year Second Semester Notes/Computer Networks/Types of modes.md",
     "First year Second Semester Notes/Computer Networks/Transport Layer.md",
+    "First year Second Semester Notes/Computer Networks/Ipv6 Theory.md",
+    "First year Second Semester Notes/Computer Networks/Ipv6 Practical.md",
+    "First year Second Semester Notes/Computer Networks/Ipv4 practical.md",
+    "First year Second Semester Notes/Computer Networks/OSI Model Canvas.canvas",
     "Second year First Semester Notes/World Civilization I/Mesopotamian Civilization.md",
     "Second year First Semester Notes/World Civilization I/MESOPOTAMIAN CIVILIZATION.docx",
     "Second year First Semester Notes/World Civilization I/Indus Valley Civilization.md",
@@ -195,23 +208,10 @@
     "Second year First Semester Notes/Intro to Cybersecurity/Safeguards.md",
     "Second year First Semester Notes/Intro to Cybersecurity/Defense in Depth.md",
     "Second year First Semester Notes/Intro to Cybersecurity/Anti Malware.md",
-    "Second year First Semester Notes/Internet Programming/PHP/Untitled.md",
     "Second year First Semester Notes/Internet Programming/PHP/POOP.md",
+    "Second year First Semester Notes/Internet Programming/PHP/Untitled.md",
     "Second year First Semester Notes/Internet Programming/PHP/Data types.md",
-    "Second year First Semester Notes/Internet Programming/Cascading Style Sheets.md",
-    "Second year First Semester Notes/Data and Voice Communication/Signals.md",
-    "Second year First Semester Notes/Data and Voice Communication/Signal Impairment.md",
-    "Second year First Semester Notes/Data and Voice Communication/Sampling.md",
-    "Second year First Semester Notes/Data and Voice Communication/Pulse Code Modulation.md",
-    "Second year First Semester Notes/Data and Voice Communication/Phase modulation.md",
     "Second year First Semester Notes/Data and Voice Communication/Pasted image 20250516210524.png",
-    "Second year First Semester Notes/Data and Voice Communication/PM, AM and FM.md",
-    "Second year First Semester Notes/Data and Voice Communication/Nyquist-Shanon Sampling Theoerem.md",
-    "Second year First Semester Notes/Data and Voice Communication/Modulation.md",
-    "Second year First Semester Notes/Data and Voice Communication/MATLAB.md",
-    "Second year First Semester Notes/Data and Voice Communication/Glossary.md",
-    "Second year First Semester Notes/Data and Voice Communication/Frequency modulation.md",
-    "First year Second Semester Notes/Computer Networks/OSI Model Canvas.canvas",
     "First year Second Semester Notes/Computer Networks/RIR.png"
   ]
 }

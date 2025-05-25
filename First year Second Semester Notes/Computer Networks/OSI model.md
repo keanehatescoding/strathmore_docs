@@ -12,16 +12,20 @@ It has 7 layers namely
 | 3      | Network      | Packet  |
 | 2      | Data Link    | Frame   |
 | 1      | Physical     | Bit     |
-
+A handy acronym for mastering the layers of the OSI model is:
+Layer 7 to Layer 1
+__All People Seem To Need Data Processing__
+Layer 1 to Layer 7
+__Please Do Not Teach Student Pointless Acronyms__
 ## 7. Application Layer
 This layer interacts with software applications, i.e  Brave, Firefox, Chrome.
 Examples are:
 1. HTTP
-2. HTTPS
+2. HTTPs
 ### Functions of Application Layer
 1. Identifying communication partners
 2. Synchronizing communication
-
+3. Provides __process to process/inter-process__ communication for applications.
 ## 6. Presentation Layer
 The function of this layer is to __translate__ data that is in the __application format__ to a different format that to be sent over the network.
 Examples:
@@ -36,7 +40,7 @@ It is also important to note data is prepared by the top 3 layers.
 
 ## 2. Transport Layer
 It segments and reassembles segments for communication between end devices/process.
-Using segmentation it provides __host to host/end to end__ communication or __process to process/inter-process__ communication for application.
+Using segmentation it provides __host to host/end to end__ communication.
 The transport layer adds a layer 4 header to the data and this is new blob of data is called a __segment__.
 If the data is long then the data may be subdivided and a layer 4 header is appended to each data unit, this is what we called __segmentation__.
 ## 3. Network Layer

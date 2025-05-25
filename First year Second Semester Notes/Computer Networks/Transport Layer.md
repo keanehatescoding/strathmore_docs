@@ -1,3 +1,6 @@
+At the transport layer there are 2 main protocols namely:
+1. TCP
+2. UDP
 ## 1.TCP 
 TCP has a mandatory three way handshake before any communication takes place which goes as follows:
 The 3 way handshake goes as follows:

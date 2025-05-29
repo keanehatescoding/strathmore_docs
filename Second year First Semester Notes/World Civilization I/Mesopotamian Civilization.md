@@ -1,0 +1,2 @@
+Mesopotamia means means __land between the two rivers__  i.e River Tigris and River Euphrates.
+The original people of Mesopotamia were the Summerians but later their culture intermingled with other cultures such as the Semites, 

@@ -40,7 +40,7 @@ class Graph:
 				queue.append(i)
 				visited[i] = True
 
-if name == "__main__":
+if __name__ == "__main__":
  g = Graph()
  g.addEdge(0,1)
  g.addEdge(0,2)
@@ -113,5 +113,5 @@ def binary_search(arr: list[int], target: int)-> int:
 
 ```python
 fruits = ["apple", "banana", "mango", "banana", "orange" ]
-print( "The first fruit is "+fruits[0]+" while the last element is: "+fruits[-1])
+print( f"The first fruit is {fruits[0]} while the last element is: {fruits[-1]}")
 ```

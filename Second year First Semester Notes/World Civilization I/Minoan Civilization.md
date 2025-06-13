@@ -8,7 +8,7 @@ They were the first great culture of the Aegean civilization.
 They were the first civilization to decorate their building with brilliantly coloured frescoes and celebrated lively festivals.
 They practised inter-cropping.
 They grew olives and grape which they traded with other civilization.
-The lived in a redistributive system where all the produce was sent to the ruler who would redistribute it according to need.
+The lived in a re-distributive system where all the produce was sent to the ruler who would redistribute it according to need.
 Due to a lack of a defensive walls they were attacked and conquered by the Myceneans.
 
 ## Economic activities

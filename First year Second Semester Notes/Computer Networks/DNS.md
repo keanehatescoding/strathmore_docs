@@ -1,4 +1,4 @@
-Domain name system is a application layer protocol that is used to find the ip addresses of specific host names i.e resolve ip address from domain names.
+<abbr title="Domain name system"><b>DNS</b></abbr> is a application layer protocol that is used to find the IP addresses of a domain i.e resolve ip address from domain names.
 DNS (Server->Client simplex) operates on port 53 and is UDP by default but can change to TCP for fallback.
 The various DNS record types are:
 ## 1. A Record

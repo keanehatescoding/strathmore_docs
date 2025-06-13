@@ -1,4 +1,4 @@
-There are 65,535 ports of which are categorized into 3 groups:
+There are $2^{16}$ or 65,535 ports of which are categorized into 3 groups:
 1. __Well-Known ports (1 to 1023)__ - usually used as destination ports of well known services i.e HTTP server on port 80
 2. __Registered ports (1024 to 49151)__ - they can be uses as both source/destination. Organization usually register for specific applications.
 3. __Private ports (49152 to 65535)__ - they are often used as source ports by any application.

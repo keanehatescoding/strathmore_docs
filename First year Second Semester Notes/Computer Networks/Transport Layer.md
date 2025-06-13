@@ -14,7 +14,7 @@ TCP keeps track of the number of segments that have been sent from a specific ap
 For stable connection i.e. communication in the LAN the entire message is usually sent and confirmed after transmission using the segment numbers. For unstable connection i.e intercontinental communication via satellites then we use smaller segment groups so that we resend the smaller group of segments that are missing.
 TCP also has congestion control to avoid overloading the network.
 A tcp segment consists of the following headers
-A transport layer header consists of the following headers
+A transport layer header consists of the following:
 1. Source Port - 2 bytes
 2. Destination Port - 2 bytes
 3. Sequence Number - 4 bytes

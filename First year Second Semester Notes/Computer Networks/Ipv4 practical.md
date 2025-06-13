@@ -1,5 +1,5 @@
 The following assumes you have already connected the routers, switches and PCs using the correct wiring. If for some reason you are not sure which wiring to use type then consult with your lecture and if not possible use the automatic wiring feature in packet tracer.
-After you have connected and wired you will noticed the wire between the router and switch being red. This is because by default the interface at the router is off. To enable it go to the CLI tab in the router and type
+After you have connected and wired you will noticed the wire between the router and switch being red. This is because by default the physical port/interface at the router is off. To enable it go to the command line tab in the router and type
 
 ```shell
 Router> enable

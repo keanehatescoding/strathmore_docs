@@ -1,3 +1,24 @@
+A __media access control address__ or a __physical__ or __hardware__ address is unique identifier assigned to a network interface to identify it on a LAN.
+The __first 24__ bits of a mac address are the __Organization Unique Identifier__ which identifies the manufacturer of the device.
+The second half of the mac address identifies the device and represents the serial number assigned to the adapter by the manufacturer.
+The __least significant bit__ of the __first octet__ is the __Individual/Group__ address bit. It is used to identify if the destination address is a unicast or multicast address.
+0 - unicast
+1 - multicast
+The __second least significant bit__ of the __first octet__ is the __Universally or Locally administered address bit(U/L)__. It is used to tell if the MAC address has been changed/set up locally.
+0 - universally administered/ global unique (BIA)
+1 - Mac address has been changed-locally set up/administered
+Mac addresses are formed according to the rules of one of the three numbering name spaces managed by <abbr title="Institue of Electrical and Electronics Engineers">IEEE</abbr> namely:
+1. MAC-48
+2. EUI-48
+3. EUI-64
+The distinction between MAC-48 and EUI-48 is purely nominal i.e.
+__MAC-48 is for network hardware while EUI-48 is used to identify other devices and software__
+IEEE now considers MAC-48 to be an obselete term.
+
+Mac addresses are typically written in 3 conventional formats i.e
+1. Colon separated i.e  01:23:ab:cd:ef:45
+2. Hyphen separated i.e D8-D3-85-EB-12-E3
+3. As three hexadecimal digits separated by dots i.e 1234.5678.9ABC
 ## The Ethernet Protocol
 IEEE 802.3
 An Ethernet frame looks like this:

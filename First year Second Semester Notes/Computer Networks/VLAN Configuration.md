@@ -18,7 +18,7 @@ To finally assign a VLAN number to a range of switchports type
 switchport access vlan x
 ```
 
-To rename a vlan type
+To rename a VLAN
 ```shell
 SW1(config)# vlan x
 SW1(config-vlan)# name Sales

@@ -52,12 +52,12 @@ Typically an IPv6 subnet uses a /64 prefix length.
 This means the first 48 bits are used for global unicast routing by the ISP and the next 16 bits for making different subnets for the enterprise. The remaining 64 bits are for the host bits for the subnet.
 
 ### Extended Unique Identifier (EUI-64)
+The EUI allows a host to assign itself a 64-bit IPv6 interface identifier (EUI-64).
 The second half of your IPv6 address is always used for the __interface ID__. Mac addresses are considered to be unique world wide. When setting up your IPv6 address your computer can take advantage of this by auto-configuring using EUI-64.
 Steps
-1. Your host divides your mac address to two equal 24 bit parts
-2. Then a 16 bit hex value __FFFE__ is sandwiched between your mac address resulting in a EUI-64 interface ID.
-3. The EUI allows a host to assign itself a 64-bit IPv6 interface identifier (EUI-64).
-4. Next the universal/local bit(U/L) needs to be inverted.
+4. Your host divides your mac address to two equal 24 bit parts
+5. Then a 16 bit hex value __FFFE__ is sandwiched between your mac address resulting in a EUI-64 interface ID.
+6. Next the universal/local bit(U/L) needs to be inverted.
 An advantage of this is local administration of the 7 bit eliminates the need for ARP since the mac address of any host can be simply determined hence no manual configuration/ DHCP as done in IPv4. 
 
 An IPv6 Header consists of:

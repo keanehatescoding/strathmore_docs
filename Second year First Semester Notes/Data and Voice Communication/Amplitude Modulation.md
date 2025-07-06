@@ -42,7 +42,7 @@ $$\eta = \frac {m^2}{2+m^{2}}*100\%$$
 3. AM radio waves can be transmitted over very long distances at night because they are reflected by the ionosphere.
 4. It is easier/more straightforward to implement AM modulation.
 
-## Disadvantage
+## Disadvantages
 1. It is less power efficient i.e compared to FM modulation
 2. It has high signal attenuation due to noise interference which is highly noticeable.
 3. There is a requirement that for very high bandwidth is equal to the highest frequency.

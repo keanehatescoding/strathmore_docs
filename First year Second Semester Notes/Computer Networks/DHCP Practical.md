@@ -1,4 +1,4 @@
-# DHCP Server Configuration
+## Making a Router to act as DHCPv4 Server
 
 To configure a Cisco router to use DHCP type the following commands:
 The command below will reserve the IPv4 addresses from 10.10.0.1 - 10.0.0.20 i.e for printers, DHCP servers, proxies etc.
@@ -15,12 +15,12 @@ To create network type:
 ```shell
 R1(dhcp-config)#network 10.0.0.0 /24
 ```
-alternatively you can use the subnet/netmask instead of the prefix length
+alternatively you can use the subnet/net-mask instead of the prefix length
 ```shell
 R1(dhcp-config)#network 10.0.0.0 255.255.255.0
 ```
 
-You can now configure other optional stuff like dns-server domain-name, router etc
+You can now configure other optional stuff like DNS-server domain-name, router etc
 ```shell
 R1(dhcp-config)#dns-server 8.8.8.8
 R1(dhcp-config)#domain-name kindaruma_lab.com
@@ -42,7 +42,7 @@ R1# show ip dhcp binding
 # DHCP Relay Configuration
 From the router enter the interface that is connected to the PC(s) you want to connect to configure DHCP relaying for i.e in this example we will use interface gigaEthernet0/1.
 ```shell
-R1(Config)# interface gigaEthernet0/1
+R1(config)# interface gigaEthernet0/1
 ```
 
 Then type:

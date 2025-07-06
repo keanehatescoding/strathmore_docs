@@ -1,24 +1,36 @@
 {
   "main": {
-    "id": "15ad157142c6e688",
+    "id": "b99928c8d7eb2c32",
     "type": "split",
     "children": [
       {
-        "id": "de6ef5a024006011",
+        "id": "b64ccbbabcca3f50",
         "type": "tabs",
         "children": [
           {
-            "id": "5f67c4b7e717298a",
+            "id": "25fc95ede5860ef1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "First year Second Semester Notes/Computer Networks/VLAN.md",
+                "file": "First year Second Semester Notes/Computer Networks/DHCP Practical.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "VLAN"
+              "title": "DHCP Practical"
+            }
+          },
+          {
+            "id": "3e840336eff52a6b",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Second year First Semester Notes/CNS 2B.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "CNS 2B"
             }
           }
         ]
@@ -27,15 +39,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "1befc757f8bc4e9b",
+    "id": "81695bd79bcae08a",
     "type": "split",
     "children": [
       {
-        "id": "b2e0e413b7b8ddc2",
+        "id": "b56d3aeb065e1f4b",
         "type": "tabs",
         "children": [
           {
-            "id": "64f6b85554dc7480",
+            "id": "0d00469fb1df2594",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +60,7 @@
             }
           },
           {
-            "id": "a78ec874909df4b3",
+            "id": "c3ba4ac0e3527f21",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,7 +77,7 @@
             }
           },
           {
-            "id": "96019141f0987bb0",
+            "id": "2a8f1dc34b091dad",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -78,25 +90,25 @@
       }
     ],
     "direction": "horizontal",
-    "width": 254.5
+    "width": 300
   },
   "right": {
-    "id": "020b9add367600f0",
+    "id": "c69bc7e61b308770",
     "type": "split",
     "children": [
       {
-        "id": "3cb59b4a3f213a93",
+        "id": "61ab65d75b3373b6",
         "type": "tabs",
         "children": [
           {
-            "id": "237ac9feedc69ef5",
+            "id": "3f68ae163b635498",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "First year Second Semimester Notes/Communications II/CAT 1 Guideline.md",
-                "collapseAll": true,
-                "extraContext": true,
+                "file": "Second year First Semester Notes/DSA/Comb sort.md",
+                "collapseAll": false,
+                "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
@@ -104,65 +116,66 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for CAT 1 Guideline"
+              "title": "Backlinks for Comb sort"
             }
           },
           {
-            "id": "0e76f51fc10402d7",
+            "id": "02149bf051c8c317",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "First year Second Semimester Notes/Communications II/CAT 1 Guideline.md",
+                "file": "Second year First Semester Notes/DSA/Comb sort.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from CAT 1 Guideline"
+              "title": "Outgoing links from Comb sort"
             }
           },
           {
-            "id": "31d59df357f770b8",
+            "id": "3d06aa4b9a40a6b7",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
             }
           },
           {
-            "id": "98da05f0621e003f",
+            "id": "5413690c790a2357",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "First year Second Semester Notes/Computer Networks/VLAN.md",
+                "file": "First year Second Semester Notes/Computer Networks/DHCP Practical.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of VLAN"
+              "title": "Outline of DHCP Practical"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 261.5,
+    "width": 300,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "daily-notes:Open today's note": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
+      "daily-notes:Open today's note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "audio-recorder:Start/stop recording": false,
@@ -171,48 +184,39 @@
       "obsidian-statusbar-pomo:Start pomodoro": false
     }
   },
-  "active": "5f67c4b7e717298a",
+  "active": "25fc95ede5860ef1",
   "lastOpenFiles": [
-    "First year Second Semester Notes/Computer Networks/VLAN Configuration.md",
-    "First year Second Semester Notes/Computer Networks/VLAN.md",
-    "Second year First Semester Notes/CNS 2B.pdf",
-    "Second year First Semester Notes/Data and Voice Communication/Channel Capacity.md",
-    "Second year First Semester Notes/DNDM/Switches.md",
-    "Second year First Semester Notes/DNDM/Topic 1.3 -MAC _ IPv6 Addresses.pptx.pdf",
-    "Second year First Semester Notes/DNDM/Initial Switch Configs.pptx.pdf",
-    "Second year First Semester Notes/DNDM/Physical Ports.md",
-    "Second year First Semester Notes/World Civilization I/Roman Civilization.md",
-    "Second year First Semester Notes/DSA/Applications of Algorithms.md",
-    "Second year First Semester Notes/DSA/CNS - Data Structures & Algorithms - Ex 1.pdf",
-    "Second year First Semester Notes/DSA/Applications of Data Structures.md",
-    "Second year First Semester Notes/World Civilization I/Minoan Civilization.md",
-    "Second year First Semester Notes/World Civilization I/Roman Civilization",
-    "Second year First Semester Notes/World Civilization I/Recording 20250603152213.m4a",
-    "Second year First Semester Notes/Principles of Ethics/VIRTUE ETHICS.pptx",
-    "First year Second Semester Notes/Computer Networks/Rough notes.md",
-    "First year Second Semester Notes/Computer Networks/Data Link Layer.md",
-    "First year Second Semester Notes/Computer Networks/OSI Model Canvas.canvas",
-    "First year Second Semester Notes/Computer Networks/RIR.png",
-    "First year Second Semester Notes/Computer Networks/Pasted image 20250603194621.png",
-    "First year Second Semester Notes/Computer Networks/Pasted image 20250603191849.png",
-    "First year Second Semester Notes/Computer Networks/Ipv6 Theory.md",
-    "First year Second Semester Notes/Computer Networks/Internet Protocol.md",
-    "First year Second Semester Notes/Computer Networks/IPv4 Addressing.md",
-    "Second year First Semester Notes/World Civilization I/Macedonian Supremacy (359-323 BC).md",
-    "Second year First Semester Notes/WhatsApp Image 2025-05-07 at 11.03.30 AM.jpeg",
-    "Second year First Semester Notes/World Civilization I/Ancient Greek Civilization.md",
-    "Second year First Semester Notes/DNDM/Switch Types.pptx.pdf",
-    "Second year First Semester Notes/DNDM/Recap Subnetting.pptx.pdf",
-    "Second year First Semester Notes/DNDM/LAN Switching- concepts- architecture and Domains.pptx.pdf",
-    "First year Second Semester Notes/Computer Networks/ARP and ICMPv6 ND.md",
     "First year Second Semester Notes/Computer Networks/DHCP.md",
+    "First year Second Semester Notes/Computer Networks/DHCP Practical.md",
+    "Second year First Semester Notes/CNS 2B.pdf",
+    "Second year First Semester Notes/DNDM/Spanning Tree Protocol.md",
+    "Second year First Semester Notes/DNDM/Passwords & Security.md",
+    "Second year First Semester Notes/Data and Voice Communication/Glossary.md",
+    "Second year First Semester Notes/Data and Voice Communication/Line coding.md",
+    "Second year First Semester Notes/Data and Voice Communication/Channel Capacity.md",
+    "Second year First Semester Notes/Data and Voice Communication/Ask.md",
+    "Second year First Semester Notes/Data and Voice Communication/Angle Modulation.md",
+    "Second year First Semester Notes/Data and Voice Communication/Amplitude Modulation.md",
+    "Second year First Semester Notes/DSA/Comb sort.md",
+    "Second year First Semester Notes/Principles of Ethics/Theory of the Voluntary Act.md",
+    "Second year First Semester Notes/Data and Voice Communication/GSM.md",
+    "Second year First Semester Notes/World Civilization I/Islam.md",
+    "Second year First Semester Notes/Data and Voice Communication/Voice over IP.md",
+    "Second year First Semester Notes/Data and Voice Communication/Assignment.md",
+    "Second year First Semester Notes/Data and Voice Communication/FSK.md",
+    "Second year First Semester Notes/Data and Voice Communication/Assingments/ASSIGNMENT 2 answers.md",
+    "Second year First Semester Notes/Data and Voice Communication/Assingments/ASSIGMENT2.pdf",
+    "Second year First Semester Notes/DNDM/STP configuration.md",
+    "First year Second Semester Notes/Computer Networks/DHCPv6.md",
+    "Second year First Semester Notes/DNDM/2.2.1 Packet Tracer - Observe STP Toplology Changes.pka",
+    "First year Second Semester Notes/Computer Networks/Ipv6 Theory.md",
     "First year Second Semester Notes/Computer Networks/Ipv6 Practical.md",
-    "Second year First Semester Notes/DSA/Sorting Algorithms.md",
-    "Second year First Semester Notes/DSA/Homework.md",
-    "First year Second Semester Notes/Computer Networks/RFC 790 vs RFC 1918.md",
-    "First year Second Semester Notes/Computer Networks/Ports.md",
-    "First year Second Semester Notes/Computer Networks/Transport Layer.md",
-    "First year Second Semester Notes/Computer Networks/Types of modes.md",
-    "Second year First Semester Notes/Data and Voice Communication/Pasted image 20250516210524.png"
+    "First year Second Semester Notes/Computer Networks/IPv4 Addressing.md",
+    "Second year First Semester Notes/DNDM/Physical Ports.md",
+    "Second year First Semester Notes/DNDM/Recap Subnetting.pptx.pdf",
+    "Second year First Semester Notes/DNDM/Switches.md",
+    "Second year First Semester Notes/DNDM/dhcp2.pkt",
+    "Second year First Semester Notes/DNDM/dhcp3.pkt",
+    "Second year First Semester Notes/DNDM/dhcp1.pkt"
   ]
 }

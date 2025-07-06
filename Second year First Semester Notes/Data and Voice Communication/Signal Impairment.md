@@ -1,9 +1,14 @@
 ## 1. Attenuation
 
 This is the loss of energy of a signal during transmission.
-It can be minimized by using amplifiers to regenerate the signal
-The unit of signal strength: decibel/dB
-
+It can happen due to conduction loss, dielectric loss or propagation loss.
+It is given by
+$$10\log(\frac{P_2}{P_1})$$
+But $P\propto V^2$ therefore by the rules of logarithms
+$$=20\log(\frac{V_2}{V_1})$$
+hence measured in __decibels__.
+To compensate attenuation we use an __amplifier__ to __amplify__ the signal.
+Attenuation only decays the amplitude of the signal but the shape of the signal remains as before.
 
 ## 2. Distortion
 

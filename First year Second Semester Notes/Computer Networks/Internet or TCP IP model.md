@@ -1,7 +1,4 @@
-The TCP/IP or Internet model is the actual model which is used for communication in the internet and that is why it is also called the __internet model__.
-It is known as TCP/IP because those are the 2 foundational protocols in the suite.
-It was developed by by the US DoD through DARPA
-It consists of the following layers namely:
+The TCP/IP or Internet model is the actual model which is used for communication in the internet and that is why it is also called the __internet model__. It is known as TCP/IP because those are the 2 foundational protocols in the suite. It was developed by by the US DoD through DARPA It consists of the following layers namely:
 
 | Layer | Name           | Examples    | PDU     |
 | ----- | -------------- | ----------- | ------- |

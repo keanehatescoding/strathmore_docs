@@ -5,3 +5,5 @@ __Tuning__
 __Sensitivity__ is the ability to detect weak signals.
 __Carrier signal__ - these are signals that contain no information but have certain phase, frequency and amplitude.
 __Modulated signals__ - these are signals that are a combination of a carrier signal and modulation signal and contain information.
+__Baud rate $(r)$__ - is the number of symbols/elements per second.
+__Modulation rate__ - rate at which the signal level is changed.

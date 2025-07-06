@@ -1,4 +1,4 @@
-<abbr title="Virtual Local Area Network"><b>VLAN</b></abbr> is technology that enables multiple devices to be connected to different virtual LANs and forward broadcast traffic only to those VLANs but all these devices shared one common switch i.e on one broadcast domain.Each VLAN is not aware of the other VLAN and that is why it needs a router to connect two or more VLAN.
+<abbr title="Virtual Local Area Network"><b>VLAN</b></abbr> is technology that enables multiple devices to be connected to different virtual LANs and forward broadcast traffic only to those VLANs but all these devices shared one or more common switch i.e on one broadcast domain.Each VLAN is not aware of the other VLAN and that is why it needs a router to connect two or more VLAN.
 ## Common Types of VLANs
 1. Default VLAN
 2. Data VLAN
@@ -27,3 +27,4 @@ VLAN Has 3 port types:
 ## Benefits
 1. More cost effective as opposed to buying multiple networking equipment for each network.
 2. Security since each VLAN is isolated and not aware of any other VLAN on the switch.
+As the number of devices increases it can be cumbersome to configure all these VLANs therefore the <abbr title="Dynamic Trunking Protocol">DTP</abbr> was created to help this challenge.

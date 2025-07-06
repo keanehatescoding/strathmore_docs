@@ -4,5 +4,6 @@
   "interfaceFontFamily": "Hack Nerd Font",
   "textFontFamily": "JetBrainsMono Nerd Font",
   "accentColor": "#390ba2",
-  "cssTheme": "Tokyo Night"
+  "cssTheme": "Tokyo Night",
+  "baseFontSize": 20
 }

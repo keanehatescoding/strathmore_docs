@@ -21,7 +21,7 @@ There are $2^{16}$ or 65,535 ports of which are categorized into 3 groups:
 | 389     | UDP            | LDAP            | directory lookups         |
 | 443     | TCP            | HTTPS           | secure websites           |
 DNS fallbacks to TCP when the host/server cannot communicate with each other or the length of the message is greater than 512 bytes
-SFTP - FTP but through SSH
+SFTP - FTP but through SSH hence SFTP uses port 22.
 TFTP - Trivial FTP but the difference with FTP is TFTP is usually used in the LAN and send small configuration files and is UDP so connectionless.
 DNS UDP/53 by default and TCP for fallback on port 53
 When DNS servers are communicating then they use TCP.

@@ -4,33 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "b64ccbbabcca3f50",
+        "id": "3747f6eb0c46526f",
         "type": "tabs",
         "children": [
           {
-            "id": "25fc95ede5860ef1",
+            "id": "11b1d460c788f368",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "First year Second Semester Notes/Computer Networks/DHCP Practical.md",
+                "file": "Second year First Semester Notes/DNDM/Spanning Tree Protocol.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DHCP Practical"
-            }
-          },
-          {
-            "id": "3e840336eff52a6b",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Second year First Semester Notes/CNS 2B.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "CNS 2B"
+              "title": "Spanning Tree Protocol"
             }
           }
         ]
@@ -56,7 +44,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "File explorer"
+              "title": "Files"
             }
           },
           {
@@ -106,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Second year First Semester Notes/DSA/Comb sort.md",
+                "file": "Second year First Semester Notes/Intro to Cybersecurity/IAAA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Comb sort"
+              "title": "Backlinks for IAAA"
             }
           },
           {
@@ -125,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Second year First Semester Notes/DSA/Comb sort.md",
+                "file": "Second year First Semester Notes/Intro to Cybersecurity/IAAA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Comb sort"
+              "title": "Outgoing links from IAAA"
             }
           },
           {
@@ -154,69 +142,84 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "First year Second Semester Notes/Computer Networks/DHCP Practical.md",
+                "file": "Second year First Semester Notes/Intro to Cybersecurity/IAAA.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of DHCP Practical"
+              "title": "Outline of IAAA"
+            }
+          },
+          {
+            "id": "fb46777688ab3d42",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "daily-notes:Open today's daily note": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
-      "daily-notes:Open today's note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "audio-recorder:Start/stop recording": false,
       "workspaces:Manage workspace layouts": false,
       "terminal:Open terminal": false,
-      "obsidian-statusbar-pomo:Start pomodoro": false
+      "obsidian-statusbar-pomo:Start pomodoro": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "25fc95ede5860ef1",
+  "active": "11b1d460c788f368",
   "lastOpenFiles": [
-    "First year Second Semester Notes/Computer Networks/DHCP.md",
-    "First year Second Semester Notes/Computer Networks/DHCP Practical.md",
-    "Second year First Semester Notes/CNS 2B.pdf",
-    "Second year First Semester Notes/DNDM/Spanning Tree Protocol.md",
-    "Second year First Semester Notes/DNDM/Passwords & Security.md",
-    "Second year First Semester Notes/Data and Voice Communication/Glossary.md",
-    "Second year First Semester Notes/Data and Voice Communication/Line coding.md",
-    "Second year First Semester Notes/Data and Voice Communication/Channel Capacity.md",
-    "Second year First Semester Notes/Data and Voice Communication/Ask.md",
-    "Second year First Semester Notes/Data and Voice Communication/Angle Modulation.md",
-    "Second year First Semester Notes/Data and Voice Communication/Amplitude Modulation.md",
-    "Second year First Semester Notes/DSA/Comb sort.md",
-    "Second year First Semester Notes/Principles of Ethics/Theory of the Voluntary Act.md",
-    "Second year First Semester Notes/Data and Voice Communication/GSM.md",
-    "Second year First Semester Notes/World Civilization I/Islam.md",
-    "Second year First Semester Notes/Data and Voice Communication/Voice over IP.md",
-    "Second year First Semester Notes/Data and Voice Communication/Assignment.md",
-    "Second year First Semester Notes/Data and Voice Communication/FSK.md",
-    "Second year First Semester Notes/Data and Voice Communication/Assingments/ASSIGNMENT 2 answers.md",
-    "Second year First Semester Notes/Data and Voice Communication/Assingments/ASSIGMENT2.pdf",
     "Second year First Semester Notes/DNDM/STP configuration.md",
-    "First year Second Semester Notes/Computer Networks/DHCPv6.md",
-    "Second year First Semester Notes/DNDM/2.2.1 Packet Tracer - Observe STP Toplology Changes.pka",
-    "First year Second Semester Notes/Computer Networks/Ipv6 Theory.md",
-    "First year Second Semester Notes/Computer Networks/Ipv6 Practical.md",
-    "First year Second Semester Notes/Computer Networks/IPv4 Addressing.md",
-    "Second year First Semester Notes/DNDM/Physical Ports.md",
+    "Second year First Semester Notes/DNDM/Spanning Tree Protocol.md",
     "Second year First Semester Notes/DNDM/Recap Subnetting.pptx.pdf",
+    "Second year First Semester Notes/DNDM/portfast.md",
+    "Second year First Semester Notes/DNDM/Spanning.md",
+    "Second year First Semester Notes/DSA/Data Structures.md",
+    "Second year First Semester Notes/DSA/Data Structure in Python.md",
+    "Second year First Semester Notes/DSA/Assignment - Sorting Algorithms.pdf",
+    "Second year First Semester Notes/DSA/CNS - DSA - Algorithms (Sort & Search).pdf",
+    "Second year First Semester Notes/DSA/CNS - DSA - Python Collectables.pdf",
+    "2025-07-24.md",
+    "2025-07-22.md",
+    "Second year First Semester Notes/DSA/Recursion.md",
+    "First year Second Semester Notes/Computer Networks/RFC 790 vs RFC 1918.md",
+    "Second year First Semester Notes/Intro to Cybersecurity/IAAA.md",
+    "Second year First Semester Notes/DNDM/3.3.2.2 Packet Tracer - Configuring Rapid PVST.pka~",
+    "Second year First Semester Notes/DNDM/Glossary.md",
+    "Second year First Semester Notes/DNDM/config.md",
+    "Second year First Semester Notes/DNDM/SSL and TLS.md",
+    "Second year First Semester Notes/DNDM/Physical Ports.md",
+    "Second year First Semester Notes/DNDM/Passwords & Security.md",
+    "Second year First Semester Notes/DNDM/Switch Types.pptx.pdf",
     "Second year First Semester Notes/DNDM/Switches.md",
-    "Second year First Semester Notes/DNDM/dhcp2.pkt",
-    "Second year First Semester Notes/DNDM/dhcp3.pkt",
-    "Second year First Semester Notes/DNDM/dhcp1.pkt"
+    "Second year First Semester Notes/DSA/Linked Lists.md",
+    "Second year First Semester Notes/DSA/Sorting Algorithms.md",
+    "First year Second Semester Notes/Computer Networks/VLAN.md",
+    "First year Second Semester Notes/Computer Networks/VLAN Configuration.md",
+    "Second year First Semester Notes/DNDM/3.3.2.2 Packet Tracer - Configuring Rapid PVST.pka",
+    "2025-08-01.md",
+    "2025-07-25.md",
+    "2025-07-28.md",
+    "2025-07-31.md",
+    "Second year First Semester Notes/DNDM/8.1.2.4 Lab - Configuring Basic DHCPv4 on a Router.docx.pdf",
+    "First year Second Semester Notes/DBMS/exam_sample.pdf",
+    "Second year First Semester Notes/DSA/circular.py"
   ]
 }

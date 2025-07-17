@@ -1,6 +1,7 @@
 ## Lists
 []
-Indexable
+Essentially an array but it's called a list in python.
+Index-able
 Duplicate elements are permitted.
 Can have elements of different data types.
 The elements of a list are mutable.

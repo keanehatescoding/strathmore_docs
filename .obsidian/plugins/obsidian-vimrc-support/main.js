@@ -679,6 +679,8 @@ class VimrcPlugin extends obsidian.Plugin {
         if (!view)
             return;
         let cm = this.getCodeMirror(view);
+        if (!cm)
+            return;
         if (this.getCursorActivityHandlers(cm).some((e) => e.name === "updateSelection"))
             return;
         cm.on("cursorActivity", async (cm) => this.updateSelection(cm));
@@ -700,6 +702,8 @@ class VimrcPlugin extends obsidian.Plugin {
             this.currentVimStatus = "normal" /* vimStatus.normal */;
             if (this.settings.displayVimMode)
                 this.updateVimStatusBar();
+            if (!cmEditor)
+                return;
             cmEditor.off('vim-mode-change', this.logVimModeChange);
             cmEditor.on('vim-mode-change', this.logVimModeChange);
             this.currentKeyChord = [];
@@ -930,7 +934,7 @@ class VimrcPlugin extends obsidian.Plugin {
         // Function to surround selected text or highlighted word.
         var surroundFunc = (params) => {
             var editor = this.getActiveView().editor;
-            if (!params.length) {
+            if (!params?.length) {
                 throw new Error("surround requires exactly 2 parameters: prefix and postfix text.");
             }
             let newArgs = params.join(" ").match(/(\\.|[^\s\\\\]+)+/g);
@@ -959,13 +963,10 @@ class VimrcPlugin extends obsidian.Plugin {
                     chosenSelection = { anchor: wordAt.from, head: wordAt.to };
                 }
             }
-            let currText;
             if (editor.posToOffset(chosenSelection.anchor) > editor.posToOffset(chosenSelection.head)) {
-                currText = editor.getRange(chosenSelection.head, chosenSelection.anchor);
+                [chosenSelection.anchor, chosenSelection.head] = [chosenSelection.head, chosenSelection.anchor];
             }
-            else {
-                currText = editor.getRange(chosenSelection.anchor, chosenSelection.head);
-            }
+            let currText = editor.getRange(chosenSelection.anchor, chosenSelection.head);
             editor.replaceRange(beginning + currText + ending, chosenSelection.anchor, chosenSelection.head);
             // If no selection, place cursor between beginning and ending
             if (editor.posToOffset(chosenSelection.anchor) === editor.posToOffset(chosenSelection.head)) {
@@ -1037,7 +1038,10 @@ class VimrcPlugin extends obsidian.Plugin {
             let parent = this.vimChordStatusBar.parentElement;
             this.vimChordStatusBar.parentElement.insertBefore(this.vimChordStatusBar, parent.firstChild);
             this.vimChordStatusBar.style.marginRight = "auto";
-            let cmEditor = this.getCodeMirror(this.getActiveView());
+            const view = this.getActiveView();
+            if (!view)
+                return;
+            let cmEditor = this.getCodeMirror(view);
             // See https://codemirror.net/doc/manual.html#vimapi_events for events.
             cmEditor.off('vim-keypress', this.onVimKeypress);
             cmEditor.on('vim-keypress', this.onVimKeypress);

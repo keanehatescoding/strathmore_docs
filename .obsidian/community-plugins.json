@@ -1,11 +1,11 @@
 [
   "terminal",
-  "obsidian-zotero-desktop-connector",
   "quick-latex",
   "obsidian-vimrc-support",
   "obsidian-git",
   "obsidian-relative-line-numbers",
   "obsidian-icon-folder",
   "obsidian-statusbar-pomo",
-  "harpoon"
+  "harpoon",
+  "calendar"
 ]

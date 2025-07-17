@@ -6,7 +6,7 @@
 4. Voice VLAN
 5. Management VLAN
 
-The connection that connects the VLAN and the Router is called the trunk.
+The connection that connects the VLAN and the Router is called the __trunk__.
 If you try to assign an interface to a VLAN that does not exist the switch will create that VLAN automatically.
 VLAN1, 1002-1005 exist by default and cannot be deleted.
 VLAN1 is the native VLAN and used to forward any untagged traffic.

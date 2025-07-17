@@ -10,6 +10,8 @@ These are algorithms that are used to sort an data structure usually an array.
 7. Count sort
 8. Radix sort
 9. Bucket sort
+10. Combsort
+11. Bogosort
 
 ## 1. Bubble Sort
 
@@ -132,3 +134,6 @@ Time Complexity - $O(n\log n)$
 
 ## 5. Heap Sort
 
+## Topological sort
+### Applications
+1. Package management- all dependencies of a dependency must be recursively installed before a package is installed.

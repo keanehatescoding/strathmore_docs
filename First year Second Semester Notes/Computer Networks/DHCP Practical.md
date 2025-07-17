@@ -39,7 +39,7 @@ Finally to show your configuration type
 R1# show ip dhcp binding
 ```
 
-# DHCP Relay Configuration
+## DHCP Relay Configuration
 From the router enter the interface that is connected to the PC(s) you want to connect to configure DHCP relaying for i.e in this example we will use interface gigaEthernet0/1.
 ```shell
 R1(config)# interface gigaEthernet0/1

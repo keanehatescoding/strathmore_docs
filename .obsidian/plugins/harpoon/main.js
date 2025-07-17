@@ -27,7 +27,7 @@ __export(main_exports, {
   default: () => HarpoonPlugin
 });
 module.exports = __toCommonJS(main_exports);
-var import_obsidian3 = require("obsidian");
+var import_obsidian4 = require("obsidian");
 
 // src/utils.ts
 var import_obsidian = require("obsidian");
@@ -128,22 +128,42 @@ var HarpoonUtils = class {
   }
 };
 
-// src/harpoon_modal.ts
+// src/settings.ts
 var import_obsidian2 = require("obsidian");
-var HarpoonModal = class extends import_obsidian2.Modal {
-  constructor(app, writeToCache, utils) {
+var HarpoonSettingTab = class extends import_obsidian2.PluginSettingTab {
+  constructor(app, plugin) {
+    super(app, plugin);
+    this.plugin = plugin;
+  }
+  display() {
+    const { containerEl } = this;
+    containerEl.empty();
+    containerEl.createEl("h2", { text: "Harpoon Settings" });
+    new import_obsidian2.Setting(containerEl).setName("Select File Hotkey").setDesc("The key to press to select the currently highlighted file in the modal (e.g. Enter, Space)").addText((text) => text.setPlaceholder("Enter").setValue(this.plugin.settings.selectFileHotkey).onChange(async (value) => {
+      this.plugin.settings.selectFileHotkey = value;
+      await this.plugin.saveSettings();
+    }));
+  }
+};
+
+// src/harpoon_modal.ts
+var import_obsidian3 = require("obsidian");
+var HarpoonModal = class extends import_obsidian3.Modal {
+  constructor(app, writeToCache, utils, plugin) {
     super(app);
     this.hookedFileIdx = 0;
     this.lastKeyPressTime = 0;
     this.hookedFiles = utils.hookedFiles;
     this.writeToCache = writeToCache;
     this.utils = utils;
+    this.plugin = plugin;
   }
   // Lifecycle methods
   onOpen() {
     this.utils.isOpen = true;
     this.setupUI();
     this.renderHookedFiles();
+    this.modalEl.addEventListener("keydown", this.handleKeyDown.bind(this));
   }
   onClose() {
     this.utils.isOpen = false;
@@ -163,11 +183,28 @@ var HarpoonModal = class extends import_obsidian2.Modal {
     }
     this.hookedFiles.forEach((hookedFile, idx) => {
       const hookedEl = this.contentEl.createEl("div", {
-        text: `${idx + 1}. ${hookedFile.path}`,
         cls: "hooked-file tree-item-self is-clickable nav-file-title"
+      });
+      hookedEl.createEl("span", {
+        text: `${idx + 1}. ${hookedFile.path}`,
+        cls: "hooked-file-path"
+      });
+      const deleteBtn = hookedEl.createEl("span", {
+        text: "\xD7",
+        cls: "hooked-file-delete"
+      });
+      deleteBtn.addEventListener("click", (e) => {
+        e.stopPropagation();
+        this.removeFromHarpoon(idx);
       });
       hookedEl.dataset.id = `hooked-file-${idx}`;
       hookedEl.id = `hooked-file-${idx}`;
+    });
+    this.modalEl.addEventListener("keydown", (e) => {
+      if (e.key === "Delete" || e.key === "Backspace") {
+        e.preventDefault();
+        this.removeFromHarpoon(this.hookedFileIdx);
+      }
     });
     this.hookedFileIdx = 0;
     this.highlightHookedFile(0);
@@ -218,6 +255,80 @@ var HarpoonModal = class extends import_obsidian2.Modal {
   resetSelection() {
     this.hookedFileIdx = this.hookedFileIdx === 0 ? this.hookedFiles.length - 1 : 0;
   }
+  handleKeyDown(evt) {
+    if (evt.ctrlKey && evt.shiftKey && evt.code === "KeyD" /* D */) {
+      this.close();
+    } else if (evt.ctrlKey) {
+      this.handleCtrlKeyCommands(evt);
+    } else {
+      this.handleRegularCommands(evt);
+    }
+  }
+  handleCtrlKeyCommands(evt) {
+    switch (evt.code) {
+      case "KeyH" /* H */:
+        this.handleSelection(0);
+        break;
+      case "KeyT" /* T */:
+        this.handleSelection(1);
+        break;
+      case "KeyN" /* N */:
+        this.handleSelection(2);
+        break;
+      case "KeyS" /* S */:
+        this.handleSelection(3);
+        break;
+    }
+  }
+  handleRegularCommands(evt) {
+    if (evt.key === this.plugin.settings.selectFileHotkey) {
+      evt.preventDefault();
+      this.handleSelection(this.hookedFileIdx);
+      return;
+    }
+    let currentTime;
+    switch (evt.code) {
+      case "KeyD" /* D */:
+        currentTime = new Date().getTime();
+        if (currentTime - this.lastKeyPressTime <= 500) {
+          this.removeFromHarpoon(this.hookedFileIdx);
+          break;
+        }
+        this.lastKeyPressTime = currentTime;
+        break;
+      case "KeyP" /* P */:
+        if (evt.shiftKey) {
+          this.insertFileAt(this.hookedFileIdx);
+        } else {
+          this.insertFileAt(this.hookedFileIdx + 1);
+        }
+        break;
+      case "ArrowDown" /* ArrowDown */:
+      case "KeyJ" /* J */:
+        evt.preventDefault();
+        if (this.hookedFileIdx === this.hookedFiles.length - 1) {
+          this.resetSelection();
+          this.highlightHookedFile(this.hookedFileIdx);
+        } else {
+          this.moveSelection(1 /* Down */);
+          this.highlightHookedFile(this.hookedFileIdx);
+        }
+        break;
+      case "ArrowUp" /* ArrowUp */:
+      case "KeyK" /* K */:
+        evt.preventDefault();
+        if (this.hookedFileIdx === 0) {
+          this.resetSelection();
+          this.highlightHookedFile(this.hookedFileIdx);
+        } else {
+          this.moveSelection(-1 /* Up */);
+          this.highlightHookedFile(this.hookedFileIdx);
+        }
+        break;
+      default:
+        break;
+    }
+  }
 };
 
 // src/main.ts
@@ -225,45 +336,29 @@ var DEFAULT_SETTINGS = {
   fileOne: null,
   fileTwo: null,
   fileThree: null,
-  fileFour: null
+  fileFour: null,
+  selectFileHotkey: "Enter"
 };
-var HarpoonPlugin = class extends import_obsidian3.Plugin {
-  // Constructor initializes the plugin with the app and manifest
+var HarpoonPlugin = class extends import_obsidian4.Plugin {
   constructor(app, manifest) {
     super(app, manifest);
     this.isLoaded = false;
     this.utils = new HarpoonUtils(app);
   }
-  // Called when the plugin is loaded
-  onload() {
-    this.loadSettings();
+  async onload() {
+    await this.loadSettings();
     this.loadHarpoonCache();
     this.registerCommands();
     this.registerDomEvents();
-    this.registerEvent(
-      this.app.workspace.on(
-        "file-open",
-        (file) => this.handleFileChange(file)
-      )
-    );
-    this.registerEvent(
-      this.app.workspace.on("active-leaf-change", (leaf) => {
-        if ((leaf == null ? void 0 : leaf.view) instanceof import_obsidian3.MarkdownView) {
-          const file = leaf == null ? void 0 : leaf.view.file;
-          this.showInStatusBar("Wooo");
-          if (file) {
-            this.handleFileChange(file);
-          }
-        }
-      })
-    );
+    this.addSettingTab(new HarpoonSettingTab(this.app, this));
     this.utils.editorIsLoaded();
   }
-  // Load plugin settings
-  loadSettings() {
-    this.settings = Object.assign({}, DEFAULT_SETTINGS);
+  async loadSettings() {
+    this.settings = Object.assign({}, DEFAULT_SETTINGS, await this.loadData());
   }
-  // Register plugin commands
+  async saveSettings() {
+    await this.saveData(this.settings);
+  }
   registerCommands() {
     this.addCommand({
       id: "open",
@@ -272,7 +367,8 @@ var HarpoonPlugin = class extends import_obsidian3.Plugin {
         this.modal = new HarpoonModal(
           this.app,
           (hFiles) => this.writeHarpoonCache(hFiles),
-          this.utils
+          this.utils,
+          this
         );
         this.modal.open();
       }
@@ -310,144 +406,24 @@ var HarpoonPlugin = class extends import_obsidian3.Plugin {
       });
     }
   }
-  // Handle file change event
-  handleFileChange(newFile) {
-    const activeLeaf = this.app.workspace.getLeaf();
-    if (!activeLeaf)
-      return;
-    const oldFilePath = this.app.workspace.getLastOpenFiles()[1];
-    const oldFile = oldFilePath ? this.app.vault.getAbstractFileByPath(oldFilePath) : null;
-    const oldEditor = activeLeaf.view instanceof import_obsidian3.Editor ? activeLeaf.view : null;
-    if (oldFile instanceof import_obsidian3.TFile && oldEditor) {
-      const oldCursor = oldEditor.getCursor();
-      this.updateHookedFileCursor(oldFile, oldCursor);
-    }
-    if (newFile) {
-      this.utils.editorIsLoaded(() => {
-        var _a, _b;
-        const newLeaf = this.app.workspace.getLeaf();
-        if (!newLeaf)
-          return;
-        const newEditor = newLeaf.view instanceof import_obsidian3.Editor ? newLeaf.view : null;
-        if (newEditor) {
-          const savedCursor = this.getSavedCursor(newFile);
-          if (savedCursor) {
-            newEditor.setCursor(savedCursor);
-            (_b = (_a = this.app.workspace.activeEditor) == null ? void 0 : _a.editor) == null ? void 0 : _b.scrollTo(
-              savedCursor.ch,
-              savedCursor.line
-            );
-          }
-        }
-      });
-    }
-  }
-  // Update cursor position for a hooked file
-  updateHookedFileCursor(file, cursor) {
-    const hookedFile = this.utils.hookedFiles.find(
-      (f) => f.path === file.path
-    );
-    if (hookedFile) {
-      hookedFile.cursor = cursor;
-      this.writeHarpoonCache();
-    }
-  }
-  // Get saved cursor position for a file
-  getSavedCursor(file) {
-    const hookedFile = this.utils.hookedFiles.find(
-      (f) => f.path === file.path
-    );
-    return hookedFile ? hookedFile.cursor : null;
-  }
-  // Register DOM events
   registerDomEvents() {
     this.registerDomEvent(
       document,
       "keydown",
-      this.handleKeyDown.bind(this)
+      (evt) => {
+        const { modal } = this;
+        if (!modal || !this.utils.isOpen)
+          return;
+        if (evt.ctrlKey && evt.shiftKey && evt.code === "KeyD" /* D */) {
+          modal.close();
+        } else if (evt.ctrlKey) {
+          modal.handleCtrlKeyCommands(evt);
+        } else {
+          modal.handleRegularCommands(evt);
+        }
+      }
     );
   }
-  // Handle keydown events
-  handleKeyDown(evt) {
-    const { modal } = this;
-    if (!modal || !this.utils.isOpen)
-      return;
-    if (evt.ctrlKey && evt.shiftKey && evt.code === "KeyD" /* D */) {
-      modal.close();
-    } else if (evt.ctrlKey) {
-      this.handleCtrlKeyCommands(evt);
-    } else {
-      this.handleRegularCommands(evt);
-    }
-  }
-  // Handle Ctrl key combinations
-  handleCtrlKeyCommands(evt) {
-    const { modal } = this;
-    switch (evt.code) {
-      case "KeyH" /* H */:
-        modal.handleSelection(0);
-        break;
-      case "KeyT" /* T */:
-        modal.handleSelection(1);
-        break;
-      case "KeyN" /* N */:
-        modal.handleSelection(2);
-        break;
-      case "KeyS" /* S */:
-        modal.handleSelection(3);
-        break;
-    }
-  }
-  // Handle regular key commands
-  handleRegularCommands(evt) {
-    const { modal } = this;
-    switch (evt.code) {
-      case "Enter" /* Enter */:
-        evt.preventDefault();
-        modal.handleSelection(modal.hookedFileIdx);
-        break;
-      case "KeyD" /* D */:
-        const currentTime = new Date().getTime();
-        if (currentTime - modal.lastKeyPressTime <= 500) {
-          modal.removeFromHarpoon(modal.hookedFileIdx);
-          break;
-        }
-        modal.lastKeyPressTime = currentTime;
-        break;
-      case "KeyP" /* P */:
-        if (evt.shiftKey) {
-          modal.insertFileAt(modal.hookedFileIdx);
-        } else {
-          modal.insertFileAt(modal.hookedFileIdx + 1);
-        }
-        break;
-      case "ArrowDown" /* ArrowDown */:
-      case "KeyJ" /* J */:
-        evt.preventDefault();
-        if (modal.hookedFileIdx === this.utils.hookedFiles.length - 1) {
-          modal.resetSelection();
-          modal.highlightHookedFile(modal.hookedFileIdx);
-        } else {
-          modal.moveSelection(1 /* Down */);
-          modal.highlightHookedFile(modal.hookedFileIdx);
-        }
-        break;
-      case "ArrowUp" /* ArrowUp */:
-      case "KeyK" /* K */:
-        evt.preventDefault();
-        if (modal.hookedFileIdx === 0) {
-          modal.resetSelection();
-          modal.highlightHookedFile(modal.hookedFileIdx);
-        } else {
-          modal.moveSelection(-1 /* Up */);
-          modal.highlightHookedFile(modal.hookedFileIdx);
-        }
-        break;
-      default:
-        break;
-    }
-  }
-  // Load harpoon cache from file
   loadHarpoonCache() {
     console.log("Loading file");
     this.app.vault.adapter.read(CACHE_FILE).then((content) => {
@@ -458,7 +434,7 @@ var HarpoonPlugin = class extends import_obsidian3.Plugin {
       this.writeHarpoonCache();
     });
   }
-  // Write harpoon cache to file
+  // Updates the cache file and the hookedFiles
   writeHarpoonCache(hookedFiles = null) {
     this.app.vault.adapter.write(
       CACHE_FILE,
@@ -468,7 +444,6 @@ var HarpoonPlugin = class extends import_obsidian3.Plugin {
       this.utils.hookedFiles = hookedFiles;
     }
   }
-  // Add a file to harpoon
   async addToHarpoon(file) {
     if (this.utils.hookedFiles.some((f) => f.path === file.path)) {
       return;
@@ -484,7 +459,7 @@ var HarpoonPlugin = class extends import_obsidian3.Plugin {
       this.showInStatusBar(`File ${file.name} added to harpoon`);
     }
   }
-  // Show message in status bar
+  // Visual queues
   showInStatusBar(text, time = 5e3) {
     const statusBarItemEl = this.addStatusBarItem();
     statusBarItemEl.setText(text);

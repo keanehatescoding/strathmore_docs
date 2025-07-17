@@ -1,0 +1,50 @@
+# SW1 Configuration
+
+enable
+configure terminal
+hostname SW2
+banner motd @ no unauthorized access @
+ip domain-name dndm.test
+username user password class priv 15
+no ip domain lookup
+ip ssh version 2
+crypto key generate rsa
+line con 6
+password class
+login line ty 0 15
+transport input ssh
+login local
+exit
+vlan 10
+name Faculty
+vlan 20
+name Student
+vlan 30
+name Guest
+vlan 190
+name Native
+exit
+int vlan 10
+ip add 192.168.100.5
+no shut
+exit
+int range fa0/1-8
+switchport mode access
+swithcport access vlan 10
+int range fa0/9-16
+switchport mode access
+switchport access vlan 20
+int range fa0/17-24
+switchport mode access
+switchport acess vlan 30
+exit
+switchport mode trunk
+switchport mode nonnegotiate
+switchport trunk native vlan 199
+swithcport allowed vlans 1,10,20,30,199
+
+# SW2 Configuration
+
+enable
+configure terminal
+switchport mo

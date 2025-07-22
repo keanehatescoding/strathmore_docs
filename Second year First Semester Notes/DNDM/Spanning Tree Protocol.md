@@ -66,15 +66,15 @@ Interfaces in a blocking state:
 4. Does not learn mac adderess from regular traffic that reaches the interface.
 5. Do not forward regular traffic.
 
-The listening state is __15 secs__ by default. This is determined by the __forward delay timer__.
+When a port in blocking state switches to listening state by default it remains in listening state __15 secs__. This is determined by the __forward delay__ timer.
 Interfaces in the listening state:
-1. Receive STP <abbr title="Bridge Protocal Data Unit">BPDU</abbr> frames.
-2. Forward STP <abbr title="Bridge Protocal Data Unit">BPDU</abbr> frames.
+1. Can receive STP <abbr title="Bridge Protocal Data Unit">BPDU</abbr> frames.
+2. Can Forward STP <abbr title="Bridge Protocal Data Unit">BPDU</abbr> frames.
 3. Does not learn mac address from regular traffic that reaches the interface.
 4. Do not forward regular traffic.
 5. Do not receive regular frames.
 
-The learning state is __15 secs__ by default. This is known as the default __forward delay timer__ and may be changed.
+The learning state is __15 secs__ by default. This is known as the default __forward delay__ timer but may be changed.
 Interfaces in the learning state:
 1. Receive STP <abbr title="Bridge Protocol Data Unit">BPDU</abbr> frames.
 2. Forward STP <abbr title="Bridge Protocol Data Unit">BPDU</abbr> frames.

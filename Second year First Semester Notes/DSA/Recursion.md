@@ -5,6 +5,7 @@ Space complexity for the complexity for a basic recursive algorithm is $O(n)$
 Recursive data structures are:
 1. Linked List
 2. Trees
+3. Graphs
 
 Fibonacci sequence
 $$f(0) = 0, f(1)= 1$$

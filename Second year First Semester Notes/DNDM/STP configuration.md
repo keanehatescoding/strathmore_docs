@@ -5,6 +5,10 @@ To enable [[Spanning Tree Protocol#Portfast|portfast]] in stp type the following
 ```shell
 spanning-tree portfast
 ```
+To enable [[Spanning Tree Protocol#Portfast|portfast]] by default type:
+```shell
+spanning-tree portfast default
+```
 To enable [[Spanning Tree Protocol#BPDU Guard|BDPU Guard]] in stp type the following in the switch:
 ```shell
 spanning-tree bpduguard enable
@@ -12,6 +16,19 @@ spanning-tree bpduguard enable
 To enable [[Spanning Tree Protocol#BPDU Guard| BPDU Guard]] by __default__ for <abbr title="Spanning Tree Protocol">STP</abbr> type the following:
 ```shell
 spanning-tree portfast bpduguard default
+```
+To see the status of a ErrDisable Recovery on a Switch
+```
+show errDisable recovery
+```
+To enable ErrDisable Recovery for a particular cause type:
+```
+errdisable recovery cause causer
+```
+where causer is something like bpdu guard.
+To modify the ErrDisable recovery time type:
+```shell
+errdisable recovery interval seconds
 ```
 Spanning tree has 3 modes
 ```shell

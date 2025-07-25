@@ -1,3 +1,12 @@
+By default when we enter a Cisco switch we enter user EXEC mode which has a prompt as shown below
+```shell
+R1>
+```
+We can enter privileged execution mode by typing enable as shown below
+```shell
+R1>enable
+R1#
+```
 To secure user EXEC mode access type:
 ```bash
 S!# configure terminal
@@ -8,8 +17,13 @@ S1(config-line)# end
 S1#
 ```
 The login command is used to enable user EXEC access.
-
-To secure privileged access mode type:
+To protect privileged access mode with an unencrypted password type:
+```shell
+enable
+configure terminal
+enable password class
+```
+To secure privileged access mode type with a md5-hashed password type:
 ```shell
 S1# configure terminal
 S1(config)# enable secret class

@@ -1,7 +1,7 @@
 Defined in __802.1D__
 Switches on all routers run STP by default.
 This protocol is used to prevent __broadcast storms__ in networks with more than 1 switch.
-A broadcast storm is a situation where a broadcast frame is infinitely send over two or more switches because frames lack a TTL.
+A broadcast storm is a situation where a broadcast frame is repeatedly send over two or more switches because frames lack a TTL.
 Root bridge is the switch with the __lowest bridge id__.
 Bridge id is a field concatenated from a bridge priority + mac address of a switch.
 The default bridge priority for all switches is 32768.
@@ -109,8 +109,10 @@ NB: It should be noted that using plain portfast comes with a risk and may cause
 
 ## BPDU Guard
 Since using plain portfast comes at a risk <abbr title ="Bridge Protocol Data Unit">BPDU</abbr> Guard was created.
-If an interface with <abbr title ="Bridge Protocol Data Unit">BPDU</abbr> Guard receives a Hello <abbr title ="Bridge Protocol Data Unit">BPDU</abbr> frame another switch, the interface will be shutdown to prevent a loop from forming.
-If a port receives a <abbr title ="Bridge Protocol Data Unit">BPDU</abbr> frame while it has <abbr title="Bridge Protocol Data Unit">BPDU</abbr> Guard enabled them it is changed to error-disabled state. To enable it again you need to shut it down first then no shutdown it.
+If an interface with <abbr title ="Bridge Protocol Data Unit">BPDU</abbr> Guard receives a Hello <abbr title ="Bridge Protocol Data Unit">BPDU</abbr> frame another switch, the interface will be error-disabled to prevent a loop from forming.
+To enable it again you need to shut it down first then no shutdown it.
+If you want a port that is error disabled to be restarted automatically you can enabled __ErrDisable recovery__. The default ErrDisable recovery time is 5 minutes or 300 seconds.
+
 
 In addition to <abbr title="Bridge Protocol Data Unit">BPDU</abbr> Guard we also have root guard and loop guard. If a switch's interface is __root guard__ enabled then if it receives a frame with the superior <abbr title="Bridge Protocol Data Unit">BPDU</abbr> on that interface, the switch will not accept the new switch as the root switch.
 Additionally, if a Loop guard, If an interface is __loop guard__ enabled then if it stops receiving <abbr title="Bridge Protocol Data Unit">BPDU</abbr> then it will not start forwarding them. The interface is disabled.

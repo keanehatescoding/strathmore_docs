@@ -5,7 +5,7 @@ He retreated to Mecca and got some more followers before coming back and conquer
 He died two years later.
 
 ## 1. Confession(Shahada)
-It quotes "I witness to one and no any other God but Allah and Mohammed his prophet"
+It quotes "I witness to one and no God but Allah and Mohammed his prophet"
 
 ## 2. Prayer(Salat)
 Muslims pray 5 times a day facing Mecca.
@@ -14,7 +14,7 @@ Muslims pray 5 times a day facing Mecca.
 Muslims give alms to the poor and destitute in society.
 For this purpose they tax themselves at a rate of 22% for each physical property.
 
-## 4. Fasting ()
+## 4. Fasting (Sawn)
 Muslims fast at the month of Ramadhan.
 Reasons:
 1. It is a way of chasing away demons.

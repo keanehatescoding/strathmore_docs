@@ -1,96 +1,37 @@
 {
   "main": {
-    "id": "b99928c8d7eb2c32",
+    "id": "1f8c0399843aba7f",
     "type": "split",
     "children": [
       {
-        "id": "2c8c0ad1d0031eee",
-        "type": "split",
+        "id": "f9d82c228e91bd98",
+        "type": "tabs",
         "children": [
           {
-            "id": "3747f6eb0c46526f",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "dec7c1e6d4ca2a6e",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Second year First Semester Notes/Internet Programming/PHP/Variables.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "Variables"
-                }
-              }
-            ]
-          },
-          {
-            "id": "1526b7a5417acdd0",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "0aa759563130f978",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "terminal:terminal",
-                  "state": {
-                    "terminal:terminal": {
-                      "cwd": "/home/keane/vaults/strathmore_docs",
-                      "focus": false,
-                      "profile": {
-                        "args": [],
-                        "executable": "/bin/sh",
-                        "name": "",
-                        "platforms": {
-                          "linux": true
-                        },
-                        "pythonExecutable": "python3",
-                        "restoreHistory": true,
-                        "successExitCodes": [
-                          "0",
-                          "SIGINT",
-                          "SIGTERM"
-                        ],
-                        "terminalOptions": {
-                          "documentOverride": null
-                        },
-                        "type": "integrated",
-                        "useWin32Conhost": true
-                      },
-                      "serial": {
-                        "columns": 133,
-                        "data": "sh-5.3$ pwd\r\n/home/keane/vaults/strathmore_docs\r\nsh-5.3$ git add .\r\nsh-5.3$ git status\r\nOn branch master\r\nYour branch is up to date with 'origin/master'.\r\n\r\nChanges to be committed:\r\n  (use \"git restore --staged <file>...\" to unstage)\r\n\u001b[8C\u001b[32mmodified:   .obsidian/community-plugins.json\r\n\u001b[8Cmodified:   .obsidian/graph.json\r\n\u001b[8Cnew file:   .obsidian/plugins/docxer/main.js\r\n\u001b[8Cnew file:   .obsidian/plugins/docxer/manifest.json\r\n\u001b[8Cnew file:   .obsidian/plugins/docxer/styles.css\r\n\u001b[8Cmodified:   .obsidian/workspace.json\r\n\u001b[8Cmodified:   First year Second Semester Notes/Computer Networks/Data Link Layer.md\r\n\u001b[8Cnew file:   First year Second Semester Notes/Computer Networks/Routing.md\r\n\u001b[8Cmodified:   First year Second Semester Notes/Computer Networks/VLAN Configuration.md\r\n\u001b[8Cmodified:   First year Second Semester Notes/Computer Networks/VLAN.md\r\n\u001b[8Crenamed:    Second year First Semester Notes/Data and Voice Communication/Ask.md -> Second year First Semester Notes/Data and Voice Communication/ASK.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Data and Voice Communication/Amplitude Modulation.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Data and Voice Communication/Data Communication.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Data and Voice Communication/Digital Signal Transmission.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Data and Voice Communication/FSK.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Data and Voice Communication/GSM.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Data and Voice Communication/Glossary.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Data and Voice Communication/Modulation.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Data and Voice Communication/Nyquist-Shanon Sampling Theoerem.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Data and Voice Communication/Phase modulation.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Data and Voice Communication/Pulse Code Modulation.md\r\n\u001b[8Cnew file:   Second year First Semester Notes/Data and Voice Communication/SNR.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Data and Voice Communication/Signal Impairment.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Data and Voice Communication/Signals.md\r\n\u001b[8Cnew file:   Second year First Semester Notes/Internet Programming/Past Papers/CNS 2106 - Internet programming - August 2022.pdf\r\n\u001b[8Cnew file:   Second year First Semester Notes/Internet Programming/Past Papers/CNS 2106 - Internet programming - July 2023.pdf\r\n\u001b[8Cnew file:   Second year First Semester Notes/Internet Programming/Past Papers/CNS2106 Course Outline.pdf\r\n\u001b[8Cnew file:   Second year First Semester Notes/Intro to Cybersecurity/Authentication.md\r\n\u001b[8Cnew file:   Second year First Semester Notes/Intro to Cybersecurity/Compliance.pdf\r\n\u001b[8Cmodified:   Second year First Semester Notes/Intro to Cybersecurity/Defense in Depth.md\r\n\u001b[8Cnew file:   Second year First Semester Notes/Intro to Cybersecurity/Encryption.pptx\r\n\u001b[8Cmodified:   Second year First Semester Notes/Intro to Cybersecurity/IAAA.md\r\n\u001b[8Cnew file:   Second year First Semester Notes/Intro to Cybersecurity/Introduction to Cyber security (2).pdf\r\n\u001b[8Cnew file:   Second year First Semester Notes/Intro to Cybersecurity/Risk.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Intro to Cybersecurity/Safeguards.md\r\n\u001b[8Cnew file:   Second year First Semester Notes/Intro to Cybersecurity/Threats.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Principles of Ethics/Ethical Approaches.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Principles of Ethics/Ethics.md\r\n\u001b[8Cnew file:   Second year First Semester Notes/Principles of Ethics/Natural Law vs Moral law.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Principles of Ethics/Theory of the Voluntary Act.md\r\n\u001b[8Cnew file:   Second year First Semester Notes/Principles of Ethics/Triple Font Theory.md\r\n\u001b[8Cnew file:   Second year First Semester Notes/Principles of Ethics/Untitled.md\r\n\r\n\u001b[0mChanges not staged for commit:\r\n  (use \"git add <file>...\" to update what will be committed)\r\n  (use \"git restore <file>...\" to discard changes in working directory)\r\n\u001b[8C\u001b[31mmodified:   .obsidian/workspace.json\r\n\r\n\u001b[0msh-5.3$ git add .\r\nsh-5.3$ git status\r\nOn branch master\r\nYour branch is up to date with 'origin/master'.\r\n\r\nChanges to be committed:\r\n  (use \"git restore --staged <file>...\" to unstage)\r\n\u001b[8C\u001b[32mmodified:   .obsidian/community-plugins.json\r\n\u001b[8Cmodified:   .obsidian/graph.json\r\n\u001b[8Cnew file:   .obsidian/plugins/docxer/main.js\r\n\u001b[8Cnew file:   .obsidian/plugins/docxer/manifest.json\r\n\u001b[8Cnew file:   .obsidian/plugins/docxer/styles.css\r\n\u001b[8Cmodified:   .obsidian/workspace.json\r\n\u001b[8Cmodified:   First year Second Semester Notes/Computer Networks/Data Link Layer.md\r\n\u001b[8Cnew file:   First year Second Semester Notes/Computer Networks/Routing.md\r\n\u001b[8Cmodified:   First year Second Semester Notes/Computer Networks/VLAN Configuration.md\r\n\u001b[8Cmodified:   First year Second Semester Notes/Computer Networks/VLAN.md\r\n\u001b[8Crenamed:    Second year First Semester Notes/Data and Voice Communication/Ask.md -> Second year First Semester Notes/Data and Voice Communication/ASK.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Data and Voice Communication/Amplitude Modulation.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Data and Voice Communication/Data Communication.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Data and Voice Communication/Digital Signal Transmission.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Data and Voice Communication/FSK.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Data and Voice Communication/GSM.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Data and Voice Communication/Glossary.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Data and Voice Communication/Modulation.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Data and Voice Communication/Nyquist-Shanon Sampling Theoerem.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Data and Voice Communication/Phase modulation.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Data and Voice Communication/Pulse Code Modulation.md\r\n\u001b[8Cnew file:   Second year First Semester Notes/Data and Voice Communication/SNR.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Data and Voice Communication/Signal Impairment.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Data and Voice Communication/Signals.md\r\n\u001b[8Cnew file:   Second year First Semester Notes/Internet Programming/Past Papers/CNS 2106 - Internet programming - August 2022.pdf\r\n\u001b[8Cnew file:   Second year First Semester Notes/Internet Programming/Past Papers/CNS 2106 - Internet programming - July 2023.pdf\r\n\u001b[8Cnew file:   Second year First Semester Notes/Internet Programming/Past Papers/CNS2106 Course Outline.pdf\r\n\u001b[8Cnew file:   Second year First Semester Notes/Intro to Cybersecurity/Authentication.md\r\n\u001b[8Cnew file:   Second year First Semester Notes/Intro to Cybersecurity/Compliance.pdf\r\n\u001b[8Cmodified:   Second year First Semester Notes/Intro to Cybersecurity/Defense in Depth.md\r\n\u001b[8Cnew file:   Second year First Semester Notes/Intro to Cybersecurity/Encryption.pptx\r\n\u001b[8Cmodified:   Second year First Semester Notes/Intro to Cybersecurity/IAAA.md\r\n\u001b[8Cnew file:   Second year First Semester Notes/Intro to Cybersecurity/Introduction to Cyber security (2).pdf\r\n\u001b[8Cnew file:   Second year First Semester Notes/Intro to Cybersecurity/Risk.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Intro to Cybersecurity/Safeguards.md\r\n\u001b[8Cnew file:   Second year First Semester Notes/Intro to Cybersecurity/Threats.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Principles of Ethics/Ethical Approaches.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Principles of Ethics/Ethics.md\r\n\u001b[8Cnew file:   Second year First Semester Notes/Principles of Ethics/Natural Law vs Moral law.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Principles of Ethics/Theory of the Voluntary Act.md\r\n\u001b[8Cnew file:   Second year First Semester Notes/Principles of Ethics/Triple Font Theory.md\r\n\u001b[8Cnew file:   Second year First Semester Notes/Principles of Ethics/Untitled.md\r\n\r\n\u001b[0mChanges not staged for commit:\r\n  (use \"git add <file>...\" to update what will be committed)\r\n  (use \"git restore <file>...\" to discard changes in working directory)\r\n\u001b[8C\u001b[31mmodified:   .obsidian/workspace.json\r\n\r\n\u001b[0msh-5.3$ pwd\r\n/home/keane/vaults/strathmore_docs\r\nsh-5.3$ ls -la\r\ntotal 40\r\ndrwxr-xr-x 1 keane keane 484 Aug  4 12:48  .\r\ndrwxr-xr-x 1 keane keane 146 Jul 27 16:32  ..\r\n-rw-r--r-- 1 keane keane  35 Jul 14 13:17  2025-07-22.md\r\n-rw-r--r-- 1 keane keane  39 Jul 14 13:17  2025-07-24.md\r\n-rw-r--r-- 1 keane keane  61 Jul 14 13:16  2025-07-25.md\r\n-rw-r--r-- 1 keane keane  50 Jul 14 13:20  2025-07-28.md\r\n-rw-r--r-- 1 keane keane  53 Jul 14 13:18  2025-07-30.md\r\n-rw-r--r-- 1 keane keane  58 Jul 14 13:19  2025-07-31.md\r\n-rw-r--r-- 1 keane keane  59 Jul 14 13:22  2025-08-01.md\r\ndrwxr-xr-x 1 keane keane 234 Dec 18  2024 'First year First Semester Notes'\r\ndrwxr-xr-x 1 keane keane 192 Dec  7  2024 'First year Second Semester Notes'\r\ndrwxr-xr-x 1 keane keane 204 Aug  4 12:49  .git\r\n-rw-r--r-- 1 keane keane  19 Jul  7 02:18  .gitignore\r\n-rw-r--r-- 1 keane keane   2 Jun  3 12:36  harpoon-cache.json\r\ndrwxr-xr-x 1 keane keane 292 May 24 21:51  .obsidian\r\n-rw-r--r-- 1 keane keane  28 Dec  4  2024  .obsidian.vimrc\r\ndrwxr-xr-x 1 keane keane 486 Jun 10 15:12 'Second year First Semester Notes'\r\nsh-5.3$ cd ..\r\nsh-5.3$ ls\r\ncodepass  neetcode  os\u001b[2Cpersonal  PHP  php_weather_app\u001b[2Cstrathmore_docs  test  WeatherApp\r\nsh-5.3$ cd strathmore_docs/\r\nsh-5.3$ git status\r\nOn branch master\r\nYour branch is up to date with 'origin/master'.\r\n\r\nChanges to be committed:\r\n  (use \"git restore --staged <file>...\" to unstage)\r\n\u001b[8C\u001b[32mmodified:   .obsidian/community-plugins.json\r\n\u001b[8Cmodified:   .obsidian/graph.json\r\n\u001b[8Cnew file:   .obsidian/plugins/docxer/main.js\r\n\u001b[8Cnew file:   .obsidian/plugins/docxer/manifest.json\r\n\u001b[8Cnew file:   .obsidian/plugins/docxer/styles.css\r\n\u001b[8Cmodified:   .obsidian/workspace.json\r\n\u001b[8Cmodified:   First year Second Semester Notes/Computer Networks/Data Link Layer.md\r\n\u001b[8Cnew file:   First year Second Semester Notes/Computer Networks/Routing.md\r\n\u001b[8Cmodified:   First year Second Semester Notes/Computer Networks/VLAN Configuration.md\r\n\u001b[8Cmodified:   First year Second Semester Notes/Computer Networks/VLAN.md\r\n\u001b[8Crenamed:    Second year First Semester Notes/Data and Voice Communication/Ask.md -> Second year First Semester Notes/Data and Voice Communication/ASK.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Data and Voice Communication/Amplitude Modulation.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Data and Voice Communication/Data Communication.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Data and Voice Communication/Digital Signal Transmission.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Data and Voice Communication/FSK.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Data and Voice Communication/GSM.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Data and Voice Communication/Glossary.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Data and Voice Communication/Modulation.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Data and Voice Communication/Nyquist-Shanon Sampling Theoerem.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Data and Voice Communication/Phase modulation.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Data and Voice Communication/Pulse Code Modulation.md\r\n\u001b[8Cnew file:   Second year First Semester Notes/Data and Voice Communication/SNR.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Data and Voice Communication/Signal Impairment.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Data and Voice Communication/Signals.md\r\n\u001b[8Cnew file:   Second year First Semester Notes/Internet Programming/Past Papers/CNS 2106 - Internet programming - August 2022.pdf\r\n\u001b[8Cnew file:   Second year First Semester Notes/Internet Programming/Past Papers/CNS 2106 - Internet programming - July 2023.pdf\r\n\u001b[8Cnew file:   Second year First Semester Notes/Internet Programming/Past Papers/CNS2106 Course Outline.pdf\r\n\u001b[8Cnew file:   Second year First Semester Notes/Intro to Cybersecurity/Authentication.md\r\n\u001b[8Cnew file:   Second year First Semester Notes/Intro to Cybersecurity/Compliance.pdf\r\n\u001b[8Cmodified:   Second year First Semester Notes/Intro to Cybersecurity/Defense in Depth.md\r\n\u001b[8Cnew file:   Second year First Semester Notes/Intro to Cybersecurity/Encryption.pptx\r\n\u001b[8Cmodified:   Second year First Semester Notes/Intro to Cybersecurity/IAAA.md\r\n\u001b[8Cnew file:   Second year First Semester Notes/Intro to Cybersecurity/Introduction to Cyber security (2).pdf\r\n\u001b[8Cnew file:   Second year First Semester Notes/Intro to Cybersecurity/Risk.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Intro to Cybersecurity/Safeguards.md\r\n\u001b[8Cnew file:   Second year First Semester Notes/Intro to Cybersecurity/Threats.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Principles of Ethics/Ethical Approaches.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Principles of Ethics/Ethics.md\r\n\u001b[8Cnew file:   Second year First Semester Notes/Principles of Ethics/Natural Law vs Moral law.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Principles of Ethics/Theory of the Voluntary Act.md\r\n\u001b[8Cnew file:   Second year First Semester Notes/Principles of Ethics/Triple Font Theory.md\r\n\u001b[8Cnew file:   Second year First Semester Notes/Principles of Ethics/Untitled.md\r\n\r\n\u001b[0mChanges not staged for commit:\r\n  (use \"git add <file>...\" to update what will be committed)\r\n  (use \"git restore <file>...\" to discard changes in working directory)\r\n\u001b[8C\u001b[31mmodified:   .obsidian/workspace.json\r\n\r\n\u001b[0msh-5.3$ git add .obsidian/workspace.json \r\nsh-5.3$ git status\r\nOn branch master\r\nYour branch is up to date with 'origin/master'.\r\n\r\nChanges to be committed:\r\n  (use \"git restore --staged <file>...\" to unstage)\r\n\u001b[8C\u001b[32mmodified:   .obsidian/community-plugins.json\r\n\u001b[8Cmodified:   .obsidian/graph.json\r\n\u001b[8Cnew file:   .obsidian/plugins/docxer/main.js\r\n\u001b[8Cnew file:   .obsidian/plugins/docxer/manifest.json\r\n\u001b[8Cnew file:   .obsidian/plugins/docxer/styles.css\r\n\u001b[8Cmodified:   .obsidian/workspace.json\r\n\u001b[8Cmodified:   First year Second Semester Notes/Computer Networks/Data Link Layer.md\r\n\u001b[8Cnew file:   First year Second Semester Notes/Computer Networks/Routing.md\r\n\u001b[8Cmodified:   First year Second Semester Notes/Computer Networks/VLAN Configuration.md\r\n\u001b[8Cmodified:   First year Second Semester Notes/Computer Networks/VLAN.md\r\n\u001b[8Crenamed:    Second year First Semester Notes/Data and Voice Communication/Ask.md -> Second year First Semester Notes/Data and Voice Communication/ASK.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Data and Voice Communication/Amplitude Modulation.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Data and Voice Communication/Data Communication.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Data and Voice Communication/Digital Signal Transmission.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Data and Voice Communication/FSK.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Data and Voice Communication/GSM.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Data and Voice Communication/Glossary.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Data and Voice Communication/Modulation.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Data and Voice Communication/Nyquist-Shanon Sampling Theoerem.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Data and Voice Communication/Phase modulation.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Data and Voice Communication/Pulse Code Modulation.md\r\n\u001b[8Cnew file:   Second year First Semester Notes/Data and Voice Communication/SNR.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Data and Voice Communication/Signal Impairment.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Data and Voice Communication/Signals.md\r\n\u001b[8Cnew file:   Second year First Semester Notes/Internet Programming/Past Papers/CNS 2106 - Internet programming - August 2022.pdf\r\n\u001b[8Cnew file:   Second year First Semester Notes/Internet Programming/Past Papers/CNS 2106 - Internet programming - July 2023.pdf\r\n\u001b[8Cnew file:   Second year First Semester Notes/Internet Programming/Past Papers/CNS2106 Course Outline.pdf\r\n\u001b[8Cnew file:   Second year First Semester Notes/Intro to Cybersecurity/Authentication.md\r\n\u001b[8Cnew file:   Second year First Semester Notes/Intro to Cybersecurity/Compliance.pdf\r\n\u001b[8Cmodified:   Second year First Semester Notes/Intro to Cybersecurity/Defense in Depth.md\r\n\u001b[8Cnew file:   Second year First Semester Notes/Intro to Cybersecurity/Encryption.pptx\r\n\u001b[8Cmodified:   Second year First Semester Notes/Intro to Cybersecurity/IAAA.md\r\n\u001b[8Cnew file:   Second year First Semester Notes/Intro to Cybersecurity/Introduction to Cyber security (2).pdf\r\n\u001b[8Cnew file:   Second year First Semester Notes/Intro to Cybersecurity/Risk.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Intro to Cybersecurity/Safeguards.md\r\n\u001b[8Cnew file:   Second year First Semester Notes/Intro to Cybersecurity/Threats.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Principles of Ethics/Ethical Approaches.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Principles of Ethics/Ethics.md\r\n\u001b[8Cnew file:   Second year First Semester Notes/Principles of Ethics/Natural Law vs Moral law.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Principles of Ethics/Theory of the Voluntary Act.md\r\n\u001b[8Cnew file:   Second year First Semester Notes/Principles of Ethics/Triple Font Theory.md\r\n\u001b[8Cnew file:   Second year First Semester Notes/Principles of Ethics/Untitled.md\r\n\r\n\u001b[0mChanges not staged for commit:\r\n  (use \"git add <file>...\" to update what will be committed)\r\n  (use \"git restore <file>...\" to discard changes in working directory)\r\n\u001b[8C\u001b[31mmodified:   .obsidian/workspace.json\r\n\r\n\u001b[0msh-5.3$ git status\r\nOn branch master\r\nYour branch is up to date with 'origin/master'.\r\n\r\nChanges to be committed:\r\n  (use \"git restore --staged <file>...\" to unstage)\r\n\u001b[8C\u001b[32mmodified:   .obsidian/community-plugins.json\r\n\u001b[8Cmodified:   .obsidian/graph.json\r\n\u001b[8Cnew file:   .obsidian/plugins/docxer/main.js\r\n\u001b[8Cnew file:   .obsidian/plugins/docxer/manifest.json\r\n\u001b[8Cnew file:   .obsidian/plugins/docxer/styles.css\r\n\u001b[8Cmodified:   .obsidian/workspace.json\r\n\u001b[8Cmodified:   First year Second Semester Notes/Computer Networks/Data Link Layer.md\r\n\u001b[8Cnew file:   First year Second Semester Notes/Computer Networks/Routing.md\r\n\u001b[8Cmodified:   First year Second Semester Notes/Computer Networks/VLAN Configuration.md\r\n\u001b[8Cmodified:   First year Second Semester Notes/Computer Networks/VLAN.md\r\n\u001b[8Crenamed:    Second year First Semester Notes/Data and Voice Communication/Ask.md -> Second year First Semester Notes/Data and Voice Communication/ASK.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Data and Voice Communication/Amplitude Modulation.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Data and Voice Communication/Data Communication.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Data and Voice Communication/Digital Signal Transmission.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Data and Voice Communication/FSK.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Data and Voice Communication/GSM.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Data and Voice Communication/Glossary.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Data and Voice Communication/Modulation.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Data and Voice Communication/Nyquist-Shanon Sampling Theoerem.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Data and Voice Communication/Phase modulation.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Data and Voice Communication/Pulse Code Modulation.md\r\n\u001b[8Cnew file:   Second year First Semester Notes/Data and Voice Communication/SNR.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Data and Voice Communication/Signal Impairment.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Data and Voice Communication/Signals.md\r\n\u001b[8Cnew file:   Second year First Semester Notes/Internet Programming/Past Papers/CNS 2106 - Internet programming - August 2022.pdf\r\n\u001b[8Cnew file:   Second year First Semester Notes/Internet Programming/Past Papers/CNS 2106 - Internet programming - July 2023.pdf\r\n\u001b[8Cnew file:   Second year First Semester Notes/Internet Programming/Past Papers/CNS2106 Course Outline.pdf\r\n\u001b[8Cnew file:   Second year First Semester Notes/Intro to Cybersecurity/Authentication.md\r\n\u001b[8Cnew file:   Second year First Semester Notes/Intro to Cybersecurity/Compliance.pdf\r\n\u001b[8Cmodified:   Second year First Semester Notes/Intro to Cybersecurity/Defense in Depth.md\r\n\u001b[8Cnew file:   Second year First Semester Notes/Intro to Cybersecurity/Encryption.pptx\r\n\u001b[8Cmodified:   Second year First Semester Notes/Intro to Cybersecurity/IAAA.md\r\n\u001b[8Cnew file:   Second year First Semester Notes/Intro to Cybersecurity/Introduction to Cyber security (2).pdf\r\n\u001b[8Cnew file:   Second year First Semester Notes/Intro to Cybersecurity/Risk.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Intro to Cybersecurity/Safeguards.md\r\n\u001b[8Cnew file:   Second year First Semester Notes/Intro to Cybersecurity/Threats.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Principles of Ethics/Ethical Approaches.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Principles of Ethics/Ethics.md\r\n\u001b[8Cnew file:   Second year First Semester Notes/Principles of Ethics/Natural Law vs Moral law.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Principles of Ethics/Theory of the Voluntary Act.md\r\n\u001b[8Cnew file:   Second year First Semester Notes/Principles of Ethics/Triple Font Theory.md\r\n\u001b[8Cnew file:   Second year First Semester Notes/Principles of Ethics/Untitled.md\r\n\r\n\u001b[0mChanges not staged for commit:\r\n  (use \"git add <file>...\" to update what will be committed)\r\n  (use \"git restore <file>...\" to discard changes in working directory)\r\n\u001b[8C\u001b[31mmodified:   .obsidian/workspace.json\r\n\r\n\u001b[0msh-5.3$ git add .obsidian/workspace.json \r\nsh-5.3$ git status\r\nOn branch master\r\nYour branch is up to date with 'origin/master'.\r\n\r\nChanges to be committed:\r\n  (use \"git restore --staged <file>...\" to unstage)\r\n\u001b[8C\u001b[32mmodified:   .obsidian/community-plugins.json\r\n\u001b[8Cmodified:   .obsidian/graph.json\r\n\u001b[8Cnew file:   .obsidian/plugins/docxer/main.js\r\n\u001b[8Cnew file:   .obsidian/plugins/docxer/manifest.json\r\n\u001b[8Cnew file:   .obsidian/plugins/docxer/styles.css\r\n\u001b[8Cmodified:   .obsidian/workspace.json\r\n\u001b[8Cmodified:   First year Second Semester Notes/Computer Networks/Data Link Layer.md\r\n\u001b[8Cnew file:   First year Second Semester Notes/Computer Networks/Routing.md\r\n\u001b[8Cmodified:   First year Second Semester Notes/Computer Networks/VLAN Configuration.md\r\n\u001b[8Cmodified:   First year Second Semester Notes/Computer Networks/VLAN.md\r\n\u001b[8Crenamed:    Second year First Semester Notes/Data and Voice Communication/Ask.md -> Second year First Semester Notes/Data and Voice Communication/ASK.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Data and Voice Communication/Amplitude Modulation.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Data and Voice Communication/Data Communication.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Data and Voice Communication/Digital Signal Transmission.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Data and Voice Communication/FSK.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Data and Voice Communication/GSM.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Data and Voice Communication/Glossary.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Data and Voice Communication/Modulation.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Data and Voice Communication/Nyquist-Shanon Sampling Theoerem.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Data and Voice Communication/Phase modulation.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Data and Voice Communication/Pulse Code Modulation.md\r\n\u001b[8Cnew file:   Second year First Semester Notes/Data and Voice Communication/SNR.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Data and Voice Communication/Signal Impairment.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Data and Voice Communication/Signals.md\r\n\u001b[8Cnew file:   Second year First Semester Notes/Internet Programming/Past Papers/CNS 2106 - Internet programming - August 2022.pdf\r\n\u001b[8Cnew file:   Second year First Semester Notes/Internet Programming/Past Papers/CNS 2106 - Internet programming - July 2023.pdf\r\n\u001b[8Cnew file:   Second year First Semester Notes/Internet Programming/Past Papers/CNS2106 Course Outline.pdf\r\n\u001b[8Cnew file:   Second year First Semester Notes/Intro to Cybersecurity/Authentication.md\r\n\u001b[8Cnew file:   Second year First Semester Notes/Intro to Cybersecurity/Compliance.pdf\r\n\u001b[8Cmodified:   Second year First Semester Notes/Intro to Cybersecurity/Defense in Depth.md\r\n\u001b[8Cnew file:   Second year First Semester Notes/Intro to Cybersecurity/Encryption.pptx\r\n\u001b[8Cmodified:   Second year First Semester Notes/Intro to Cybersecurity/IAAA.md\r\n\u001b[8Cnew file:   Second year First Semester Notes/Intro to Cybersecurity/Introduction to Cyber security (2).pdf\r\n\u001b[8Cnew file:   Second year First Semester Notes/Intro to Cybersecurity/Risk.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Intro to Cybersecurity/Safeguards.md\r\n\u001b[8Cnew file:   Second year First Semester Notes/Intro to Cybersecurity/Threats.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Principles of Ethics/Ethical Approaches.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Principles of Ethics/Ethics.md\r\n\u001b[8Cnew file:   Second year First Semester Notes/Principles of Ethics/Natural Law vs Moral law.md\r\n\u001b[8Cmodified:   Second year First Semester Notes/Principles of Ethics/Theory of the Voluntary Act.md\r\n\u001b[8Cnew file:   Second year First Semester Notes/Principles of Ethics/Triple Font Theory.md\r\n\u001b[8Cnew file:   Second year First Semester Notes/Principles of Ethics/Untitled.md\r\n\r\n\u001b[0mChanges not staged for commit:\r\n  (use \"git add <file>...\" to update what will be committed)\r\n  (use \"git restore <file>...\" to discard changes in working directory)\r\n\u001b[8C\u001b[31mmodified:   .obsidian/workspace.json\r\n\r\n\u001b[0msh-5.3$ git add",
-                        "rows": 20
-                      }
-                    }
-                  },
-                  "pinned": true,
-                  "icon": "terminal",
-                  "title": "Terminal: sh"
-                }
-              }
-            ]
+            "id": "1d6c8a30c1f1bad2",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
           }
-        ],
-        "direction": "horizontal"
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "81695bd79bcae08a",
+    "id": "ac4b88ed7ce6a8b7",
     "type": "split",
     "children": [
       {
-        "id": "b56d3aeb065e1f4b",
+        "id": "45c6d6e0c850b9ad",
         "type": "tabs",
         "children": [
           {
-            "id": "0d00469fb1df2594",
+            "id": "81de7ad556bf39bf",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -103,12 +44,12 @@
             }
           },
           {
-            "id": "c3ba4ac0e3527f21",
+            "id": "28bfffe4733ef83e",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Symbols",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -120,7 +61,7 @@
             }
           },
           {
-            "id": "2a8f1dc34b091dad",
+            "id": "23c2b2ba007407d2",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -136,20 +77,20 @@
     "width": 300
   },
   "right": {
-    "id": "c69bc7e61b308770",
+    "id": "e458ace6cd0c3466",
     "type": "split",
     "children": [
       {
-        "id": "61ab65d75b3373b6",
+        "id": "ecade7e5534c2e53",
         "type": "tabs",
         "children": [
           {
-            "id": "3f68ae163b635498",
+            "id": "8f2130b8294d58c6",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Second year First Semester Notes/Intro to Cybersecurity/IAAA.md",
+                "file": "Comms Skills Cat 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,25 +100,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for IAAA"
+              "title": "Backlinks for Comms Skills Cat 2"
             }
           },
           {
-            "id": "02149bf051c8c317",
+            "id": "7690420d39df20a7",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Second year First Semester Notes/Intro to Cybersecurity/IAAA.md",
+                "file": "Controlling Function.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from IAAA"
+              "title": "Outgoing links from Controlling Function"
             }
           },
           {
-            "id": "3d06aa4b9a40a6b7",
+            "id": "cb3cf14b14f88485",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -192,38 +133,28 @@
             }
           },
           {
-            "id": "5413690c790a2357",
+            "id": "0bedfb4eceb63817",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Second year First Semester Notes/Principles of Ethics/Ethical Approaches.md",
-                "followCursor": false,
+                "file": "Controlling Function.md",
+                "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Ethical Approaches"
+              "title": "Outline of Controlling Function"
             }
           },
           {
-            "id": "fb46777688ab3d42",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
-            }
-          },
-          {
-            "id": "136d07393c6d972d",
+            "id": "6af1c5ad85bfc34f",
             "type": "leaf",
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           }
         ],
@@ -231,65 +162,69 @@
       }
     ],
     "direction": "horizontal",
-    "width": 387.5,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
-      "daily-notes:Open today's daily note": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "audio-recorder:Start/stop recording": false,
-      "workspaces:Manage workspace layouts": false,
-      "terminal:Open terminal": false,
-      "obsidian-statusbar-pomo:Start pomodoro": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "terminal:Open terminal": false
     }
   },
-  "active": "0aa759563130f978",
+  "active": "1d6c8a30c1f1bad2",
   "lastOpenFiles": [
+    "gitignore",
+    "gitignore~",
     "Second year First Semester Notes/Internet Programming/PHP/Variables.md",
+    "Second year First Semester Notes/Internet Programming/PHP/Untitled.md",
     "Second year First Semester Notes/Internet Programming/PHP/Strings.md",
-    "Second year First Semester Notes/Data and Voice Communication/FSK.md",
-    "Second year First Semester Notes/Internet Programming/Past Papers/CNS 2106 - Internet programming - August 2022.pdf",
-    "Second year First Semester Notes/Internet Programming/Past Papers/CNS 2106 - Internet programming - July 2023.pdf",
-    "Second year First Semester Notes/Internet Programming/Past Papers/CNS2106 Course Outline.pdf",
-    "Second year First Semester Notes/Internet Programming/Past Papers",
-    "Second year First Semester Notes/Data and Voice Communication/ASK.md",
-    "Second year First Semester Notes/Data and Voice Communication/Line coding.md",
-    "Second year First Semester Notes/Data and Voice Communication/Frequency modulation.md",
-    "Second year First Semester Notes/Data and Voice Communication/Phase modulation.md",
-    "Second year First Semester Notes/Data and Voice Communication/Modulation.md",
-    "Second year First Semester Notes/Data and Voice Communication/Amplitude Modulation.md",
-    "Second year First Semester Notes/Intro to Cybersecurity/Threats.md",
-    "Second year First Semester Notes/Intro to Cybersecurity/IAAA.md",
-    "Second year First Semester Notes/Intro to Cybersecurity/Types of Malware.md",
-    "Second year First Semester Notes/Intro to Cybersecurity/Compliance.pdf",
-    "Second year First Semester Notes/Intro to Cybersecurity/Safeguards.md",
-    "Second year First Semester Notes/Intro to Cybersecurity/Terminal commands.md",
-    "Second year First Semester Notes/Intro to Cybersecurity/Risk.md",
-    "Second year First Semester Notes/Intro to Cybersecurity/LINUX COMMAND LINE.docx",
-    "Second year First Semester Notes/Intro to Cybersecurity/LAB 4.1.pdf",
-    "Second year First Semester Notes/Intro to Cybersecurity/lab 4.md",
-    "Second year First Semester Notes/Intro to Cybersecurity/Lab - Creating an Virtual Install of Kali Using VirtualBox.pdf",
-    "Second year First Semester Notes/Intro to Cybersecurity/Lab - Creating a virtual install of Windows XP Using Virtualbox.pdf",
-    "Second year First Semester Notes/Intro to Cybersecurity/Introduction to Cyber security (2).pdf",
-    "Second year First Semester Notes/Intro to Cybersecurity/Defense in Depth.md",
-    "Second year First Semester Notes/Intro to Cybersecurity/Data Protection.md",
-    "Second year First Semester Notes/Intro to Cybersecurity/Authentication.md",
-    "Second year First Semester Notes/Intro to Cybersecurity/Anti Malware.md",
-    "Second year First Semester Notes/Data and Voice Communication/SNR.md",
-    "Second year First Semester Notes/Data and Voice Communication/Signal Impairment.md",
-    "Second year First Semester Notes/Data and Voice Communication/Signals.md",
-    "Second year First Semester Notes/Data and Voice Communication/Glossary.md",
-    "Second year First Semester Notes/Data and Voice Communication/Nyquist-Shanon Sampling Theoerem.md",
-    "Second year First Semester Notes/Data and Voice Communication/GSM.md",
+    "Second year First Semester Notes/Internet Programming/PHP/POOP.md",
+    "Second year First Semester Notes/Internet Programming/PHP/Comments.md",
+    "Second year First Semester Notes/Internet Programming/PHP",
+    "Second year First Semester Notes/renamed.pkt",
+    "Second year First Semester Notes/World Civilization I/The 1st Babylonian Dynasty.md",
+    "Second year First Semester Notes/World Civilization I/Roman Civilization.md",
+    "Second year First Semester Notes/World Civilization I/Minoan Civilization.md",
+    "Second year First Semester Notes/World Civilization I/MESOPOTAMIAN CIVILIZATION.docx",
+    "Second year First Semester Notes/World Civilization I/Mesopotamian Civilization.md",
+    "Second year First Semester Notes/World Civilization I/MESOAMERICAN CIVILIZATIONS.docx",
+    "Second year First Semester Notes/World Civilization I/Macedonian Supremacy (359-323 BC).md",
+    "Second year First Semester Notes/World Civilization I/Indus Valley Civilization.md",
+    "Second year First Semester Notes/World Civilization I/Egyptian Civilization.md",
+    "Second year First Semester Notes/World Civilization I/Islam.md",
+    "Second year First Semester Notes/World Civilization I/Glossary.md",
+    "Second year First Semester Notes/World Civilization I/EARLY GREEK CIVILIZATION final.docx",
+    "Second year First Semester Notes/World Civilization I/CHRISTIANITY.odt",
+    "Second year First Semester Notes/World Civilization I/Christianity.md",
+    "Second year First Semester Notes/World Civilization I/Chinese Civilization.md",
+    "Second year First Semester Notes/World Civilization I/Assignment.md",
+    "Second year First Semester Notes/World Civilization I/CHRISTIANITY.docx",
+    "Second year First Semester Notes/World Civilization I/Ancient_Egyptian_Civilization.rtf",
+    "Second year First Semester Notes/World Civilization I/ANCIENT INDIAN CIVILIZATION.doc",
+    "Second year First Semester Notes/World Civilization I/Ancient Greek Civilization.md",
+    "Second year First Semester Notes/World Civilization I/African Civilization.md",
+    "Second year First Semester Notes/Principles of Ethics/Untitled.md",
+    "Second year First Semester Notes/Principles of Ethics/Triple Font Theory.md",
+    "Second year First Semester Notes/Principles of Ethics/Theory of the Voluntary Act.md",
     "Second year First Semester Notes/Principles of Ethics/Previous Exams/WhatsApp Image 2025-07-24 at 8.41.12 PM.jpeg",
-    "Second year First Semester Notes/Principles of Ethics/Previous Exams/WhatsApp Image 2025-07-24 at 8.41.11 PM.jpeg",
     "Second year First Semester Notes/Principles of Ethics/Previous Exams/WhatsApp Image 2025-07-24 at 8.41.13 PM.jpeg",
-    "Second year First Semester Notes/DSA/Pasted image 20250719140246.png"
+    "Second year First Semester Notes/Principles of Ethics/Previous Exams/WhatsApp Image 2025-07-24 at 8.41.11 PM.jpeg",
+    "Second year First Semester Notes/Principles of Ethics/Natural Law vs Moral law.md",
+    "Second year First Semester Notes/Principles of Ethics/Ethics.md",
+    "Second year First Semester Notes/Principles of Ethics/Ethical Approaches.md",
+    "Second year First Semester Notes/Data and Voice Communication/Pasted image 20250516210524.png",
+    "Second year First Semester Notes/DSA/Pasted image 20250719140246.png",
+    "First year Second Semester Notes/Computer Networks/RIR.png",
+    "First year Second Semester Notes/Computer Networks/Pasted image 20250603194621.png",
+    "First year Second Semester Notes/Computer Networks/Pasted image 20250603191849.png",
+    "First year Second Semester Notes/Computer Networks/OSI Model Canvas.canvas",
+    "strathmore_docs/Second year First Semester Notes/Principles of Ethics/Previous Exams/WhatsApp Image 2025-07-24 at 8.41.13 PM.jpeg",
+    "strathmore_docs/Second year First Semester Notes/Principles of Ethics/Previous Exams/WhatsApp Image 2025-07-24 at 8.41.12 PM.jpeg",
+    "strathmore_docs/First year Second Semester Notes/Computer Networks/OSI Model Canvas.canvas"
   ]
 }

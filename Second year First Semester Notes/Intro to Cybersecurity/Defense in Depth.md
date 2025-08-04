@@ -1,6 +1,6 @@
 AAA
 1. Authentication
-2. Access Control
+2. Authorization
 3. Audit
 
 ## Authentication Steps

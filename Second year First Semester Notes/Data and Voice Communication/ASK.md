@@ -6,5 +6,7 @@ In ASK demodulation there are 2 techniques used namely:
 ## Advantages
 
 ## Disadvantages
+1. It is more susceptible to error then [[ASK|Amplitude Shift Key]].
 
 ## Applications of ASK
+1. Fiber optics data transmission via LEDs.

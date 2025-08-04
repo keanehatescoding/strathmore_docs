@@ -1,4 +1,5 @@
-__Aliasing__ - 
+__Aliasing__ - this is when you take inadequate samples of the original signal so two signals with different frequencies becomes indistinguishable.
+__Attenuation__ - this is the loss of energy of a signal during transmission.
 __Nyquist rate__ - 
 __Modulation__ is the process of modifying one or more properties of a wave i.e frequency, phase or amplitude to encode information for transmission
 __Tuning__

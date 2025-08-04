@@ -11,7 +11,7 @@ The bandwidth is directly proportional to the bit rate.
 
 ### Examples:
 
-1.wired LANS
+1.Wired <abbr title="Local Area Networks">LANs</abbr>
 
 ## Broadband Transmission
 

@@ -8,7 +8,7 @@ Deontology comes from the Greek word __Deon__ which means __duty__.
 Deontology states the morality of a human action is purely dependent on whether it fulfills a duty or fails to do so.
 It determines right and wrong based on a set of clearly defined rules.
 A core principle of deontology is everyone has a __inherent worth__ and __dignity__ and should be treated with fairness and dignity
-Another ckore principle is __universability__ which states that moral principles are universally applicable and impartial.
+Another core principle is __universality__ which states that moral principles are universally applicable and impartial.
 It also states some actions are always right or wrong regardless of the circumstances.
 Short-comes: It is too rigid especially when a certain crime may have been necessary.
 
@@ -19,6 +19,8 @@ It states that the morality of an action is concluded by it's consequences.
 The ends justifies the means.
 Advantages: It is more adaptive and uses context to consider the repercussions.
 Short-come: It's could possibly lead to unethical behavior if the end of a result it emphasized over the means to reach the ends.
+
+## 3. Virtue Ethics
 
 ## Theories
 

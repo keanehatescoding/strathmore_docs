@@ -28,8 +28,8 @@ or a set of agreed upon rules.
 
 ### Standard Organization
 1. ISO
-	1. IEEE
-	2. ANSI
+2. IEEE
+3. ANSI
 
 There are two types of signal communication:
 1. Baseband communication

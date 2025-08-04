@@ -1,8 +1,8 @@
 __Ethics__ is a rational study of the rules of conduct known as __morals__ that describe how people should behave.
 
-# Objects
+## Objects
 These can be divided into material or formal objects.
-1. __Material objects__ encompass the scope, subject matter or field on enquiry.
+1. __Material objects__ encompass the scope, subject matter or field on inquiry.
 2. __Formal objects__ perspective/focus used in studying the subject matter.
 
 The meaning of good can be used in different ways:
@@ -16,7 +16,7 @@ The goodness of things(not necessarily actions) in themselves i.e The chapati is
 
 ### 2. Technical goodness
 
-Goodness of human actions. e.g Mulle is good at playing video games.
+Goodness of human actions. e.g Emmanuel is good at playing video games.
 
 ### 3. Moral goodness
 
@@ -38,8 +38,8 @@ It is also called herd mentality, __heteronymous thinking__.
 Also characterized by common sense thinking.
 #### Characteristics of Common Sense
 1. Habitual and imitative
-2. Vague/Ambigiuous
-3. Unreflective and untested belief
+2. Vague/Ambiguous
+3. Uses untested belief/ beliefs which have not been reflected.
 4. Seldom accompanies explanation and when present are weak.
 
 ### 3. Post-Conventional Stage
@@ -91,7 +91,7 @@ Each person's interest and well-being are equally important from a the moral poi
 ## 1. Consequentialist Theories
 ### 1. Utilitarianism/ Ethical Universalism
 Actions are right or wrong solely by virtue of their consequences and nothing else matters i.e actions are not right or wrong in themselves but their evaluated based on their utility.
-#### Strengths of Utilitariansm
+#### Strengths of Utilitarianism
 1. Modern utilitarianism has been very influential in social reforms and modern policy formulation.
 2. It looks at the particular impact of an action and how it affects people.
 3. Economists share the concept of utility.
@@ -101,7 +101,7 @@ Actions are right or wrong solely by virtue of their consequences and nothing el
 
 #### Weaknesses
 1. It may ignores other moral characteristics i.e justice, rights, keeping promises.
-2. It may sanction the use of persons as mere means instead of requiring us to respect persons as ends.
+2. It may sanction the use of persons as mere means instead of requiring us to respect persons as ends i.e die to save more people.
 3. There is also the problem of how to determine or calculate happiness or pleasure i.e. how to calculate standard pleasure.
 
 ## 2. Deontological Theories
@@ -123,14 +123,14 @@ The  principles of Kant's Categorical Imperatives
 4. Morality is independent of personal conveniences and thus immune to human prejudice.
 5. A good judgement must be supported by good reasons.
 
-#### Weakness of Kan't Theory
+#### Weakness of Kant's Theory
 1. Ignores consequences in determining the rightness or wrongness of actions.
 2. The idea that morality is absolute makes morality unable fail to accept extenuating circumstances.
 3. Renders morality unable to solve conflicts in a situation of conflict of values.
 
 ## 3. Virtue Ethics
 For this type of ethics the primary question is not what I ought to do but what kind of person oughtn't I be.
-Ethics cannot be reduced to the mere fulfilment of rules or norms.
+Ethics cannot be reduced to the mere fulfillment of rules or norms.
 
 Limits of norms/rules:
 1. Impossible to make for every situation.

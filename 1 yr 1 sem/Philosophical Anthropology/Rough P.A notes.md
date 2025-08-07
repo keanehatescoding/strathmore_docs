@@ -15,5 +15,3 @@ No two sensations, however, even in successive instants, are exactly the same.
 > The outward appearance of physical things and the conditions under which they are sensed also subject to the universal law of change 
 
 \- Heraclitus and his followers.
-
-k

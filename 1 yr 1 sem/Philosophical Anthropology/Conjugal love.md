@@ -8,7 +8,6 @@ Man and woman are called to exist mutually 'one for the other'.
 Transgender woman an is found guilty of rape and yet to be convicted but she can be imprisoned as a female for fear she will continue "her" did.
 Transgender women defeat biological women in women sports makes women wonder if this is fair.
 ## Marriage
-#exclusive the man accepts woman as his only wife and vice versa.
-#permanent commitment for life 
-#Openness-to-life readiness to share with the other spouse alone
-
+__exclusive__ the man accepts woman as his only wife and vice versa.
+__permanent__ commitment for life 
+__Openness-to-life__ readiness to share with the other spouse alone

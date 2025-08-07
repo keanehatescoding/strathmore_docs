@@ -1,10 +1,10 @@
-#Computer-Programming the process of designing, writing, testing, debugging and maintaining the source code of computer programs.
-#Machine-Langugage is the lowest level of programming language(except computers that utilize programmable microcode) and consists entirely of numbers.
-#Assembly-Language contains the same instructions as machine language, but the instructions as machine language, but the instructions and variables have names instead of being just numbers.
-#Compilers translate high-level languages into assembly language or machine language/ A program that translates source code to object code.
-#Interpreters analyze and execute each line of source code in succession without looking at the entire program.
+__Computer-Programming__ the process of designing, writing, testing, debugging and maintaining the source code of computer programs.
+__Machine-Language__ is the lowest level of programming language(except computers that utilize programmable microcode) and consists entirely of numbers.
+__Assembly-Language__ contains the same instructions as machine language, but the instructions as machine language, but the instructions and variables have names instead of being just numbers.
+__Compilers__ translate high-level languages into assembly language or machine language/ A program that translates source code to object code.
+__Interpreters__ analyze and execute each line of source code in succession without looking at the entire program.
 The advantage of interpreters is that they can execute a program immediately. Compilers require some time before an executable program emerges. However, programs produced by compilers run much faster than the same programs executed by an interpreter.
-#Assemblers are programs that translate assembly language to machine language.
+__Assemblers__ are programs that translate assembly language to machine language.
 Each type of CPU has it's own assembly language written for its CPU thus an assembly language written for one CPU won't work for a different CPU architecture.
 ## Key Features of C
 1. Efficiency - It allows for direct memory manipulation and Low level access to hardware resources.
@@ -83,4 +83,3 @@ The actual statements of the program are also known as the code of the program.
 ## 5.  Maintain the program
 
 This involves making changes to improve the functionality of the program(improve it), remove possible previously undetected errors(bugs.), to cater for newly discovered user needs, or to cater for changed technology.
-

@@ -13,7 +13,7 @@ The malloc function takes a number of bytes and allocates it to a void pointer.
 ```C
 calloc();
 ```
-Calloc allocates 
+The calloc() function allocates
 
 ## 3. realloc()
 ```C
@@ -21,4 +21,4 @@ realloc();
 ```
 The realloc function 
 ## 4. free()
-The free functions de-allocates a chunk of memory so that the computer can use it.
+The free functions releases(frees) a chunk of memory so that the computer can use it.

@@ -19,4 +19,3 @@ A philosophy is none the less real because it is unrecognized is hidden in the w
 Having a philosophy being victim to an unconsciously held philosophy or the philosophy of others while doing a philosophy is freeing our minds by becoming critically conscious of what we hold unconsciously or critically.
 The examined life is not worth living - Socrates
 Philosophy is the search of the ultimates conducted through reason alone in order to satisfy man's curiosity about himself and the universe of which he is part of.
-

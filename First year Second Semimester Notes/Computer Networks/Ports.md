@@ -1,0 +1,23 @@
+FTP TCP/21
+SSH TCP/22 server
+SFTP TCP/22 
+TELNET TCP/23 server
+SMTP TCP/25
+DNS UDP/53 by default and TCP for fallback on port 53
+DHCP server 67
+DHCP client 68
+HTTP 80
+POP3 TCP/110
+IMAP TCP/143
+HTTPS TCP/443
+SMB
+Telnet 
+SMTP
+DHCPv6 546 client
+DHCPv6 547 server
+
+SMTPS TCP 465/587
+IMAPS  993
+POP3S 995
+FTPS 990
+<b>Note</b>: FTPS != SFTP

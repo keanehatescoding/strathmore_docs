@@ -1,4 +1,4 @@
-Administrative Approach
+## Administrative Approach
 Scalar chain principle is essentially distressing a clear need of understanding of the various powers in the organization.
 Order principle things in a organization should be done in organized manner.
 Equity principle emphasizes fair treatment, respect and equal opportunity regardless of race, color etc.
@@ -33,7 +33,7 @@ Behavioral attributes
 2. Efficiency and predictability
 3. Hierachical structure
 4. Presence of impersonality
-## Limitions
+## Limitations
 1. Rigidity which leads in inflexibility.
 2. Communication barriers
 3. Hinders creativity because the borders of bureaucracy
@@ -42,3 +42,10 @@ Behavioral attributes
 6. Reluctance to positive change since an organization is used to a certain method to do anything.
 
 ## Neo-classical theory
+
+
+Functions of management
+1. Planning - selecting the goals of the organization and setting up ways to reach the goals.
+2. Organizing - 
+3. Directing
+4. Staffing

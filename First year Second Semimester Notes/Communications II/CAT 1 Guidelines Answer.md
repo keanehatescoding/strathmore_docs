@@ -1,5 +1,5 @@
-1. Differences between critical and non critical reading
-A critical reader is someone who does not just take text at face value while reading but delves into a deeper examination of the text by putting forward supporting points and counterarguments for and against the text. A non critical leader is someone who just peruses text just like pages without any meaning and examination.
+1. __Differences between critical and non critical reading__
+A critical reader is someone who does not just take text at face value while reading but delves into a deeper examination of the text by putting forward supporting points and counterarguments for and against the text. A non critical leader is someone who just peruses a text just like pages without any meaning and examination.
 
 2. __Goals of critical reading__
 (i) Understand the links between ideas in texts since critical reading involves more than skimming through pages.
@@ -13,7 +13,7 @@ Survey -> Question -> Read -> Recite/Recall -> Review
 Survey
 Involves reading materials that surround the text but are not really majorly important for the text i.e. titles, heading, graphs, questions, guidelines, drawing and introductory/conclusion/summary paragraphs.
 Question
-It involves creating questions from the material that you have just surveyed and looking at  the questions at the end of the chapter.
+It involves creating questions from the material that you have just surveyed and looking at the questions at the end of the chapter.
 Read
 This involves reading the material and answering questions we made in the previous step and at the end of the chapter and keeping in mind italicized, underlined or bold words.
 Taking meaningful brief notes.
@@ -46,4 +46,22 @@ This part involves critically assessing the argument the author is making. This 
 vii. Comparing and contrasting related readings
 Compare how the author approaches the issues with other texts/sources. This makes you understand different points of view which makes you a more informed person during decision making.
 5. Annotation
-Annotation is writing brief notes, questions or meaningful words at the margin of the 
+Annotation is writing brief notes, questions or meaningful words at the margin of the book your reading.
+Importance:
+i. Can be used for reference
+ii. Forces the reader to actively engage with the material.
+iii. It can act as a summary.
+iv. It forces one to think since they have to think what to right about the story.
+6. Skimming is getting the main ideas between a text while scanning is looking for a particular word or ideas in a text. Finally keeping a running dialogue with the author is proactively asking questions as the author narrates is arguments.
+7. Link critical reading and critical thinking
+They both involve questioning assumptions.
+Persuasive communication is 
+Dominant culture - a culture that is most widely use and practised culture within a given society.
+High context culture
+Individualistic culture.
+Feminine culture
+Low context culture 
+Collectivism
+Collectivism vs Individualism
+Individualism - people emphasize on self and personal achievements.
+Persuasive communication is the intentional communication designed to change attitudes and behaviour.

@@ -13,7 +13,7 @@ Band limits are:
 ### 2. Sampling
 At this stage we sample the convert the band-limited analog signal to a time-discrete signal.
 The analog is sampled after every $T_s$ interval.
-Therefore, sample and the hold circuit sample the signal at the rate $f_s$ where $f_s=\frac{1}{T_s}$. In order to avoid [[Glossary|aliasing]] the sampling frequency is selected to be equal to or above the [[Nyquist-Shanon Sampling Theoerem||Nyquist rate]] i.e
+Therefore, sample and the hold circuit sample the signal at the rate $f_s$ where $f_s=\frac{1}{T_s}$. In order to avoid [[2 yr 1 sem/Data and Voice Communication/Glossary|aliasing]] the sampling frequency is selected to be equal to or above the [[Nyquist-Shanon Sampling Theoerem||Nyquist rate]] i.e
 $$f_{s} \geq 2f_{m}$$
 where $f_{s}$ is given by $\frac {1}{T_s}$ and $f_m$ is the __maximum__ frequency of the analog signal.
 The output sample and hold circuit are now denoted by $x(nT_s)$. This signal is said to be discrete in time and continuous in amplitude.

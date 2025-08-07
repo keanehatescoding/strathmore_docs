@@ -1,7 +1,7 @@
 The several signal impairments are:
-1. [[Second year First Semester Notes/Data and Voice Communication/Glossary|Attenuation]]
+1. [[2 yr 1 sem/Data and Voice Communication/Glossary|Attenuation]]
 2. [[SNR|Noise]]
-3. [[Second year First Semester Notes/Data and Voice Communication/Glossary|Aliasing]]
+3. [[2 yr 1 sem/Data and Voice Communication/Glossary|Aliasing]]
 ## 1. Attenuation
 
 This is the loss of energy of a signal during transmission.

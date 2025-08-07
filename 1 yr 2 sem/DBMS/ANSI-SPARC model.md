@@ -24,7 +24,7 @@ The conceptual level abstract the internal level and focuses on describing the e
 
 It contains multiple views which show the user only the part that he/she is interested of and abstracts the remaining database from the user group.
 
-Each level should have [[First year Second Semester Notes/DBMS/Terminology|data independence]].
+Each level should have [[Terminology|data independence]].
 There are 2 types of data independence namely:
 
 1. Logical data independence - the ability to alter the conceptual schema of the database without modifying the external schema.

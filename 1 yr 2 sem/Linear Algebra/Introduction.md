@@ -20,6 +20,6 @@ An __invertible matrix__ is a square matrix that has a inverse or a square matri
 
 1. [[Gaussian Elimination]]
 2. [[Gaussian Elimination|Gaussian-Jordan Elimination]]
-3. [[Crammer's rule]]
+3. [[Crammer's Rule]]
 4. Substitution method
 5. Elimination method

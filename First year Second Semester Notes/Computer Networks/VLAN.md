@@ -20,13 +20,13 @@ It is also used by the switch to carry specific control and management protocol 
 Native vlan is also useful when we use <abbr title="Voice over IP">VoIP</abbr>.
 There are special VLANs i.e
 
-| VLAN | Name               | Ports |
-| ---- | ------------------ | ----- |
-| 1    | default native     | all   |
-| 1002 | fddi-default       | -     |
-| 1003 | token-ring-default | -     |
-| 1004 | fddinet-default    | -     |
-| 1005 | trnet-default      | -     |
+| VLAN | Name                                                                      | Ports |
+| ---- | ------------------------------------------------------------------------- | ----- |
+| 1    | default native                                                            | all   |
+| 1002 | <abbr title="legacy fiber distributed data interface">fddi</abbr>-default | -     |
+| 1003 | token-ring-default                                                        | -     |
+| 1004 | fddinet-default                                                           | -     |
+| 1005 | trnet-default                                                             | -     |
 These 5 VLANs exist by default on any Cisco Router.
 VLAN Has 3 port types:
 1. __Access ports__ - these types of ports are configured to carry untagged traffic for a single VLAN only.

@@ -1,4 +1,5 @@
 <abbr title="Internet Protocol Version 6"><b>IPv6</b></abbr> is an improvement to the IPv4 addressing scheme. It was mostly designed as a future replacement for the depletion of IPv4 addresses. 
+The Ether type of an IPv6 Frame is __0x86DD__.
 ## Reasons for IPv6/ Problems of IPv4
 1. __Depletion of IPv4 addresses__ i.e there are  $340,282,366,920,938,463,463,374,607,431,768,211,456$ possible IPv6 addresses while there are $4,294,967,296$ possible IPv4 addresses and currently ~8 billion people alive.
 2. __IPv4 addresses are non-hierachical__ meaning they are assigned irrespective of geographical topology which leads to fragmentation and thus big routing tables.

@@ -23,24 +23,27 @@ Mac addresses are typically written in 3 conventional formats i.e
 IEEE 802.3
 An Ethernet frame looks like this:
 The frame header consist of:
-1. __Preamble__ - this part of the <abbr title="Protcol Defined Unit">PDU</abbr> is used for synchronization between the clock of the transmitter and receiver. it is 7 bytes long
-2. <abbr title="Start Frame delimeter">SFD</abbr> - this denotes the beginning of the frame.
+1. __Preamble__ - this part of the <abbr title="Protcol Defined Unit">PDU</abbr> is used for synchronization between the clock of the sender and receiver. it is 7 bytes long
+2. <b><abbr title="Start of Frame Delimeter">SFD</abbr></b> - this notifies the receiving node to get ready for a new frame.
 3. __Destination MAC Address__ - 6 bytes since a mac address is 48 bits.
 4. __Source mac Address__ - 6 bytes
-5. __Ether type/Data Length__ - describes what is in the payload i.e IPv4 or IPv6 or another.
+5. __Ether type/Data Length__ - describes what is in the payload e.g. IPv4, Ipv6, <abbr title='virtual local area network'>vlan</abbr> tagged traffic etc. 2 bytes long
 Body:
-6. Payload (The packet)
+6. __Payload__ (The packet)
 The frame trailer:
 7. __Frame Check sequence__ - this is used to confirm whether the frame had an error during transmission and/or reception using <abbr title="Cyclic Redundancy Check">CRC</abbr>. It is one byte in length
 
 ## Ether type
-They are various types of payloads. The ether type is used to describe what is inside the payload of a frame i.e for an ARP payload the ether type is 0x0806, for an IPv6 Frame it is 0x86DD
+They are various types of payloads. The ether type is used to describe what is inside the payload of a frame e.g for an ARP payload the ether type is __0x0806__, for an IPv6 Frame it is __0x86DD__ and for an IPv4 frame it is __0x800__. This field is 2 bytes long.
 
 ## IEEE 802.1Q Frame
-1. Destination mac address
-2. Source mac address
-3. Tag - which constitutes - Ethernet type - 2 Bytes
-- Priority
+1. Preamble
+2. <abbr title="Start of Frame Delimiter">SFD</abbr>
+3. Destination mac address
+4. Source mac address
+5. Tag - which constitutes - Ethernet type - 2 Bytes
+- Bridge id which comprise of the two below:
+- Bridge Priority
 - VLAN identifier
 1. Type/Length
 2. Data

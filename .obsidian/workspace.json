@@ -4,20 +4,79 @@
     "type": "split",
     "children": [
       {
-        "id": "f9d82c228e91bd98",
-        "type": "tabs",
+        "id": "82b6ae5d3413e112",
+        "type": "split",
         "children": [
           {
-            "id": "1d6c8a30c1f1bad2",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
+            "id": "f9d82c228e91bd98",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "1d6c8a30c1f1bad2",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "First year Second Semester Notes/Computer Networks/Data Link Layer.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Data Link Layer"
+                }
+              }
+            ]
+          },
+          {
+            "id": "d70875d757be038b",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "38cf7b4ad65a9894",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "terminal:terminal",
+                  "state": {
+                    "terminal:terminal": {
+                      "cwd": "C:\\Users\\keane\\strathmore_docs",
+                      "focus": false,
+                      "profile": {
+                        "args": [],
+                        "executable": "C:\\Windows\\System32\\cmd.exe",
+                        "name": "",
+                        "platforms": {
+                          "win32": true
+                        },
+                        "pythonExecutable": "python3",
+                        "restoreHistory": true,
+                        "successExitCodes": [
+                          "0",
+                          "SIGINT",
+                          "SIGTERM"
+                        ],
+                        "terminalOptions": {
+                          "documentOverride": null
+                        },
+                        "type": "integrated",
+                        "useWin32Conhost": true
+                      },
+                      "serial": {
+                        "columns": 106,
+                        "data": "\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nC:\\Users\\keane\\strathmore_docs>\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nC:\\Users\\keane\\strathmore_docs>\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n>\u001b[38;5;203mls\r\n\u001b[0m'ls' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n\r\n>\u001b[1mdir\r\n\u001b[0m Volume in drive C is Windows\r\n Volume Serial Number is A664-3A52\r\n\r\n Directory of C:\\Users\\keane\\strathmore_docs\r\n\r\n08/07/2025  12:12 PM    <DIR>          .\r\n08/04/2025  04:09 PM    <DIR>          ..\r\n08/04/2025  03:26 PM                26 .gitignore\r\n08/04/2025  04:56 PM    <DIR>          .obsidian\r\nC:\\Users\\keane\\strathmore_docs>\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nPS C:\\Users\\keane\\strathmore_docs> \u001b[93mls\r\n\r\n\r\n\u001b[0m    Directory: C:\\Users\\keane\\strathmore_docs\r\n\r\n\r\nMode                 LastWriteTime         Length Name\r\n----                 -------------         ------ ----\r\nd-----          8/4/2025   4:56 PM                .obsidian\r\nd-----          8/4/2025   3:05 PM                First year First Semester Notes\r\nd-----          8/4/2025   3:05 PM                First year Second Semester     \r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nPS C:\\Users\\keane\\strathmore_docs>\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nPS C:\\Users\\keane\\strathmore_docs> \r\nPS C:\\Users\\keane\\strathmore_docs> \u001b[93mgit \u001b[37mstatus\r\n\u001b[0mOn branch master\r\nYour branch is up to date with 'origin/master'.\r\n\r\nChanges not staged for commit:\r\n  (use \"git add/rm <file>...\" to update what will be committed)\r\n  (use \"git restore <file>...\" to discard changes in working directory)\r\n\u001b[8C\u001b[31mmodified:   .obsidian/app.json\r\n\u001b[8Cmodified:   .obsidian/appearance.json\r\n\u001b[8Cmodified:   .obsidian/community-plugins.json\r\n\u001b[8Cmodified:   .obsidian/core-plugins.json\r\n\u001b[8Cmodified:   .obsidian/graph.json\r\n\u001b[8Cmodified:   Second year First Semester Notes/DNDM/Physical Ports.md.mdeory.md.mdP model.md\r\n\u001b[0m        \u001b[31mmodified:   Second year First Semester Notes/DNDM/config.md\r\n\r\n\u001b[0mUntracked files:\r\n  (use \"git add <file>...\" to include in what will be committed)\r\n\u001b[8C\u001b[31mFirst year Second Semester Notes/Computer Networks/Copper Cabling.md\r\n\u001b[0m        \u001b[31mFirst year Second Semester Notes/Computer Networks/Ethernet.md\r\n\u001b[0m        \u001b[31mFirst year Second Semester Notes/Computer Networks/Fibre.md\r\n\u001b[0m        \u001b[31mFirst year Second Semester Notes/Computer Networks/Ipv6.md\r\n\u001b[0m        \u001b[31mFirst year Second Semester Notes/Computer Networks/Wireless Communication.\r\n\u001b[81C.md\r\n\u001b[0m        \u001b[31mFirst year Second Semester Notes/Computer Networks/Zigbee.md\r\n\u001b[0m        \u001b[31mFirst year Second Semester Notes/Computer Networks/{6D7E7B99-202D-4D05-9D5\r\n\u001b[81C53-E6A1D109C5C2}.png\r\n\u001b[0m        \u001b[31mSecond year First Semester Notes/DNDM/{4E741215-7FB8-4CDE-908A-A74727B48AD\r\n\u001b[81CD7}.png\r\n\u001b[0m        \u001b[31mSecond year Second Semester Notes/\r\n\u001b[0m        \u001b[31mharpoon-cache.json\r\n\r\n\u001b[0mno changes added to commit (use \"git add\" and/or \"git commit -a\")\r\nPS C:\\Users\\keane\\strathmore_docs>\u001b[1C\u001b[93mgit \u001b[37madd . \r\n\u001b[0mwarning: in the working copy of '.obsidian/app.json', LF will be replaced by CRLF \r\n\u001b[81C the next time Git touches it\r\nwarning: in the working copy of '.obsidian/appearance.json', LF will be replaced b\r\n\u001b[81Cby CRLF the next time Git touches it\r\nwarning: in the working copy of '.obsidian/community-plugins.json', LF will be rep\r\n\u001b[81Cplaced by CRLF the next time Git touches it\r\nwarning: in the working copy of '.obsidian/core-plugins.json', LF will be replaced\r\n\u001b[81Cd by CRLF the next time Git touches it\r\nwarning: in the working copy of '.obsidian/graph.json', LF will be replaced by CRL\r\n\u001b[81CLF the next time Git touches it\r\nwarning: in the working copy of '.obsidian/plugins/calendar/data.json', LF will be\r\n\u001b[81Ce replaced by CRLF the next time Git touches it\r\nwarning: in the working copy of '.obsidian/plugins/obsidian-icon-folder/data.json'\r\n\u001b[81C', LF will be replaced by CRLF the next time Git touches it\r\nwarning: in the working copy of '.obsidian/plugins/terminal/data.json', LF will be\r\n\u001b[81Ce replaced by CRLF the next time Git touches it\r\nwarning: in the working copy of '.obsidian/workspace.json', LF will be replaced by\r\n\u001b[81Cy CRLF the next time Git touches it\r\nwarning: in the working copy of 'First year Second Semester Notes/Computer Network\r\n\u001b[81Cks/ARP and ICMPv6 ND.md', LF will be replaced by CRLF the next time Git touches it \r\nwarning: in the working copy of 'First year Second Semester Notes/Computer Network\r\n\u001b[81Cks/Bluetooth.md', LF will be replaced by CRLF the next time Git touches it\r\nwarning: in the working copy of 'First year Second Semester Notes/Computer Network\r\n\u001b[81Cks/Data Link Layer.md', LF will be replaced by CRLF the next time Git touches it   \r\nwarning: in the working copy of 'First year Second Semester Notes/Computer Network\r\n\u001b[81Cks/Glossary.md', LF will be replaced by CRLF the next time Git touches it\r\nwarning: in the working copy of 'First year Second Semester Notes/Computer Network\r\n\u001b[81Cks/IANA.md', LF will be replaced by CRLF the next time Git touches it\r\nwarning: in the working copy of 'First year Second Semester Notes/Computer Network\r\n\u001b[81Cks/IPv4 Addressing.md', LF will be replaced by CRLF the next time Git touches it   \r\nwarning: in the working copy of 'First year Second Semester Notes/Computer Network\r\n\u001b[81Cks/Internet Protocol.md', LF will be replaced by CRLF the next time Git touches it \r\nwarning: in the working copy of 'First year Second Semester Notes/Computer Network\r\n\u001b[81Cks/Internet or TCP IP model.md', LF will be replaced by CRLF the next time Git touc\r\n\u001b[81Cches it\r\nwarning: in the working copy of 'First year Second Semester Notes/Computer Network\r\n\u001b[81Cks/Ipv4 practical.md', LF will be replaced by CRLF the next time Git touches it    \r\nwarning: in the working copy of 'First year Second Semester Notes/Computer Network\r\n\u001b[81Cks/Ipv6 Practical.md', LF will be replaced by CRLF the next time Git touches it    \r\nwarning: in the working copy of 'First year Second Semester Notes/Computer Network\r\n\u001b[81Cks/VLAN.md', LF will be replaced by CRLF the next time Git touches it\r\nwarning: in the working copy of 'Second year First Semester Notes/DNDM/DTP.md', LF\r\n\u001b[81CF will be replaced by CRLF the next time Git touches it\r\nwarning: in the working copy of 'Second year First Semester Notes/DNDM/Physical Po\r\n\u001b[81Corts.md', LF will be replaced by CRLF the next time Git touches it\r\nwarning: in the working copy of 'Second year First Semester Notes/DNDM/config.md',\r\n\u001b[81C, LF will be replaced by CRLF the next time Git touches it\r\nwarning: in the working copy of 'First year Second Semester Notes/Computer Network\r\n\u001b[81Cks/Copper Cabling.md', LF will be replaced by CRLF the next time Git touches it    \r\nwarning: in the working copy of 'First year Second Semester Notes/Computer Network\r\n\u001b[81Cks/Ethernet.md', LF will be replaced by CRLF the next time Git touches it\r\nwarning: in the working copy of 'First year Second Semester Notes/Computer Network\r\n\u001b[81Cks/Fibre.md', LF will be replaced by CRLF the next time Git touches it\r\nwarning: in the working copy of 'First year Second Semester Notes/Computer Network\r\n\u001b[81Cks/Ipv6.md', LF will be replaced by CRLF the next time Git touches it\r\nwarning: in the working copy of 'First year Second Semester Notes/Computer Network\r\n\u001b[81Cks/Zigbee.md', LF will be replaced by CRLF the next time Git touches it\r\nPS C:\\Users\\keane\\strathmore_docs> \u001b[93mls\r\n\r\n\r\n\u001b[0m    Directory: C:\\Users\\keane\\strathmore_docs\r\n\r\n\r\nMode                 LastWriteTime         Length Name\r\n----                 -------------         ------ ----\r\nd-----          8/4/2025   4:56 PM                .obsidian\r\nd-----          8/4/2025   3:05 PM                First year First Semester Notes \r\nd-----          8/4/2025   3:05 PM                First year Second Semester      \r\n                                                  Notes\r\nd-----          8/4/2025   3:05 PM                Second year First Semester      \r\n                                                  Notes\r\nd-----          8/4/2025   7:32 PM                Second year Second Semester     \r\n                                                  Notes\r\n-a----          8/4/2025   3:26 PM             26 .gitignore\r\n-a----          8/4/2025   3:05 PM             30 .obsidian.vimrc\r\n-a----          8/4/2025   3:05 PM             37 2025-07-22.md\r\n-a----          8/4/2025   3:05 PM             41 2025-07-24.md\r\n-a----          8/4/2025   3:05 PM             63 2025-07-25.md\r\n-a----          8/4/2025   3:05 PM             52 2025-07-28.md\r\n-a----          8/4/2025   3:05 PM             55 2025-07-30.md\r\n-a----          8/4/2025   3:05 PM             60 2025-07-31.md\r\n-a----          8/4/2025   3:05 PM             61 2025-08-01.md\r\n-a----          8/4/2025   4:56 PM              2 harpoon-cache.json\r\n\r\n\r\nPS C:\\Users\\keane\\strathmore_docs>\u001b[1C\u001b[93mgit \u001b[37mstatus\r\n\u001b[0mOn branch master\r\nYour branch is up to date with 'origin/master'.\r\n\r\nChanges to be committed:\r\n  (use \"git restore --staged <file>...\" to unstage)\r\n        \u001b[32mmodified:   .obsidian/workspace.json\r\n\u001b[0m        \u001b[32mmodified:   First year Second Semester Notes/Computer Networks/ARP and ICM\r\n\u001b[81CMPv6 ND.md\r\n\u001b[0m        \u001b[32mmodified:   First year Second Semester Notes/Computer Networks/Bluetooth.m\r\n\u001b[81Cmd\r\n\u001b[0m        \u001b[32mnew file:   First year Second Semester Notes/Computer Networks/Copper Cabl\r\n\u001b[81Cling.md\r\n\u001b[0m        \u001b[32mmodified:   First year Second Semester Notes/Computer Networks/Data Link L\r\n\u001b[81CLayer.md\r\n\u001b[0m        \u001b[32mnew file:   First year Second Semester Notes/Computer Networks/Ethernet.md\r\n\u001b[0m        \u001b[32mnew file:   First year Second Semester Notes/Computer Networks/Fibre.md   \r\n\u001b[0m        \u001b[32mmodified:   First year Second Semester Notes/Computer Networks/Glossary.md\r\n\u001b[0m        \u001b[32mmodified:   First year Second Semester Notes/Computer Networks/IPv4 Addres\r\n\u001b[81Cssing.md\r\n\u001b[0m        \u001b[32mmodified:   First year Second Semester Notes/Computer Networks/Ipv4 practi\r\n\u001b[81Cical.md\r\n\u001b[0m        \u001b[32mrenamed:    First year Second Semester Notes/Computer Networks/Ipv6 Theory\r\n\u001b[81Cy.md -> First year Second Semester Notes/Computer Networks/Ipv6.md\r\n\u001b[0m        \u001b[32mmodified:   First year Second Semester Notes/Computer Networks/VLAN.md    \r\n\u001b[0m        \u001b[32mnew file:   First year Second Semester Notes/Computer Networks/Wireless Co\r\n\u001b[81Communication.md\r\n\u001b[0m        \u001b[32mnew file:   First year Second Semester Notes/Computer Networks/Zigbee.md  \r\n\u001b[0m        \u001b[32mnew file:   First year Second Semester Notes/Computer Networks/{6D7E7B99-2\r\n\u001b[81C202D-4D05-9D53-E6A1D109C5C2}.png\r\n\u001b[0m        \u001b[32mmodified:   Second year First Semester Notes/DNDM/DTP.md\r\n\u001b[0m        \u001b[32mmodified:   Second year First Semester Notes/DNDM/Physical Ports.md       \r\n\u001b[0m        \u001b[32mnew file:   Second year First Semester Notes/DNDM/{4E741215-7FB8-4CDE-908A\r\n\u001b[81CA-A74727B48AD7}.png\r\n\u001b[0m        \u001b[32mnew file:   Second year Second Semester Notes/CryptoGraphy I/Untitled.md  \r\n\u001b[0m        \u001b[32mnew file:   harpoon-cache.json\r\n\r\n\u001b[0mChanges not staged for commit:\r\n  (use \"git add <file>...\" to update what will be committed)\r\n  (use \"git restore <file>...\" to discard changes in working directory)\r\n        \u001b[31mmodified:   .obsidian/workspace.json\r\n\r\n\u001b[0mPS C:\\Users\\keane\\strathmore_docs> \u001b[93mgit \u001b[37madd .\\.obsidian\\workspace.json\r\n\u001b[0mwarning: in the working copy of '.obsidian/workspace.json', LF will be replaced by\r\n\u001b[81Cy CRLF the next time Git touches it\r\nPS C:\\Users\\keane\\strathmore_docs> \u001b[93mgit \u001b[37mstatus\r\n\u001b[0mOn branch master\r\nYour branch is up to date with 'origin/master'.\r\n\r\nChanges to be committed:\r\n  (use \"git restore --staged <file>...\" to unstage)\r\n        \u001b[32mmodified:   .obsidian/workspace.json\r\n\u001b[0m        \u001b[32mmodified:   First year Second Semester Notes/Computer Networks/ARP and ICM\r\n\u001b[81CMPv6 ND.md\r\n\u001b[0m        \u001b[32mmodified:   First year Second Semester Notes/Computer Networks/Bluetooth.m\r\n\u001b[81Cmd\r\n\u001b[0m        \u001b[32mnew file:   First year Second Semester Notes/Computer Networks/Copper Cabl\r\n\u001b[81Cling.md\r\n\u001b[0m        \u001b[32mmodified:   First year Second Semester Notes/Computer Networks/Data Link L\r\n\u001b[81CLayer.md\r\n\u001b[0m        \u001b[32mnew file:   First year Second Semester Notes/Computer Networks/Ethernet.md\r\n\u001b[0m        \u001b[32mnew file:   First year Second Semester Notes/Computer Networks/Fibre.md   \r\n\u001b[0m        \u001b[32mmodified:   First year Second Semester Notes/Computer Networks/Glossary.md\r\n\u001b[0m        \u001b[32mmodified:   First year Second Semester Notes/Computer Networks/IPv4 Addres\r\n\u001b[81Cssing.md\r\n\u001b[0m        \u001b[32mmodified:   First year Second Semester Notes/Computer Networks/Ipv4 practi\r\n\u001b[81Cical.md\r\n\u001b[0m        \u001b[32mrenamed:    First year Second Semester Notes/Computer Networks/Ipv6 Theory\r\n\u001b[81Cy.md -> First year Second Semester Notes/Computer Networks/Ipv6.md\r\n\u001b[0m        \u001b[32mmodified:   First year Second Semester Notes/Computer Networks/VLAN.md    \r\n\u001b[0m        \u001b[32mnew file:   First year Second Semester Notes/Computer Networks/Wireless Co\r\n\u001b[81Communication.md\r\n\u001b[0m        \u001b[32mnew file:   First year Second Semester Notes/Computer Networks/Zigbee.md  \r\n\u001b[0m        \u001b[32mnew file:   First year Second Semester Notes/Computer Networks/{6D7E7B99-2\r\n\u001b[81C202D-4D05-9D53-E6A1D109C5C2}.png\r\n\u001b[0m        \u001b[32mmodified:   Second year First Semester Notes/DNDM/DTP.md\r\n\u001b[0m        \u001b[32mmodified:   Second year First Semester Notes/DNDM/Physical Ports.md       \r\n\u001b[0m        \u001b[32mnew file:   Second year First Semester Notes/DNDM/{4E741215-7FB8-4CDE-908A\r\n\u001b[81CA-A74727B48AD7}.png\r\n\u001b[0m        \u001b[32mnew file:   Second year Second Semester Notes/CryptoGraphy I/Untitled.md  \r\n\u001b[0m        \u001b[32mnew file:   harpoon-cache.json\r\n\r\n\u001b[0mChanges not staged for commit:\r\n  (use \"git add <file>...\" to update what will be committed)\r\n  (use \"git restore <file>...\" to discard changes in working directory)\r\n        \u001b[31mmodified:   .obsidian/workspace.json\r\n\r\n\u001b[0mPS C:\\Users\\keane\\strathmore_docs>\u001b[1C\u001b[93mgit \u001b[37madd .\\.obsidian\\workspace.json",
+                        "rows": 15
+                      }
+                    }
+                  },
+                  "pinned": true,
+                  "icon": "terminal",
+                  "title": "Terminal: C:\\Windows\\System32\\conhost.exe - PowerShell"
+                }
+              }
+            ]
           }
-        ]
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -156,19 +215,33 @@
               "icon": "lucide-file",
               "title": "Plugin no longer active"
             }
+          },
+          {
+            "id": "4e4163674061eef0",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
           }
         ],
         "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "audio-recorder:Start/stop recording": false,
+      "workspaces:Manage workspace layouts": false,
+      "obsidian-statusbar-pomo:Start pomodoro": false,
       "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
       "canvas:Create new canvas": false,
+      "graph:Open graph view": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
@@ -176,8 +249,42 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "1d6c8a30c1f1bad2",
+  "active": "38cf7b4ad65a9894",
   "lastOpenFiles": [
+    "First year Second Semester Notes/Computer Networks/Data Link Layer.md",
+    "First year Second Semester Notes/Computer Networks/IPv4 Addressing.md",
+    "First year Second Semester Notes/Computer Networks/Ipv6.md",
+    "First year Second Semester Notes/Computer Networks/Ipv6 Practical.md",
+    "First year Second Semester Notes/Computer Networks/ARP and ICMPv6 ND.md",
+    "First year Second Semester Notes/Computer Networks/Ethernet.md",
+    "First year Second Semester Notes/Computer Networks/{6D7E7B99-202D-4D05-9D53-E6A1D109C5C2}.png",
+    "First year Second Semester Notes/Computer Networks/Bluetooth.md",
+    "First year Second Semester Notes/Computer Networks/VLAN.md",
+    "First year Second Semester Notes/Computer Networks/Zigbee.md",
+    "First year Second Semester Notes/Computer Networks/{F2F023C5-8214-4751-B308-B902AFF8F466}.png",
+    "First year Second Semester Notes/Computer Networks/Wireless Communication.md",
+    "First year Second Semester Notes/Computer Networks/{6C978708-F279-47BB-8A49-1B49933561AF}.png",
+    "First year Second Semester Notes/Computer Networks/Fibre.md",
+    "First year Second Semester Notes/Computer Networks/{0986DC73-B0C9-48F7-A33E-62B421377672}.png",
+    "First year Second Semester Notes/Computer Networks/{69AA8155-6032-42E2-A6FB-17EDE33A58EC}.png",
+    "First year Second Semester Notes/Computer Networks/{258C9B28-2838-4A2B-9C0A-738A7709DD4A}.png",
+    "First year Second Semester Notes/Computer Networks/{6C978708-F279-47BB-8A49-1B49933561AF} 1.png",
+    "First year Second Semester Notes/Computer Networks/{109B67FF-1EFF-4FC4-B61F-0651A13EFD34}.png",
+    "Second year First Semester Notes/DNDM/Physical Ports.md",
+    "inst_user_settings.tmp",
+    "Second year First Semester Notes/DNDM/{4E741215-7FB8-4CDE-908A-A74727B48AD7}.png",
+    "First year Second Semester Notes/Computer Networks/Copper Cabling.md",
+    "First year Second Semester Notes/Computer Networks/Glossary.md",
+    "First year Second Semester Notes/Computer Networks/Ipv4 practical.md",
+    "First year Second Semester Notes/Computer Networks/Internet Protocol.md",
+    "First year Second Semester Notes/Computer Networks/Internet or TCP IP model.md",
+    "First year Second Semester Notes/Computer Networks/IANA.md",
+    "Second year Second Semester Notes/CryptoGraphy I/Untitled.md",
+    "Second year Second Semester Notes/CryptoGraphy I",
+    "Second year First Semester Notes/DNDM/DTP.md",
+    "Second year Second Semester Notes",
+    "Second year First Semester Notes/DNDM/Data Network Design and Management 1- Course Outline 2025.pdf",
+    "Second year First Semester Notes/DNDM/config.md",
     "gitignore",
     "gitignore~",
     "Second year First Semester Notes/Internet Programming/PHP/Variables.md",
@@ -187,44 +294,10 @@
     "Second year First Semester Notes/Internet Programming/PHP/Comments.md",
     "Second year First Semester Notes/Internet Programming/PHP",
     "Second year First Semester Notes/renamed.pkt",
-    "Second year First Semester Notes/World Civilization I/The 1st Babylonian Dynasty.md",
-    "Second year First Semester Notes/World Civilization I/Roman Civilization.md",
-    "Second year First Semester Notes/World Civilization I/Minoan Civilization.md",
     "Second year First Semester Notes/World Civilization I/MESOPOTAMIAN CIVILIZATION.docx",
-    "Second year First Semester Notes/World Civilization I/Mesopotamian Civilization.md",
     "Second year First Semester Notes/World Civilization I/MESOAMERICAN CIVILIZATIONS.docx",
-    "Second year First Semester Notes/World Civilization I/Macedonian Supremacy (359-323 BC).md",
-    "Second year First Semester Notes/World Civilization I/Indus Valley Civilization.md",
-    "Second year First Semester Notes/World Civilization I/Egyptian Civilization.md",
-    "Second year First Semester Notes/World Civilization I/Islam.md",
-    "Second year First Semester Notes/World Civilization I/Glossary.md",
-    "Second year First Semester Notes/World Civilization I/EARLY GREEK CIVILIZATION final.docx",
-    "Second year First Semester Notes/World Civilization I/CHRISTIANITY.odt",
-    "Second year First Semester Notes/World Civilization I/Christianity.md",
-    "Second year First Semester Notes/World Civilization I/Chinese Civilization.md",
-    "Second year First Semester Notes/World Civilization I/Assignment.md",
-    "Second year First Semester Notes/World Civilization I/CHRISTIANITY.docx",
-    "Second year First Semester Notes/World Civilization I/Ancient_Egyptian_Civilization.rtf",
-    "Second year First Semester Notes/World Civilization I/ANCIENT INDIAN CIVILIZATION.doc",
-    "Second year First Semester Notes/World Civilization I/Ancient Greek Civilization.md",
-    "Second year First Semester Notes/World Civilization I/African Civilization.md",
-    "Second year First Semester Notes/Principles of Ethics/Untitled.md",
-    "Second year First Semester Notes/Principles of Ethics/Triple Font Theory.md",
-    "Second year First Semester Notes/Principles of Ethics/Theory of the Voluntary Act.md",
     "Second year First Semester Notes/Principles of Ethics/Previous Exams/WhatsApp Image 2025-07-24 at 8.41.12 PM.jpeg",
-    "Second year First Semester Notes/Principles of Ethics/Previous Exams/WhatsApp Image 2025-07-24 at 8.41.13 PM.jpeg",
-    "Second year First Semester Notes/Principles of Ethics/Previous Exams/WhatsApp Image 2025-07-24 at 8.41.11 PM.jpeg",
-    "Second year First Semester Notes/Principles of Ethics/Natural Law vs Moral law.md",
-    "Second year First Semester Notes/Principles of Ethics/Ethics.md",
-    "Second year First Semester Notes/Principles of Ethics/Ethical Approaches.md",
-    "Second year First Semester Notes/Data and Voice Communication/Pasted image 20250516210524.png",
-    "Second year First Semester Notes/DSA/Pasted image 20250719140246.png",
-    "First year Second Semester Notes/Computer Networks/RIR.png",
-    "First year Second Semester Notes/Computer Networks/Pasted image 20250603194621.png",
-    "First year Second Semester Notes/Computer Networks/Pasted image 20250603191849.png",
     "First year Second Semester Notes/Computer Networks/OSI Model Canvas.canvas",
-    "strathmore_docs/Second year First Semester Notes/Principles of Ethics/Previous Exams/WhatsApp Image 2025-07-24 at 8.41.13 PM.jpeg",
-    "strathmore_docs/Second year First Semester Notes/Principles of Ethics/Previous Exams/WhatsApp Image 2025-07-24 at 8.41.12 PM.jpeg",
     "strathmore_docs/First year Second Semester Notes/Computer Networks/OSI Model Canvas.canvas"
   ]
 }

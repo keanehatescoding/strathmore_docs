@@ -1,19 +1,17 @@
 Types of addresses in a Network
-1. Network address / network ID – uniquely identifies
-or groups together hosts on the same network or
-subnet.
-2. Host address – uniquely identifies a device/host on
-a network
-3. Broadcast address – used to send a message to all devices on the same network segment/ subnet.
+1. Network address / network ID – uniquely identifies or groups together hosts on the same network or subnet. This is usually the first address of the network when Ipv4 addressing.
+2. Host address – uniquely identifies a device/host on a network.
+3. Broadcast address – a special address that is used to send a packet to all devices a specific broadcast domain.
 
 There are two types of broadcast addresses i.e.:
-1. Limited broadcast i.e 255.255.255.255
-2. Broadcast address i.e for 192.168.0.0/24 it's 192.168.255.255
+1. __Limited broadcast__ - always 255.255.255.255
+2. __Broadcast address__ i.e for 192.168.0.0/24 it's 192.168.255.255
+NB: Usually the non limited broadcast address of a network is filtered by most routers as a security measure. 
 
 The two documents that address IPv4 addressing are:
 1. RFC 790 (Class addressing)
 2. RFC 1918 (Classless addressing RFC 1918)
-
+The Ether type of an IPv4 frame is __0x800__.
 ## Class addressing RFC 790
 ### Network Classes
 

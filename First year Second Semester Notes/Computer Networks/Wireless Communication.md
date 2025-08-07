@@ -1,0 +1,1 @@
+The IEEE and telecommunications industry standards for wireless data communications cover both the data link and physical layers.

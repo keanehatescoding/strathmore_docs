@@ -10,7 +10,7 @@ $$\frac {d}{dx}\cot(x)=-\csc{^2}(x)$$
 ## 2. Derivative of Exponents
 $$\frac {d}{dx}e^x=e^x$$
 $$\frac {d}{dx}a^{x}= \frac {a^x}{\ln |a|}$$
-## 3. Derivative of Log funtions
+## 3. Derivative of Log functions
 $$\frac {d}{dx}\ln|x| =\frac{1}{x}$$
 $$\frac {d}{dx}\log_{a}{b}= \frac {1}{b\ln a}$$
 ## 4. Derivative of Inverse Trig Functions

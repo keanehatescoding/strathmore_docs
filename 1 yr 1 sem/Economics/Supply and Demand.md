@@ -1,5 +1,5 @@
 # Law of Demand
-#Law-of-Demand states ceteris paribus their exists and inverse relationship between the price of a commodity and the quantity demanded in a given time period.
+__Law-of-Demand__ states ceteris paribus their exists and inverse relationship between the price of a commodity and the quantity demanded in a given time period.
 reasons for the law of demand 
 1. Substitute goods - direct relationship between price of a commodity and demand of it's substitute good.
 2. Income effect -increase or decrease.
@@ -17,7 +17,7 @@ __NB:__ There is a direct relationship between the price of a commodity and the 
 7. Tastes and preferences
 For __normal goods__ - an increase in their income leads to the increase in the demand of the normal good and for an __inferior good__ an increase in their income leads to a decrease in the demand of the inferior good.
 ##  Law of Supply
-#Law-of-Supply states ceteris paribus their exist a direct relationship between the price of a commodity and the quantity supplied. 
+__Law-of-Supply__ states ceteris paribus their exist a direct relationship between the price of a commodity and the quantity supplied. 
 
 ## Determinants of Quantity Supplied
 1. Price of the commodity

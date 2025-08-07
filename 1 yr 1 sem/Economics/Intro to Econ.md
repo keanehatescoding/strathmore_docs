@@ -5,8 +5,8 @@
 4. __Capital__ and the reward of capital is __interest__. 
 ## Differences between market and command economic systems.
 1. Market economies have price mechanism while command have rationing of goods/services when they lack enough for the population.
-2. In command econ we have conscription of labour for sectors which lack enough workers while market econ may opt to import expartriates.
-3. In command econ sys the gov controls most of the econ resources while in market econ sys economic resources are controlled by firms and households.
+2. In command econ we have conscription of labour for sectors which lack enough workers while market econ may opt to import expatriates.
+3. In command econ system the gov controls most of the econ resources while in market econ system economic resources are controlled by firms and households.
 4. In command econ sys the fixing of prices and salaries is usually not at equilibrium rates i.e maximum wages and minimum controls and I am assuming for market it vice versa.
 5. In command econ sys essential services are provided for by the gov e.g. health, education while in market econ sys essential services may be provided for by the gov or private sector.
 6. In command econ sys national wealth tends to be more evenly distributed while in market econ sys it is vice versa.

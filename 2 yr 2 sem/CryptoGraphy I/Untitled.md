@@ -1,0 +1,1 @@
+Human ingenuity cannot concoct a cipher which human ingenuity cannot resolve - Edgar Alan Poe

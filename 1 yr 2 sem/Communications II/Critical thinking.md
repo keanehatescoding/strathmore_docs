@@ -1,0 +1,1 @@
+This is the ability to think clearly and rational in order to understand the logical connection between ideas.

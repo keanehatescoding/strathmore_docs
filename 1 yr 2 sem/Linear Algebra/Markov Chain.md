@@ -1,0 +1,7 @@
+---
+id: Markov Chain
+aliases: []
+tags: []
+---
+$$\matrix A=\begin{bmatrix} a_{1,1} & a_{1,2} & ... &  a_{1, n-1} & a_{1 , n}  \\ b_{2,1} & b_{2,2} & ... &  b_{2,n-1} & b_{2,n}  \\ c_{3,1} & c_{3,2} & ... &  c_{3,n-1} & c_{3,n}  \\ .._{n,1} & .._{n,2} & ... & .._{n,n-1} & ..{n,n}\end{bmatrix}$$
+where in $i$ in the starting point and $j$ is the destination point in $a_{i,j}$.

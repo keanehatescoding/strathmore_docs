@@ -1,0 +1,36 @@
+<!DOCTYPE>
+<html>
+  <body>
+        <form>
+      <label for="num1">1st Number</label>
+      <input type="number" name="num1" value=" ">
+      <label for="num2">2nd Number</label>
+      <input type="number" name="num2" value="">
+        </form>
+   <button type="submit" onclick=multiply()>Multiply</button>
+   <button type="submit" onclick=divide()>Divide</button>
+      </body>
+  <p id="result">Result: </p>
+  <script>
+    let fnum = document.getElementByName("num1");
+    let snum = document.getElementByName("num2");
+  function multiply()
+    let ans =  fnum * snum;
+    return ans
+  }
+  function divide(){
+    let ans = fnum / snum;
+    return ans;
+  }
+  function add(){
+      let ans =  fnum + snum;
+      return ans;
+  }
+  function subtract(){
+      let ans =  fnum - snum;
+      return ans;
+  }
+    document.getElementById("result").textContent="Result: ${ans}";
+  </script> 
+</html>
+

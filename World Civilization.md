@@ -1,0 +1,1 @@
+1. Discuss the 19th Century European Imperialism and how it's effects can be felt in Africa today.

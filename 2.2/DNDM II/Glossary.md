@@ -1,0 +1,1 @@
+A **routing table** is a data file in RAM that is used to store information about directly connected and remote networks.

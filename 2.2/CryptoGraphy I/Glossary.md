@@ -1,0 +1,1 @@
+Key whitening - is a technique intended to increase the security of an iterated block cipher. It consists of an iterated block cipher. It consists of steps that combine the data portions with the key. The most common form of key whitening is via __xor-encrypt-xor__-using a simple xor before the first round and after the last round of encryption.

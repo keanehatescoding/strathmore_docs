@@ -1,0 +1,78 @@
+1. It is a block cipher algorithm which means it takes a group of 64 bits as input instead of encrypting the entire plaintext and encrypting it bit by bit. i.e 
+# Splitting
+left = pt[0:32]
+right = pt[32:64]
+for i in range(0, 16):
+# Expansion D-box: Expanding the 32 bits data into 48 bits
+right_expanded = permute(right, exp_d, 48)
+
+2. It is a symmetric cipher algorithm which means that the only one key is used for both encryption and decryption.
+key = "AABB09182736CCDD"
+
+3. It is based on the Feistel Cipher i.e Substitution (also called confusion) and Transposition (also called diffusion) which makes the ciphertext depend non-linearly on plaintext and key i.e
+How it operates: Each round i computes Li = Ri-1
+Ri = Li-1 ⊕ F(Ri-1, Ki)
+
+for i in range(0, 16):
+# Expansion D-box: Expanding the 32 bits data into 48 bits
+right_expanded = permute(right, exp_d, 48)
+# XOR RoundKey[i] and right_expanded
+xor_x = xor(right_expanded, rkb[i])
+
+# S-boxex: substituting the value from s-box table by calculating row and
+
+column
+
+sbox_str = &quot;&quot;
+for j in range(0, 8):
+row = bin2dec(int(xor_x[j * 6] + xor_x[j * 6 + 5]))
+col = bin2dec(
+int(xor_x[j * 6 + 1] + xor_x[j * 6 + 2] + xor_x[j * 6 + 3] + xor_x[j * 6
+
++ 4]))
+
+val = sbox[j][row][col]
+sbox_str = sbox_str + dec2bin(val)
+# Straight D-box: After substituting rearranging the bits
+sbox_str = permute(sbox_str, per, 32)
+# XOR left and sbox_str
+result = xor(left, sbox_str)
+left = result
+# Swapper
+if(i != 15):
+left, right = right, left
+print(&quot;Round &quot;, i + 1, &quot; &quot;, bin2hex(left),
+&quot; &quot;, bin2hex(right), &quot; &quot;, rk[i])
+
+4. 
+Substitution and permutation: DES uses a combination of substitution and permutation operations to transform the input data. The algorithm includes substitution boxes (S-boxes) that replace specific bit patterns with other patterns, as well as permutation tables (P-boxes) that rearrange the bits of the input block
+for i in range(0, 16):
+# Expansion D-box: Expanding the 32 bits data into 48 bits
+right_expanded = permute(right, exp_d, 48)
+# XOR RoundKey[i] and right_expanded
+xor_x = xor(right_expanded, rkb[i])
+
+# S-boxex: substituting the value from s-box table by calculating row and
+
+column
+
+sbox_str = &quot;&quot;
+for j in range(0, 8):
+row = bin2dec(int(xor_x[j * 6] + xor_x[j * 6 + 5]))
+col = bin2dec(
+int(xor_x[j * 6 + 1] + xor_x[j * 6 + 2] + xor_x[j * 6 + 3] + xor_x[j * 6
+
++ 4]))
+
+val = sbox[j][row][col]
+sbox_str = sbox_str + dec2bin(val)
+# Straight D-box: After substituting rearranging the bits
+sbox_str = permute(sbox_str, per, 32)
+# XOR left and sbox_str
+result = xor(left, sbox_str)
+left = result
+# Swapper
+if(i != 15):
+left, right = right, left
+print(&quot;Round &quot;, i + 1, &quot; &quot;, bin2hex(left),
+&quot; &quot;, bin2hex(right), &quot; &quot;, rk[i])

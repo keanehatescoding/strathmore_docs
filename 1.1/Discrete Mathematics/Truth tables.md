@@ -1,0 +1,4 @@
+Conjunction
+Disjunction
+Tautology
+Fallacy

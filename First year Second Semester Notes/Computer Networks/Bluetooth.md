@@ -1,1 +1,0 @@
-Bluetooth utilizes the 2.4 GHz band for radio transmission.

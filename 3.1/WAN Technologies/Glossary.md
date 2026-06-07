@@ -1,0 +1,1 @@
+- **Leased Lines** is a dedicated physical link, typically connecting two sites.

@@ -1,0 +1,123 @@
+CONNECTED(00000003)
+---
+Certificate chain
+ 0 s:CN=apache.org
+   i:C=US, O=Let's Encrypt, CN=R11
+   a:PKEY: RSA, 2048 (bit); sigalg: sha256WithRSAEncryption
+   v:NotBefore: Aug 18 03:08:15 2025 GMT; NotAfter: Nov 16 03:08:14 2025 GMT
+-----BEGIN CERTIFICATE-----
+MIIE8DCCA9igAwIBAgISBYDRDf+/JhTaVkbUGqFMDbZBMA0GCSqGSIb3DQEBCwUA
+MDMxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQwwCgYDVQQD
+EwNSMTEwHhcNMjUwODE4MDMwODE1WhcNMjUxMTE2MDMwODE0WjAVMRMwEQYDVQQD
+EwphcGFjaGUub3JnMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuFb+
+y+gEixDsVshRSbNLKWqkCFzCHMk7SgXqQvhRivKiu5Twp5jWtDBIS4BkKDhy4jkP
+76rTDqk1zEdYYKSW1lG/51b+k2yp2H8M53idkq1wa0ND6MSrrrRCNkT8hjcjsYXn
+VJmF5fZJ614FsiLsa+ZN30ipMU6c5KfjUcQcForpa0bUKoozX8GTZ1q43E/iHzpr
+IIZLIJOESZV5lHS/PfF/qTuu1VPcN0cqfPZraW41nwo7iVMmKMybz+JnbZ39vL4W
+7lgDttEfWtAzb19wWd3nL0rhLHHssHpafqYy9OV1WbeDjyYPQVpD2KbAWJglcr41
+uCbjrJ7x5goFdlUCYwIDAQABo4ICGjCCAhYwDgYDVR0PAQH/BAQDAgWgMB0GA1Ud
+JQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjAMBgNVHRMBAf8EAjAAMB0GA1UdDgQW
+BBQM9GGIQHRh1zWp9XGX0Of4wNhe4zAfBgNVHSMEGDAWgBTFz0ak6vTDwHpslcQt
+sF6SLybjuTAzBggrBgEFBQcBAQQnMCUwIwYIKwYBBQUHMAKGF2h0dHA6Ly9yMTEu
+aS5sZW5jci5vcmcvMBUGA1UdEQQOMAyCCmFwYWNoZS5vcmcwEwYDVR0gBAwwCjAI
+BgZngQwBAgEwLgYDVR0fBCcwJTAjoCGgH4YdaHR0cDovL3IxMS5jLmxlbmNyLm9y
+Zy82Ni5jcmwwggEEBgorBgEEAdZ5AgQCBIH1BIHyAPAAdgDtPEvW6AbCpKIAV9vL
+JOI4Ad9RL+3EhsVwDyDdtz4/4AAAAZi7W7BGAAAEAwBHMEUCICfDwjKxd9DUFhPl
+AMV5WwON0m1k6jQsBJD0SMPS6JsZAiEAmvetv3M9D7oUPrWkslunIRmnLLcLVupg
+jiFl4zvXwYMAdgAN4fIwK9MNwUBiEgnqVS78R3R8sdfpMO8OQh60fk6qNAAAAZi7
+W7BHAAAEAwBHMEUCIQDLr8tUj8pJaJF34nqg4Liz/cBMD1cjCacdJF8+3iMyQAIg
+IVgd+nI8j/YBZWx/1eaH0qYiZpi17FZTuhZkviGXRQcwDQYJKoZIhvcNAQELBQAD
+ggEBAFTtd9c20u3a8ZuxQ45rtD7jaGXgTO7bT6vWcb4aDWdpxZQ3IJD8zFcMTVlz
+u7XSmjHXaUCJ//UTthjXeQago/SCX3g5ZOGV35dFEiN2RvFl8ecdJ75g72PTFeR6
+3rqT7KreL94e4p1F4nAKXuyyrFsePRsNPg67vM7Vv73tHXa4nlB77jjmXrSeJy8T
+jkJp5IvCYSfxTsP/0h3V1QYBbRWxfHEFmayAeWUlIvZH2txkp33gNLvMNGpniOdg
+5IswVzMAEeMU/ViFDuO/XG3cYPMcYKL0nt+JCblm8dbktOwH/LBwzvd0vgV1R9Tt
+R3xX38kCVwJuRakTkgBXliebuqg=
+-----END CERTIFICATE-----
+ 1 s:C=US, O=Let's Encrypt, CN=R11
+   i:C=US, O=Internet Security Research Group, CN=ISRG Root X1
+   a:PKEY: RSA, 2048 (bit); sigalg: sha256WithRSAEncryption
+   v:NotBefore: Mar 13 00:00:00 2024 GMT; NotAfter: Mar 12 23:59:59 2027 GMT
+-----BEGIN CERTIFICATE-----
+MIIFBjCCAu6gAwIBAgIRAIp9PhPWLzDvI4a9KQdrNPgwDQYJKoZIhvcNAQELBQAw
+TzELMAkGA1UEBhMCVVMxKTAnBgNVBAoTIEludGVybmV0IFNlY3VyaXR5IFJlc2Vh
+cmNoIEdyb3VwMRUwEwYDVQQDEwxJU1JHIFJvb3QgWDEwHhcNMjQwMzEzMDAwMDAw
+WhcNMjcwMzEyMjM1OTU5WjAzMQswCQYDVQQGEwJVUzEWMBQGA1UEChMNTGV0J3Mg
+RW5jcnlwdDEMMAoGA1UEAxMDUjExMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIB
+CgKCAQEAuoe8XBsAOcvKCs3UZxD5ATylTqVhyybKUvsVAbe5KPUoHu0nsyQYOWcJ
+DAjs4DqwO3cOvfPlOVRBDE6uQdaZdN5R2+97/1i9qLcT9t4x1fJyyXJqC4N0lZxG
+AGQUmfOx2SLZzaiSqhwmej/+71gFewiVgdtxD4774zEJuwm+UE1fj5F2PVqdnoPy
+6cRms+EGZkNIGIBloDcYmpuEMpexsr3E+BUAnSeI++JjF5ZsmydnS8TbKF5pwnnw
+SVzgJFDhxLyhBax7QG0AtMJBP6dYuC/FXJuluwme8f7rsIU5/agK70XEeOtlKsLP
+Xzze41xNG/cLJyuqC0J3U095ah2H2QIDAQABo4H4MIH1MA4GA1UdDwEB/wQEAwIB
+hjAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwEwEgYDVR0TAQH/BAgwBgEB
+/wIBADAdBgNVHQ4EFgQUxc9GpOr0w8B6bJXELbBeki8m47kwHwYDVR0jBBgwFoAU
+ebRZ5nu25eQBc4AIiMgaWPbpm24wMgYIKwYBBQUHAQEEJjAkMCIGCCsGAQUFBzAC
+hhZodHRwOi8veDEuaS5sZW5jci5vcmcvMBMGA1UdIAQMMAowCAYGZ4EMAQIBMCcG
+A1UdHwQgMB4wHKAaoBiGFmh0dHA6Ly94MS5jLmxlbmNyLm9yZy8wDQYJKoZIhvcN
+AQELBQADggIBAE7iiV0KAxyQOND1H/lxXPjDj7I3iHpvsCUf7b632IYGjukJhM1y
+v4Hz/MrPU0jtvfZpQtSlET41yBOykh0FX+ou1Nj4ScOt9ZmWnO8m2OG0JAtIIE38
+01S0qcYhyOE2G/93ZCkXufBL713qzXnQv5C/viOykNpKqUgxdKlEC+Hi9i2DcaR1
+e9KUwQUZRhy5j/PEdEglKg3l9dtD4tuTm7kZtB8v32oOjzHTYw+7KdzdZiw/sBtn
+UfhBPORNuay4pJxmY/WrhSMdzFO2q3Gu3MUBcdo27goYKjL9CTF8j/Zz55yctUoV
+aneCWs/ajUX+HypkBTA+c8LGDLnWO2NKq0YD/pnARkAnYGPfUDoHR9gVSp/qRx+Z
+WghiDLZsMwhN1zjtSC0uBWiugF3vTNzYIEFfaPG7Ws3jDrAMMYebQ95JQ+HIBD/R
+PBuHRTBpqKlyDnkSHDHYPiNX3adPoPAcgdF3H2/W0rmoswMWgTlLn1Wu0mrks7/q
+pdWfS6PJ1jty80r2VKsM/Dj3YIDfbjXKdaFU5C+8bhfJGqU3taKauuz0wHVGT3eo
+6FlWkWYtbt4pgdamlwVeZEW+LM7qZEJEsMNPrfC03APKmZsJgpWCDWOKZvkZcvjV
+uYkQ4omYCTX5ohy+knMjdOmdH9c7SpqEWBDC86fiNex+O0XOMEZSa8DA
+-----END CERTIFICATE-----
+---
+Server certificate
+subject=CN=apache.org
+issuer=C=US, O=Let's Encrypt, CN=R11
+---
+No client certificate CA names sent
+Peer signing digest: SHA256
+Peer signature type: rsa_pss_rsae_sha256
+Negotiated TLS1.3 group: X25519MLKEM768
+---
+SSL handshake has read 4195 bytes and written 1607 bytes
+Verification: OK
+---
+New, TLSv1.3, Cipher is TLS_AES_128_GCM_SHA256
+Protocol: TLSv1.3
+Server public key is 2048 bit
+This TLS version forbids renegotiation.
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+Early data was not sent
+Verify return code: 0 (ok)
+---
+---
+Post-Handshake New Session Ticket arrived:
+SSL-Session:
+    Protocol  : TLSv1.3
+    Cipher    : TLS_AES_128_GCM_SHA256
+    Session-ID: E393BCCA0DAAB0BC029E3DAE06FF71A148F3A697DB45BDFDF3A036C1251F2648
+    Session-ID-ctx: 
+    Resumption PSK: C4B407396BD68A7134D141C4A593F666958A466FE2DFB7199E999ED530934F76
+    PSK identity: None
+    PSK identity hint: None
+    SRP username: None
+    TLS session ticket lifetime hint: 86400 (seconds)
+    TLS session ticket:
+    0000 - a0 12 6d 4e 2f 0c 55 c6-fb 71 17 0c 15 78 66 d1   ..mN/.U..q...xf.
+    0010 - 51 5e 62 7a d0 d3 40 bb-ed e4 f9 95 2c 29 30 3f   Q^bz..@.....,)0?
+    0020 - 48 45 0f 24 1b cb 1c 97-5c 7d 9a 68 ea b6 a8 ec   HE.$....\}.h....
+    0030 - 10 7d 0d 75 a7 cc ab 0e-22 11 a4 d6 60 23 7f 2f   .}.u...."...`#./
+    0040 - 59 73 02 59 96 fc 58 3e-34 e8 ff 44 6f 63 76 3f   Ys.Y..X>4..Docv?
+    0050 - 3a 4b 4f 15 4d 9d 8a 9b-3b e0 a9 3a be 79 e7 a0   :KO.M...;..:.y..
+    0060 - eb ad 5b ee 13 8a 38 13-f8 20 6f 53 81 b5 bd ef   ..[...8.. oS....
+    0070 - 34 6a 9f cd 72 45 a7 77-bf cd 48 56 9d 05 d9 a2   4j..rE.w..HV....
+    0080 - 20 b5 4e 20 a9 57 23 1c-8e 07 ab 1f 01 29 b0 9c    .N .W#......)..
+    0090 - f4 92 ab 7b f7 31 c4 ff-04 ee 83 56 9a be 28 0c   ...{.1.....V..(.
+
+    Start Time: 1759091965
+    Timeout   : 7200 (sec)
+    Verify return code: 0 (ok)
+    Extended master secret: no
+    Max Early Data: 0
+---
+read R BLOCK

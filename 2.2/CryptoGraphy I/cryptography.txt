@@ -1,0 +1,3 @@
+This is Cryptography 101 .
+ Learning basic encryption with DES algorithm .
+ Join us if you can. Thank you. 
